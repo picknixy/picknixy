@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { reviews, bestOfArticles } from '../data/mockData';
+import { reviews, bestOfArticles, authors } from '../data/mockData';
 import { Newsletter } from './Newsletter';
 
 export function Sidebar() {
@@ -7,8 +7,18 @@ export function Sidebar() {
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 5);
 
+  const author = authors.picknixy;
+
   return (
     <aside className="space-y-10 sticky top-24">
+      {/* Author Widget */}
+      <div className="bg-[#f5f5f7] rounded-2xl p-6 text-center">
+        <img src={author.avatar} alt={author.name} className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+        <h3 className="text-lg font-bold text-[#1d1d1f] mb-1">{author.name}</h3>
+        <p className="text-sm text-[#2997ff] font-medium mb-3">{author.role}</p>
+        <p className="text-sm text-[#6e6e73]">{author.bio}</p>
+      </div>
+
       <Newsletter variant="sidebar" />
       
       <div>

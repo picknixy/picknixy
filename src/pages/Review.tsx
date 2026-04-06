@@ -166,15 +166,7 @@ export function Review() {
           </a>
         </div>
 
-              {/* Author Box */}
-              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
-                <img src={author?.avatar} alt={author?.name} className="w-24 h-24 rounded-full object-cover" />
-                <div className="text-center sm:text-left">
-                  <h3 className="text-xl font-bold text-gray-900">{author?.name}</h3>
-                  <p className="text-sm font-medium text-blue-600 mb-3">{author?.role}</p>
-                  <p className="text-gray-600 text-sm">{author?.bio}</p>
-                </div>
-              </div>
+
 
               <Comments />
             </article>

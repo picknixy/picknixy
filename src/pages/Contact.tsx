@@ -6,7 +6,7 @@ export function Contact() {
     <>
       <SEO 
         title="Contact Us" 
-        description="Get in touch with the Trusted Reviews Pro team for inquiries, feedback, or partnership opportunities."
+        description="Get in touch with the Picknixy team for inquiries, feedback, or partnership opportunities."
       />
       
       <div className="bg-gray-900 text-white py-16">
@@ -30,7 +30,7 @@ export function Contact() {
                 <Mail className="w-6 h-6 text-blue-600 mt-1 mr-4" />
                 <div>
                   <h3 className="text-lg font-semibold text-gray-900">Email</h3>
-                  <p className="text-gray-600">contact@trustedreviewspro.com</p>
+                  <p className="text-gray-600">contact@picknixy.com</p>
                   <p className="text-sm text-gray-500 mt-1">We aim to reply within 24-48 hours.</p>
                 </div>
               </div>
