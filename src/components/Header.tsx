@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import { Search, Menu, X } from 'lucide-react';
 import { useState } from 'react';
 import { categories } from '../data/mockData';
@@ -12,6 +12,18 @@ const PicknixyLogo = () => (
 
 export function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+  const [searchQuery, setSearchQuery] = useState('');
+  const navigate = useNavigate();
+
+  const handleSearch = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (searchQuery.trim()) {
+      navigate(`/search?q=${encodeURIComponent(searchQuery)}`);
+      setIsSearchOpen(false);
+      setSearchQuery('');
+    }
+  };
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1d1d1f]/80 backdrop-blur-md border-b border-white/10 transition-all duration-300">
@@ -60,7 +72,11 @@ export function Header() {
 
           {/* Search and Mobile Menu Button */}
           <div className="flex items-center space-x-4">
-            <button className="text-[#f5f5f7]/80 hover:text-white transition-colors" aria-label="Search">
+            <button 
+              className="text-[#f5f5f7]/80 hover:text-white transition-colors" 
+              aria-label="Search"
+              onClick={() => setIsSearchOpen(!isSearchOpen)}
+            >
               <Search className="h-4 w-4" />
             </button>
             <button
@@ -73,6 +89,26 @@ export function Header() {
           </div>
         </div>
       </div>
+
+      {/* Search Overlay */}
+      {isSearchOpen && (
+        <div className="absolute top-12 left-0 right-0 bg-[#1d1d1f] border-b border-white/10 p-4 z-40">
+          <form onSubmit={handleSearch} className="max-w-3xl mx-auto relative">
+            <Search className="absolute left-3 top-1/2 -translate-y-1/2 h-5 w-5 text-[#6e6e73]" />
+            <input 
+              type="text" 
+              autoFocus
+              placeholder="Search reviews, guides, and more..." 
+              value={searchQuery}
+              onChange={(e) => setSearchQuery(e.target.value)}
+              className="w-full bg-[#2d2d2f] text-white rounded-full py-3 pl-10 pr-10 outline-none focus:ring-2 focus:ring-[#2997ff] transition-all"
+            />
+            <button type="button" onClick={() => setIsSearchOpen(false)} className="absolute right-3 top-1/2 -translate-y-1/2 text-[#6e6e73] hover:text-white">
+              <X className="h-5 w-5" />
+            </button>
+          </form>
+        </div>
+      )}
 
       {/* Mobile Navigation */}
       {isMenuOpen && (

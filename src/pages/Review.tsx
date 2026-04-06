@@ -2,6 +2,11 @@ import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { reviews, authors, categories } from '../data/mockData';
 import { Star, Check, X, ArrowRight } from 'lucide-react';
+import { ShareButtons } from '../components/ShareButtons';
+import { UserRating } from '../components/UserRating';
+import { Comments } from '../components/Comments';
+import { Sidebar } from '../components/Sidebar';
+import { RelatedArticles } from '../components/RelatedArticles';
 
 export function Review() {
   const { slug } = useParams<{ slug: string }>();
@@ -31,7 +36,7 @@ export function Review() {
         ratingValue={review.rating}
       />
 
-      <article className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Breadcrumbs */}
         <nav className="flex text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
           <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -53,7 +58,10 @@ export function Review() {
           </ol>
         </nav>
 
-        {/* Header */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="lg:col-span-2">
+            <article>
+              {/* Header */}
         <header className="mb-10">
           <h1 className="text-3xl md:text-5xl font-extrabold text-gray-900 tracking-tight mb-6 leading-tight">
             {review.title}
@@ -79,6 +87,8 @@ export function Review() {
           </div>
         </header>
 
+        <ShareButtons url={window.location.href} title={review.title} />
+
         {/* Affiliate Disclosure */}
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 mb-8 text-sm text-blue-800">
           <strong>Disclosure:</strong> We may earn a commission if you purchase through our links, at no extra cost to you. This helps support our independent reviews.
@@ -86,6 +96,8 @@ export function Review() {
 
         {/* Featured Image */}
         <img src={review.image} alt={review.title} className="w-full h-auto rounded-2xl mb-10 shadow-sm" />
+
+        <UserRating expertRating={review.rating} />
 
         {/* Quick Summary Box */}
         <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-12 shadow-sm">
@@ -136,7 +148,7 @@ export function Review() {
 
         {/* Content */}
         <div 
-          className="prose prose-lg prose-blue max-w-none mb-16"
+          className="prose prose-lg max-w-[65ch] mx-auto prose-p:leading-relaxed prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-a:text-[#2997ff] hover:prose-a:text-[#0071e3] mb-16 text-[#1d1d1f]"
           dangerouslySetInnerHTML={{ __html: review.content }}
         />
 
@@ -154,17 +166,27 @@ export function Review() {
           </a>
         </div>
 
-        {/* Author Box */}
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
-          <img src={author?.avatar} alt={author?.name} className="w-24 h-24 rounded-full object-cover" />
-          <div className="text-center sm:text-left">
-            <h3 className="text-xl font-bold text-gray-900">{author?.name}</h3>
-            <p className="text-sm font-medium text-blue-600 mb-3">{author?.role}</p>
-            <p className="text-gray-600 text-sm">{author?.bio}</p>
+              {/* Author Box */}
+              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                <img src={author?.avatar} alt={author?.name} className="w-24 h-24 rounded-full object-cover" />
+                <div className="text-center sm:text-left">
+                  <h3 className="text-xl font-bold text-gray-900">{author?.name}</h3>
+                  <p className="text-sm font-medium text-blue-600 mb-3">{author?.role}</p>
+                  <p className="text-gray-600 text-sm">{author?.bio}</p>
+                </div>
+              </div>
+
+              <Comments />
+            </article>
+
+            <RelatedArticles category={review.category} currentSlug={review.slug} />
+          </div>
+
+          <div className="lg:col-span-1">
+            <Sidebar />
           </div>
         </div>
-
-      </article>
+      </div>
     </>
   );
 }

@@ -1,6 +1,9 @@
 import { useParams, Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { bestOfArticles, authors, categories } from '../data/mockData';
+import { ShareButtons } from '../components/ShareButtons';
+import { Sidebar } from '../components/Sidebar';
+import { RelatedArticles } from '../components/RelatedArticles';
 
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -29,7 +32,7 @@ export function BlogPost() {
         datePublished={article.date}
       />
 
-      <article className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         {/* Breadcrumbs */}
         <nav className="flex text-sm text-gray-500 mb-8" aria-label="Breadcrumb">
           <ol className="inline-flex items-center space-x-1 md:space-x-3">
@@ -51,7 +54,10 @@ export function BlogPost() {
           </ol>
         </nav>
 
-        <header className="mb-10 text-center">
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
+          <div className="lg:col-span-2">
+            <article>
+              <header className="mb-10 text-center">
           <Link to={`/category/${category?.slug}`} className="text-sm font-semibold text-blue-600 uppercase tracking-wider mb-4 inline-block">
             {category?.name}
           </Link>
@@ -71,9 +77,11 @@ export function BlogPost() {
           </div>
         </header>
 
+        <ShareButtons url={window.location.href} title={article.title} />
+
         <img src={article.image} alt={article.title} className="w-full h-auto rounded-2xl mb-10 shadow-sm" />
 
-        <div className="prose prose-lg prose-blue max-w-none mb-16">
+        <div className="prose prose-lg max-w-[65ch] mx-auto prose-p:leading-relaxed prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-a:text-[#2997ff] hover:prose-a:text-[#0071e3] mb-16 text-[#1d1d1f]">
           <p className="lead text-xl text-gray-600 mb-8">{article.excerpt}</p>
           {/* In a real app, this would render markdown or rich text */}
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
@@ -88,16 +96,25 @@ export function BlogPost() {
           <p>For more information, check out our detailed reviews.</p>
         </div>
 
-        {/* Author Box */}
-        <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
-          <img src={author?.avatar} alt={author?.name} className="w-24 h-24 rounded-full object-cover" />
-          <div className="text-center sm:text-left">
-            <h3 className="text-xl font-bold text-gray-900">{author?.name}</h3>
-            <p className="text-sm font-medium text-blue-600 mb-3">{author?.role}</p>
-            <p className="text-gray-600 text-sm">{author?.bio}</p>
+              {/* Author Box */}
+              <div className="bg-gray-50 border border-gray-200 rounded-2xl p-6 flex flex-col sm:flex-row items-center sm:items-start gap-6">
+                <img src={author?.avatar} alt={author?.name} className="w-24 h-24 rounded-full object-cover" />
+                <div className="text-center sm:text-left">
+                  <h3 className="text-xl font-bold text-gray-900">{author?.name}</h3>
+                  <p className="text-sm font-medium text-blue-600 mb-3">{author?.role}</p>
+                  <p className="text-gray-600 text-sm">{author?.bio}</p>
+                </div>
+              </div>
+            </article>
+
+            <RelatedArticles category={article.category} currentSlug={article.slug} />
+          </div>
+
+          <div className="lg:col-span-1">
+            <Sidebar />
           </div>
         </div>
-      </article>
+      </div>
     </>
   );
 }

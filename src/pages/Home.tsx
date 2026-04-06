@@ -1,6 +1,8 @@
 import { Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { reviews, bestOfArticles } from '../data/mockData';
+import { Testimonials } from '../components/Testimonials';
+import { Newsletter } from '../components/Newsletter';
 
 export function Home() {
   const featuredReview = reviews[0];
@@ -78,6 +80,9 @@ export function Home() {
           })}
         </div>
       </section>
+
+      <Testimonials />
+      <Newsletter />
     </>
   );
 }
