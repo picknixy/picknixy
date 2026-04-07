@@ -1,12 +1,67 @@
 import { useState } from 'react';
+import { collection, addDoc, serverTimestamp } from 'firebase/firestore';
+import { db } from '../firebase';
+
+enum OperationType {
+  CREATE = 'create',
+  UPDATE = 'update',
+  DELETE = 'delete',
+  LIST = 'list',
+  GET = 'get',
+  WRITE = 'write',
+}
+
+interface FirestoreErrorInfo {
+  error: string;
+  operationType: OperationType;
+  path: string | null;
+  authInfo: {
+    userId?: string;
+    email?: string;
+    emailVerified?: boolean;
+    isAnonymous?: boolean;
+    tenantId?: string;
+    providerInfo?: any[];
+  }
+}
+
+function handleFirestoreError(error: unknown, operationType: OperationType, path: string | null) {
+  const errInfo: FirestoreErrorInfo = {
+    error: error instanceof Error ? error.message : String(error),
+    authInfo: {},
+    operationType,
+    path
+  }
+  console.error('Firestore Error: ', JSON.stringify(errInfo));
+  throw new Error(JSON.stringify(errInfo));
+}
 
 export function Newsletter({ variant = 'full' }: { variant?: 'full' | 'sidebar' }) {
   const [email, setEmail] = useState('');
   const [subscribed, setSubscribed] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [error, setError] = useState<string | null>(null);
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    if (email) setSubscribed(true);
+    if (!email) return;
+    
+    setLoading(true);
+    setError(null);
+    
+    try {
+      await addDoc(collection(db, 'subscribers'), {
+        email,
+        subscribedAt: serverTimestamp()
+      });
+      setSubscribed(true);
+      setEmail('');
+    } catch (err) {
+      setError('Failed to subscribe. Please try again later.');
+      handleFirestoreError(err, OperationType.CREATE, 'subscribers');
+    } finally {
+      setLoading(false);
+    }
   };
 
   if (variant === 'sidebar') {
@@ -28,12 +83,14 @@ export function Newsletter({ variant = 'full' }: { variant?: 'full' | 'sidebar' 
             />
             <button 
               type="submit" 
-              className="w-full bg-[#1d1d1f] text-white py-2 rounded-lg font-medium hover:bg-[#000000] transition-colors"
+              disabled={loading}
+              className="w-full bg-[#1d1d1f] text-white py-2 rounded-lg font-medium hover:bg-[#000000] transition-colors disabled:opacity-50"
             >
-              Subscribe
+              {loading ? 'Subscribing...' : 'Subscribe'}
             </button>
           </form>
         )}
+        {error && <p className="text-sm text-red-500 mt-2">{error}</p>}
       </div>
     );
   }
@@ -57,12 +114,14 @@ export function Newsletter({ variant = 'full' }: { variant?: 'full' | 'sidebar' 
             />
             <button 
               type="submit" 
-              className="bg-[#2997ff] text-white px-8 py-3 rounded-full font-medium hover:bg-[#0071e3] transition-colors whitespace-nowrap"
+              disabled={loading}
+              className="bg-[#2997ff] text-white px-8 py-3 rounded-full font-medium hover:bg-[#0071e3] transition-colors whitespace-nowrap disabled:opacity-50"
             >
-              Subscribe
+              {loading ? 'Subscribing...' : 'Subscribe'}
             </button>
           </form>
         )}
+        {error && <p className="text-red-400 mt-4">{error}</p>}
       </div>
     </section>
   );

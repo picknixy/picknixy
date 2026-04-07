@@ -1,0 +1,53 @@
+rules_version = '2';
+
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // ===============================================================
+    // Assumed Data Model
+    // ===============================================================
+    //
+    // Collection: subscribers
+    // Document ID: auto-generated
+    // Fields:
+    //   - email: string (required, valid email format) - The email address of the subscriber.
+    //   - subscribedAt: timestamp (required) - The timestamp when the user subscribed.
+    //
+    // ===============================================================
+
+    // ===============================================================
+    // Helper Functions
+    // ===============================================================
+    
+    // Validate email format
+    function isValidEmail(email) {
+      return email is string &&
+        email.matches("^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\\.[a-zA-Z]{2,}$");
+    }
+
+    // Validate that the document contains only the allowed fields
+    function hasOnlyAllowedFields(fields) {
+      return request.resource.data.keys().hasOnly(fields);
+    }
+
+    // Validate required fields exist
+    function hasRequiredFields(fields) {
+      return request.resource.data.keys().hasAll(fields);
+    }
+
+    // Domain Validator for Subscriber
+    function isValidSubscriber(data) {
+      return hasOnlyAllowedFields(['email', 'subscribedAt']) &&
+             hasRequiredFields(['email', 'subscribedAt']) &&
+             isValidEmail(data.email) &&
+             data.subscribedAt is timestamp;
+    }
+
+    match /subscribers/{subscriberId} {
+      // Allow anyone to subscribe (create a document)
+      allow create: if isValidSubscriber(request.resource.data);
+      
+      // Do not allow reading, updating, or deleting subscribers
+      allow read, update, delete: if false;
+    }
+  }
+}
