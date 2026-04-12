@@ -782,20 +782,10 @@ export const reviews: any[] = [
     date: "2026-04-07",
     rating: 4.7,
     excerpt: "Find out if the Past Life Reading quiz is accurate. Explore the spiritual journey of your soul, uncover karmic blocks, and see what users are saying about their results.",
-    image: "https://picsum.photos/seed/soul-journey/2000/1000",
+    image: "/Digital product box for Your Past Life Reading featuring a man standing before a celestial clock portal.webp",
     pros: ["Deeply insightful","Helps uncover karmic blocks","Easy to understand"],
     cons: ["Requires an open mind","Results may vary"],
     content: `
-      <div class="bg-amber-50 border border-amber-200 rounded-lg p-8 mb-12">
-        <div class="font-bold text-2xl text-amber-950 mb-6 uppercase tracking-wide">Navigating Your Soul Path</div>
-        <ul class="space-y-3 list-none pl-0">
-          <li><a href="#logic" class="text-amber-700 hover:text-amber-950 font-semibold no-underline hover:underline">The Concept of Reincarnation</a></li>
-          <li><a href="#how-it-works" class="text-amber-700 hover:text-amber-950 font-semibold no-underline hover:underline">How the Reading Works</a></li>
-          <li><a href="#the-report" class="text-amber-700 hover:text-amber-950 font-semibold no-underline hover:underline">Dissecting the Results</a></li>
-          <li><a href="#pros-cons" class="text-amber-700 hover:text-amber-950 font-semibold no-underline hover:underline">The Balanced Verdict: Pros & Cons</a></li>
-        </ul>
-      </div>
-
 <h2 id="logic">The Concept of Reincarnation</h2>
     <p>
         For centuries, the concept of a "Past Life" has been a subject of philosophical and spiritual discussion across various cultures. The <strong>Past Life Reading</strong> platform offers an educational exploration of these concepts, providing users with a framework to consider how historical or archetypal themes might relate to their current interests or personality traits.
