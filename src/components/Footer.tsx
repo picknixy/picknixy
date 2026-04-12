@@ -25,7 +25,6 @@ export function Footer() {
             <h3 className="font-semibold text-[#1d1d1f] mb-3">Categories</h3>
             <ul className="space-y-2">
               <li><Link to="/category/health-fitness" className="hover:text-[#1d1d1f] transition-colors">Health & Fitness</Link></li>
-              <li><Link to="/category/software-tools" className="hover:text-[#1d1d1f] transition-colors">Software & Tools</Link></li>
               <li><Link to="/category/self-help" className="hover:text-[#1d1d1f] transition-colors">Self-Help</Link></li>
               <li><Link to="/category/spiritual" className="hover:text-[#1d1d1f] transition-colors">Spiritual</Link></li>
             </ul>

@@ -3,14 +3,14 @@ import { SEO } from '../components/SEO';
 export function PrivacyPolicy() {
   return (
     <>
-      <SEO title="Privacy Policy" description="Privacy Policy for Trusted Reviews Pro." />
+      <SEO title="Privacy Policy" description="Privacy Policy for Picknixy." />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-8">Privacy Policy</h1>
         <div className="prose prose-blue max-w-none">
           <p>Last updated: {new Date().toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
           
           <h2>1. Introduction</h2>
-          <p>Welcome to Trusted Reviews Pro. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website.</p>
+          <p>Welcome to Picknixy. We respect your privacy and are committed to protecting your personal data. This privacy policy will inform you as to how we look after your personal data when you visit our website.</p>
           
           <h2>2. The Data We Collect About You</h2>
           <p>We may collect, use, store and transfer different kinds of personal data about you which we have grouped together follows:</p>

@@ -16,6 +16,7 @@ import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Terms } from './pages/Terms';
 import { Disclaimer } from './pages/Disclaimer';
 import { SearchPage } from './pages/Search';
+import { NotFound } from './pages/NotFound';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
     </Layout>
   );

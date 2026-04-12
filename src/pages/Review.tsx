@@ -4,6 +4,7 @@ import { reviews, authors, categories } from '../data/mockData';
 import { Star, Check, X, ArrowRight } from 'lucide-react';
 import { ShareButtons } from '../components/ShareButtons';
 import { UserRating } from '../components/UserRating';
+import { TableOfContents } from '../components/TableOfContents';
 import { Comments } from '../components/Comments';
 import { Sidebar } from '../components/Sidebar';
 import { RelatedArticles } from '../components/RelatedArticles';
@@ -15,6 +16,7 @@ export function Review() {
   if (!review) {
     return (
       <div className="max-w-7xl mx-auto px-4 py-16 text-center">
+        <SEO title="Review Not Found" description="The requested review could not be found." noindex />
         <h1 className="text-3xl font-bold text-gray-900">Review Not Found</h1>
         <Link to="/" className="text-blue-600 hover:underline mt-4 inline-block">Return Home</Link>
       </div>
@@ -146,11 +148,21 @@ export function Review() {
           </div>
         </div>
 
+        <TableOfContents />
+
         {/* Content */}
         <div 
-          className="prose prose-lg max-w-[65ch] mx-auto prose-p:leading-relaxed prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-a:text-[#2997ff] hover:prose-a:text-[#0071e3] mb-16 text-[#1d1d1f]"
+          className="prose prose-lg max-w-[65ch] mx-auto prose-p:leading-relaxed prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-a:text-[#2997ff] hover:prose-a:text-[#0071e3] mb-12 text-[#1d1d1f]"
           dangerouslySetInnerHTML={{ __html: review.content }}
         />
+
+        {/* Medical / General Disclaimer for AdSense Compliance */}
+        <div className="max-w-[65ch] mx-auto bg-gray-50 border border-gray-200 rounded-xl p-6 mb-16 text-sm text-gray-600">
+          <p className="font-semibold text-gray-900 mb-2">Important Disclaimer:</p>
+          <p>
+            The information provided in this review is for educational and informational purposes only and is not intended as medical advice, diagnosis, or treatment. Always consult with a qualified healthcare professional before starting any new diet, exercise program, or dietary supplement. Individual results may vary, and no guarantees are made regarding the efficacy of the products mentioned.
+          </p>
+        </div>
 
         {/* Bottom CTA */}
         <div className="bg-gray-900 rounded-2xl p-8 text-center mb-16">
@@ -166,9 +178,7 @@ export function Review() {
           </a>
         </div>
 
-
-
-              <Comments />
+        <Comments />
             </article>
 
             <RelatedArticles category={review.category} currentSlug={review.slug} />

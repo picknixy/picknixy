@@ -1,6 +1,6 @@
 import { Link, useNavigate } from 'react-router-dom';
 import { Search, Menu, X } from 'lucide-react';
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { categories } from '../data/mockData';
 
 const PicknixyLogo = () => (
@@ -53,7 +53,7 @@ export function Header() {
                       {category.subcategories.map((sub) => (
                         <Link
                           key={sub.id}
-                          to={`/category/${category.slug}`}
+                          to={`/category/${sub.slug}`}
                           className="block px-4 py-2 text-xs text-[#f5f5f7]/80 hover:text-white hover:bg-white/10 transition-colors"
                           role="menuitem"
                         >
@@ -128,7 +128,7 @@ export function Header() {
                     {category.subcategories.map((sub) => (
                       <Link
                         key={sub.id}
-                        to={`/category/${category.slug}`}
+                        to={`/category/${sub.slug}`}
                         className="block text-sm text-[#f5f5f7]/70 hover:text-white transition-colors"
                         onClick={() => setIsMenuOpen(false)}
                       >

@@ -1,0 +1,117 @@
+<h2 id="logic">The Logic of Reincarnation</h2>
+    <p>
+        For centuries, the concept of a "Past Life" was relegated to the smoke-filled rooms of mystics and the sacred texts of Eastern religions. However, as we move deeper into the 21st century, the boundary between neuroscience and spirituality is thinning. The <strong>Past Life Reading</strong> platform operates on the premise that our consciousness is not a blank slate at birth, but rather a "palimpsest"—a parchment that has been written upon, erased, and rewritten many times.
+    </p>
+    <p>
+        The nagging feeling of "not belonging" in modern society, the inexplicable phobia of deep water, or the strange affinity for a language you've never studied—these are often dismissed as imagination. Yet, thousands of individuals who have engaged with this digital exploration report that these "quirks" are actually markers of historical imprints.
+    </p>
+
+    <h2 id="science">The Science of Non-Local Memory</h2>
+    <p>
+        To understand how a digital tool can claim to access past lives, we must first address the research of figures like Dr. Ian Stevenson and Dr. Jim Tucker from the University of Virginia. Their work suggests that memory may not be exclusively stored within the physical neurons of the brain, but may exist in a "non-local" field of consciousness. The <strong>Past Life Reading</strong> utilizes this "field theory" by attempting to tune your current "receiver" back to frequencies it has interacted with before.
+    </p>
+
+    <h2 id="how-it-works">How the Technology Works: Visual Resonance</h2>
+    <p>
+        Unlike traditional psychic readings that rely on the medium's subjective interpretation, this platform utilizes a <strong>Visual Resonance Algorithm</strong>. It speaks directly to the limbic system—the seat of emotion and memory—by measuring your reactions to archetypal imagery.
+    </p>
+    <p>
+        When you see an image that resonates with a deep-seated memory, your pupils dilate slightly and your heart rate variability (HRV) shifts. The interface tracks the <em>latency</em> of your choices—the milliseconds of hesitation or the speed of certainty—to build your profile.
+    </p>
+
+    <div class="mystic-quote">
+        <i class="fas fa-history text-4xl text-yellow-500 mb-6 block"></i>
+        <div class="text-3xl italic font-serif">
+            "Your soul does not forget; it only waits for the right mirror to reflect its true age."
+        </div>
+    </div>
+
+    <h2 id="case-study">Detailed 7-Day Case Study</h2>
+    <div class="journal-block">
+        <strong>Day 1: The Initial Assessment.</strong> The test took approximately 15 minutes. The report identified a life as a nomadic trader in the 14th-century Himalayas.
+    </div>
+    <div class="journal-block">
+        <strong>Day 4: Behavioral Links.</strong> I noticed my lifelong habit of over-preparing for travel matched the "survival anxiety" identified in the report.
+    </div>
+    <p>By Day 7, the integration of these insights led to a noticeable reduction in specific, localized anxieties that had previously felt "random."</p>
+
+    <h2 id="the-report">Dissecting the Results: The Soul Blueprint</h2>
+    <p>The report is divided into three distinct modules: <strong>Karmic Origin</strong> (your peak incarnation), <strong>Inherited Strength</strong> (your natural-born talents), and the <strong>Shadow Lesson</strong> (the specific fear you are here to overcome).</p>
+
+    <h2 id="epigenetics">Epigenetics of the Soul</h2>
+    <p>
+        Modern science acknowledges "transgenerational trauma"—experiences of ancestors marked on DNA. Past life theory suggests we carry our <em>own</em> previous experiences. Identifying the origin of an impulse helps you distinguish between a current threat and a historical echo.
+    </p>
+
+    <!-- NEW PROS & CONS SECTION -->
+    <h2 id="pros-cons">The Balanced Verdict: Pros & Cons</h2>
+    <p>No tool is perfect, and any metaphysical exploration requires a discerning eye. Here is the objective breakdown of the Past Life Reading experience.</p>
+    
+    <div class="comparison-grid">
+        <div class="pro-box">
+            <h3 class="mt-0 text-green-800"><i class="fas fa-check-circle mr-2"></i>The Pros</h3>
+            <div class="list-item">
+                <i class="fas fa-plus text-green-600"></i>
+                <span><strong>Instant Clarity:</strong> Provides immediate explanations for lifelong phobias or unlearned talents.</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-plus text-green-600"></i>
+                <span><strong>User-Friendly:</strong> No need for deep meditation or hypnotic regression; the visual quiz is intuitive.</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-plus text-green-600"></i>
+                <span><strong>Actionable Wisdom:</strong> Includes specific clearing techniques to resolve "Karmic Knots."</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-plus text-green-600"></i>
+                <span><strong>Non-Invasive:</strong> A safe, self-paced way to explore the subconscious without an expensive therapist.</span>
+            </div>
+        </div>
+        
+        <div class="con-box">
+            <h3 class="mt-0 text-red-800"><i class="fas fa-exclamation-circle mr-2"></i>The Cons</h3>
+            <div class="list-item">
+                <i class="fas fa-minus text-red-600"></i>
+                <span><strong>Skepticism Barrier:</strong> Hardcore materialists may find the lack of "physical" proof frustrating.</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-minus text-red-600"></i>
+                <span><strong>Emotional Intensity:</strong> Some users may feel overwhelmed by the accuracy of the revealed memories.</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-minus text-red-600"></i>
+                <span><strong>Digital Limitation:</strong> Cannot replace the depth of a 4-hour professional regression session.</span>
+            </div>
+            <div class="list-item">
+                <i class="fas fa-minus text-red-600"></i>
+                <span><strong>Commitment Required:</strong> The best results come from applying the 7-day integration, not just reading the PDF.</span>
+            </div>
+        </div>
+    </div>
+
+    <h2 id="real-reviews">Selected User Stories</h2>
+    <div class="testimonial-grid">
+        <div class="testimonial-card">
+            <div class="font-bold text-slate-800">Elias R.</div>
+            <div class="text-xs text-slate-500 mb-2">Systems Analyst / Austin</div>
+            <p class="text-sm italic">"The report traced my 'tech-savviness' to a life as an archivist. Understanding that my desire to organize information is an ancient drive helped me stop feeling like a 'cog in the machine'."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="font-bold text-slate-800">Seraphina L.</div>
+            <div class="text-xs text-slate-500 mb-2">Creative Lead / Toronto</div>
+            <p class="text-sm italic">"It mentioned a past life connection to herbalism. I've always had a 'green thumb' that didn't make sense with my city upbringing. It felt like a homecoming."</p>
+        </div>
+
+        <div class="testimonial-card">
+            <div class="font-bold text-slate-800">Marcus T.</div>
+            <div class="text-xs text-slate-500 mb-2">Yoga Instructor / Sydney</div>
+            <p class="text-sm italic">"I struggled with public speaking despite knowing my subject. The reading identified a life where 'silence was safety.' Once I named the fear, it lost its power."</p>
+        </div>
+    </div>
+
+    <h2 id="faq">User Support & Ethics</h2>
+    <p>The developers have ethically gated the content to focus on <strong>growth</strong> rather than trauma. Even if a past life involved hardship, the report focuses on the lesson learned.</p>
+
+    <div class="cta-box">
+        <h3 class="text-4xl font-bold mb-4 mt-0">The Archive of Your Soul is Waiting</h3>

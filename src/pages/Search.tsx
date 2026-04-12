@@ -13,7 +13,7 @@ export function SearchPage() {
 
   return (
     <>
-      <SEO title={`Search Results for "${query}"`} description={`Search results for ${query}`} />
+      <SEO title={`Search Results for "${query}"`} description={`Search results for ${query}`} noindex />
       <div className="max-w-5xl mx-auto px-4 py-16">
         <h1 className="text-3xl font-semibold text-[#1d1d1f] mb-8">
           Search results for "{query}"

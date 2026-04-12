@@ -2,7 +2,7 @@ import { Star } from 'lucide-react';
 
 const testimonials = [
   { id: 1, name: "Sarah Jenkins", role: "Fitness Enthusiast", text: "Picknixy's reviews are incredibly thorough. I bought my new treadmill based on their recommendation and couldn't be happier.", rating: 5 },
-  { id: 2, name: "David Chen", role: "Software Developer", text: "The software tools section is a goldmine. I found the perfect productivity app that saves me hours every week.", rating: 5 },
+  { id: 2, name: "Michael T.", role: "Relationship Coach", text: "The relationship and dating guides are spot on. I recommended one of the courses to a client, and it completely transformed their dating life.", rating: 5 },
   { id: 3, name: "Emily Rodriguez", role: "Yoga Instructor", text: "I love the spiritual and wellness guides. They are well-researched, unbiased, and beautifully presented.", rating: 5 }
 ];
 

@@ -3,6 +3,7 @@ import { Helmet } from 'react-helmet-async';
 interface SEOProps {
   title: string;
   description: string;
+  keywords?: string;
   canonicalUrl?: string;
   type?: 'website' | 'article' | 'Review';
   image?: string;
@@ -10,21 +11,25 @@ interface SEOProps {
   datePublished?: string;
   ratingValue?: number;
   reviewCount?: number;
+  noindex?: boolean;
 }
 
 export function SEO({ 
   title, 
   description, 
+  keywords,
   canonicalUrl, 
   type = 'website', 
   image = 'https://example.com/default-og.jpg',
   author,
   datePublished,
   ratingValue,
-  reviewCount = 1
+  reviewCount = 1,
+  noindex = false
 }: SEOProps) {
   const siteName = "Picknixy";
   const fullTitle = `${title} | ${siteName}`;
+  const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '');
 
   // Generate Schema.org JSON-LD
   let schema = null;
@@ -52,12 +57,21 @@ export function SEO({
     };
 
     if (type === 'Review' && ratingValue) {
+      const itemName = title.includes('Soul Manifestation') 
+        ? 'Soul Manifestation Personalized Blueprint' 
+        : title.replace(' Review', '');
+
       schema = {
         ...baseSchema,
         "itemReviewed": {
           "@type": "Product",
-          "name": title.replace(' Review', ''),
-          "image": image
+          "name": itemName,
+          "image": image,
+          "aggregateRating": {
+            "@type": "AggregateRating",
+            "ratingValue": ratingValue,
+            "reviewCount": reviewCount
+          }
         },
         "reviewRating": {
           "@type": "Rating",
@@ -86,13 +100,15 @@ export function SEO({
     <Helmet>
       <title>{fullTitle}</title>
       <meta name="description" content={description} />
+      {keywords && <meta name="keywords" content={keywords} />}
+      {noindex && <meta name="robots" content="noindex, nofollow" />}
       
       {/* Open Graph / Facebook */}
       <meta property="og:type" content={type === 'Review' ? 'article' : type} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
       <meta property="og:image" content={image} />
-      {canonicalUrl && <meta property="og:url" content={canonicalUrl} />}
+      {currentUrl && <meta property="og:url" content={currentUrl} />}
       <meta property="og:site_name" content={siteName} />
 
       {/* Twitter */}
@@ -102,7 +118,7 @@ export function SEO({
       <meta name="twitter:image" content={image} />
 
       {/* Canonical Link */}
-      {canonicalUrl && <link rel="canonical" href={canonicalUrl} />}
+      {currentUrl && <link rel="canonical" href={currentUrl} />}
 
       {/* Schema.org JSON-LD */}
       {schema && (
