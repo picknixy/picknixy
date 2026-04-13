@@ -30,6 +30,11 @@ export function SEO({
   const siteName = "Picknixy";
   const fullTitle = `${title} | ${siteName}`;
   const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '');
+  
+  // Ensure image is an absolute URL for Open Graph and Twitter
+  const absoluteImageUrl = image.startsWith('http') 
+    ? image 
+    : (typeof window !== 'undefined' ? window.location.origin + (image.startsWith('/') ? '' : '/') + image : `https://picknixy.com${image.startsWith('/') ? '' : '/'}${image}`);
 
   // Generate Schema.org JSON-LD
   let schema = null;
@@ -40,7 +45,7 @@ export function SEO({
       "@type": type === 'Review' ? "Review" : "Article",
       "headline": title,
       "description": description,
-      "image": image,
+      "image": absoluteImageUrl,
       "author": {
         "@type": "Person",
         "name": author || "Editorial Team"
@@ -66,7 +71,7 @@ export function SEO({
         "itemReviewed": {
           "@type": "Product",
           "name": itemName,
-          "image": image,
+          "image": absoluteImageUrl,
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": ratingValue,
@@ -107,7 +112,7 @@ export function SEO({
       <meta property="og:type" content={type === 'Review' ? 'article' : type} />
       <meta property="og:title" content={fullTitle} />
       <meta property="og:description" content={description} />
-      <meta property="og:image" content={image} />
+      <meta property="og:image" content={absoluteImageUrl} />
       {currentUrl && <meta property="og:url" content={currentUrl} />}
       <meta property="og:site_name" content={siteName} />
 
@@ -115,7 +120,7 @@ export function SEO({
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={description} />
-      <meta name="twitter:image" content={image} />
+      <meta name="twitter:image" content={absoluteImageUrl} />
 
       {/* Canonical Link */}
       {currentUrl && <link rel="canonical" href={currentUrl} />}
