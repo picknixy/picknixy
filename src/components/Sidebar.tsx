@@ -13,7 +13,15 @@ export function Sidebar() {
     <aside className="space-y-10 sticky top-24">
       {/* Author Widget */}
       <div className="bg-[#f5f5f7] rounded-2xl p-6 text-center">
-        <img src={author.avatar} alt={author.name} className="w-24 h-24 rounded-full mx-auto mb-4 object-cover" />
+        <img 
+          src={author.avatar || 'https://via.placeholder.com/150'} 
+          alt={author.name} 
+          className="w-24 h-24 rounded-full mx-auto mb-4 object-cover flex-shrink-0" 
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = 'https://via.placeholder.com/150';
+          }}
+        />
         <h3 className="text-lg font-bold text-[#1d1d1f] mb-1">{author.name}</h3>
         <p className="text-sm text-[#2997ff] font-medium mb-3">{author.role}</p>
         <p className="text-sm text-[#6e6e73]">{author.bio}</p>
@@ -28,8 +36,16 @@ export function Sidebar() {
             const isReview = 'rating' in post;
             const link = isReview ? `/review/${post.slug}` : `/blog/${post.slug}`;
             return (
-              <Link key={post.id} to={link} className="flex gap-4 group">
-                <img src={post.image} alt={post.title} className="w-20 h-20 object-cover rounded-lg" />
+              <Link key={post.id} to={link} className="flex gap-4 group items-start">
+                <img 
+                  src={post.image || 'https://via.placeholder.com/100'} 
+                  alt={post.title} 
+                  className="w-20 h-20 object-cover rounded-lg flex-shrink-0" 
+                  onError={(e) => {
+                    const target = e.target as HTMLImageElement;
+                    target.src = 'https://via.placeholder.com/100';
+                  }}
+                />
                 <div className="flex-1">
                   <h4 className="text-sm font-semibold text-[#1d1d1f] group-hover:text-[#2997ff] transition-colors line-clamp-2 mb-1">{post.title}</h4>
                   <p className="text-xs text-[#6e6e73]">{new Date(post.date).toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' })}</p>

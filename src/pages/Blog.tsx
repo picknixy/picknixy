@@ -36,8 +36,17 @@ export function Blog() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {currentArticles.map(article => (
               <article key={article.id} className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
-                <Link to={`/blog/${article.slug}`} className="block overflow-hidden">
-                  <img src={article.image} alt={article.title} className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" loading="lazy" />
+                <Link to={`/blog/${article.slug}`} className="block overflow-hidden flex-shrink-0">
+                  <img 
+                    src={article.image || 'https://via.placeholder.com/400x300'} 
+                    alt={article.title} 
+                    className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" 
+                    loading="lazy" 
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = 'https://via.placeholder.com/400x300';
+                    }}
+                  />
                 </Link>
                 <div className="p-6 flex flex-col flex-grow">
                   <div className="flex items-center justify-between mb-3">

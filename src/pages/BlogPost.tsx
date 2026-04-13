@@ -70,7 +70,15 @@ export function BlogPost() {
           
           <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
             <div className="flex items-center">
-              <img src={author?.avatar} alt={author?.name} className="w-8 h-8 rounded-full mr-2 object-cover" />
+              <img 
+                src={author?.avatar || 'https://via.placeholder.com/150'} 
+                alt={author?.name} 
+                className="w-8 h-8 rounded-full mr-2 object-cover flex-shrink-0" 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = 'https://via.placeholder.com/150';
+                }}
+              />
               <span className="font-medium text-gray-900">{author?.name}</span>
             </div>
             <span>•</span>
@@ -82,7 +90,15 @@ export function BlogPost() {
 
         <ShareButtons url={window.location.href} title={article.title} />
 
-        <img src={article.image} alt={article.title} className="w-full h-auto rounded-2xl mb-10 shadow-sm" />
+        <img 
+          src={article.image || 'https://via.placeholder.com/1200x600'} 
+          alt={article.title} 
+          className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = 'https://via.placeholder.com/1200x600';
+          }}
+        />
 
         <TableOfContents />
 

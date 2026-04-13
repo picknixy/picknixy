@@ -23,7 +23,16 @@ export function Home() {
       {/* Hero 1 (Dark) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-black overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0">
-          <img src={featuredReview.image} alt={featuredReview.title} className="w-full h-full object-cover opacity-70" loading="eager" />
+          <img 
+            src={featuredReview.image || 'https://via.placeholder.com/1920x1080'} 
+            alt={featuredReview.title} 
+            className="w-full h-full object-cover opacity-70" 
+            loading="eager" 
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = 'https://via.placeholder.com/1920x1080';
+            }}
+          />
         </div>
         <div className="relative z-10 mt-16 md:mt-24 px-4 text-center text-white">
           <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-2 drop-shadow-lg">{featuredReview.title}</h2>
@@ -42,7 +51,16 @@ export function Home() {
       {/* Hero 2 (Light) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-[#f5f5f7] overflow-hidden flex flex-col items-center mt-3">
         <div className="absolute inset-0">
-          <img src={secondReview.image} alt={secondReview.title} className="w-full h-full object-cover opacity-90" loading="lazy" />
+          <img 
+            src={secondReview.image || 'https://via.placeholder.com/1920x1080'} 
+            alt={secondReview.title} 
+            className="w-full h-full object-cover opacity-90" 
+            loading="lazy" 
+            onError={(e) => {
+              const target = e.target as HTMLImageElement;
+              target.src = 'https://via.placeholder.com/1920x1080';
+            }}
+          />
         </div>
         <div className="relative z-10 mt-16 md:mt-24 px-4 text-center text-white">
           <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-2 drop-shadow-lg">{secondReview.title}</h2>
@@ -68,7 +86,16 @@ export function Home() {
             return (
               <div key={item.id} className="relative h-[500px] md:h-[600px] bg-black overflow-hidden flex flex-col items-center group">
                 <div className="absolute inset-0">
-                  <img src={item.image} alt={item.title} className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" loading="lazy" />
+                  <img 
+                    src={item.image || 'https://via.placeholder.com/800x600'} 
+                    alt={item.title} 
+                    className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 
+                    loading="lazy" 
+                    onError={(e) => {
+                      const target = e.target as HTMLImageElement;
+                      target.src = 'https://via.placeholder.com/800x600';
+                    }}
+                  />
                 </div>
                 <div className="relative z-10 mt-12 px-8 text-center text-white w-full">
                   <h3 className="text-3xl md:text-4xl font-semibold tracking-tight mb-2 drop-shadow-lg">{item.title}</h3>

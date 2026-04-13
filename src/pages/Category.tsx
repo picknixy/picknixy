@@ -100,8 +100,17 @@ export function Category() {
               <div className="space-y-8">
                 {currentReviews.map(review => (
                   <div key={review.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col sm:flex-row hover:shadow-md transition-shadow">
-                    <div className="sm:w-1/3">
-                      <img src={review.image} alt={review.title} className="w-full h-48 sm:h-full object-cover" loading="lazy" />
+                    <div className="sm:w-1/3 flex-shrink-0">
+                      <img 
+                        src={review.image || 'https://via.placeholder.com/400x300'} 
+                        alt={review.title} 
+                        className="w-full h-48 sm:h-full object-cover" 
+                        loading="lazy" 
+                        onError={(e) => {
+                          const target = e.target as HTMLImageElement;
+                          target.src = 'https://via.placeholder.com/400x300';
+                        }}
+                      />
                     </div>
                     <div className="p-6 sm:w-2/3 flex flex-col justify-center">
                       <div className="flex items-center space-x-1 mb-2">

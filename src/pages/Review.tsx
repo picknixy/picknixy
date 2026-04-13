@@ -71,7 +71,15 @@ export function Review() {
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-gray-200 pb-6 gap-4">
             <div className="flex items-center space-x-4">
-              <img src={author?.avatar} alt={author?.name} className="w-12 h-12 rounded-full object-cover" />
+              <img 
+                src={author?.avatar || 'https://via.placeholder.com/150'} 
+                alt={author?.name} 
+                className="w-12 h-12 rounded-full object-cover flex-shrink-0" 
+                onError={(e) => {
+                  const target = e.target as HTMLImageElement;
+                  target.src = 'https://via.placeholder.com/150';
+                }}
+              />
               <div>
                 <p className="text-sm font-medium text-gray-900">{author?.name}</p>
                 <p className="text-xs text-gray-500">{new Date(review.date).toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' })}</p>
@@ -97,7 +105,15 @@ export function Review() {
         </div>
 
         {/* Featured Image */}
-        <img src={review.image} alt={review.title} className="w-full h-auto rounded-2xl mb-10 shadow-sm" />
+        <img 
+          src={review.image || 'https://via.placeholder.com/1200x600'} 
+          alt={review.title} 
+          className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 
+          onError={(e) => {
+            const target = e.target as HTMLImageElement;
+            target.src = 'https://via.placeholder.com/1200x600';
+          }}
+        />
 
         <UserRating expertRating={review.rating} />
 
