@@ -68,7 +68,7 @@ export const reviews: any[] = [
     date: "2026-04-11",
     rating: 4.8,
     excerpt: "Struggling with mobility? Our comprehensive VitaMotion review explores how this daily system, formulated by exercise science expert Rick Kaselj, aims to support a healthy back and improve your daily movement.",
-    image: "/vitamotion-review.webp?v=2",
+    image: "/vitamotion-review.webp",
     pros: [
       "Formulated by a recognized kinesiology expert",
       "Focuses on the root causes of mobility issues",
@@ -88,7 +88,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "VitaMotion",
-          "image": "/vitamotion-review.webp",
+          "image": "https://www.picknixy.com/vitamotion-review.webp",
           "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort."
         },
         "reviewRating": {
@@ -107,7 +107,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "VitaMotion Review 2026: A Deep Dive Into Rick Kaselj's Mobility System",
-        "image": "/vitamotion-review.webp",
+        "image": "https://www.picknixy.com/vitamotion-review.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -185,7 +185,7 @@ export const reviews: any[] = [
     date: "2026-04-10",
     rating: 4.8,
     excerpt: "An in-depth review of the Quantum Wave audio program. Discover how Dr. Thomas Sterling's brainwave entrainment research might help you achieve deeper relaxation and mental clarity.",
-    image: "/quantum-wave-logo.webp?v=2",
+    image: "/quantum-wave-logo.webp",
     pros: [
       "Based on brainwave entrainment principles",
       "Easy to use—just listen with headphones",
@@ -206,7 +206,7 @@ export const reviews: any[] = [
           "itemReviewed": {
             "@type": "Product",
             "name": "Quantum Wave",
-            "image": "/quantum-wave-logo.webp",
+            "image": "https://www.picknixy.com/quantum-wave-logo.webp",
             "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus."
           },
           "reviewRating": {
@@ -225,7 +225,7 @@ export const reviews: any[] = [
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "Quantum Wave Review 2026: Exploring Brainwave Entrainment for Focus and Relaxation",
-          "image": "/quantum-wave-logo.webp",
+          "image": "https://www.picknixy.com/quantum-wave-logo.webp",
           "author": {
             "@type": "Person",
             "name": "Picknixy"
@@ -296,7 +296,7 @@ export const reviews: any[] = [
   "date": "2026-04-08",
   "rating": 4.9,
   "excerpt": "Discover how the Water Smart Box guide can help you build your own DIY Atmospheric Water Generator. Read our comprehensive review on costs, blueprints, and real-world performance for true water independence.",
-  "image": "/water-smart-box.webp",
+  image: "/water-smart-box.webp",
   "pros": [
     "Cost-effective alternative to retail AWG units",
     "Comprehensive, easy-to-follow video blueprints",
@@ -320,7 +320,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.8,
     excerpt: "Is Prostadine the ultimate solution for prostate health? Read our comprehensive 2026 review covering ingredients, side effects, and real user results before you buy.",
-    image: "/prostadine.webp?v=2",
+    image: "/prostadine.webp",
     pros: ["100% natural marine-based ingredients", "Easy-to-use liquid dropper formula", "Supports healthy prostate function", "Manufactured in FDA-approved facilities"],
     cons: ["Only available through the official website", "Results may vary from person to person"],
     content: `
@@ -332,7 +332,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Prostadine",
-            "image": "/prostadine.webp",
+            "image": "https://www.picknixy.com/prostadine.webp",
           "description": "A natural dietary supplement designed to support prostate health and urinary system function."
         },
         "reviewRating": {
@@ -351,7 +351,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Prostadine Review 2026: Does This Prostate Health Supplement Really Work?",
-        "image": "/prostadine.webp",
+        "image": "https://www.picknixy.com/prostadine.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -427,7 +427,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Discover the truth about Red Boost in our detailed 2026 review. We analyze its ingredients, benefits, and potential side effects to help you make an informed decision.",
-    image: "/red-boost.webp?v=2",
+    image: "/red-boost.webp",
     pros: ["Targets the root cause of male performance issues", "Clinically backed natural ingredients", "Improves blood flow and energy levels", "180-day money-back guarantee"],
     cons: ["High demand often leads to stock shortages", "Requires consistent daily use for optimal results"],
     content: `
@@ -439,7 +439,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Red Boost",
-            "image": "/red-boost.webp",
+            "image": "https://www.picknixy.com/red-boost.webp",
           "description": "A natural blood flow support supplement designed to enhance male performance and vitality."
         },
         "reviewRating": {
@@ -458,7 +458,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Red Boost Review 2026: The Ultimate Smooth Muscle Tonic for Men?",
-        "image": "/red-boost.webp",
+        "image": "https://www.picknixy.com/red-boost.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -782,7 +782,7 @@ export const reviews: any[] = [
     date: "2026-04-07",
     rating: 4.7,
     excerpt: "Find out if the Past Life Reading quiz is accurate. Explore the spiritual journey of your soul, uncover karmic blocks, and see what users are saying about their results.",
-    image: "/Digital product box for Your Past Life Reading featuring a man standing before a celestial clock portal.webp",
+    image: "/past-life-reading.webp",
     pros: ["Deeply insightful","Helps uncover karmic blocks","Easy to understand"],
     cons: ["Requires an open mind","Results may vary"],
     content: `

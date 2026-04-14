@@ -38,14 +38,15 @@ export function About() {
         <div className="max-w-md mx-auto">
           {Object.values(authors).map(author => (
             <div key={author.id} className="bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
-              <img 
+              <img referrerPolicy="no-referrer" 
                 src={author.avatar || 'https://via.placeholder.com/150'} 
                 alt={author.name} 
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" 
                 onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = 'https://via.placeholder.com/150';
-                }}
+              const target = e.target as HTMLImageElement;
+              target.onerror = null;
+              target.src = 'https://via.placeholder.com/150';
+            }}
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{author.name}</h3>
               <p className="text-md text-blue-600 font-medium mb-4">{author.role}</p>

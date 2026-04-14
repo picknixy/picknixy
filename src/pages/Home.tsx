@@ -23,13 +23,14 @@ export function Home() {
       {/* Hero 1 (Dark) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-black overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0">
-          <img 
+          <img referrerPolicy="no-referrer" 
             src={featuredReview.image || 'https://via.placeholder.com/1920x1080'} 
             alt={featuredReview.title} 
             className="w-full h-full object-cover opacity-70" 
             loading="eager" 
             onError={(e) => {
               const target = e.target as HTMLImageElement;
+              target.onerror = null;
               target.src = 'https://via.placeholder.com/1920x1080';
             }}
           />
@@ -51,13 +52,14 @@ export function Home() {
       {/* Hero 2 (Light) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-[#f5f5f7] overflow-hidden flex flex-col items-center mt-3">
         <div className="absolute inset-0">
-          <img 
+          <img referrerPolicy="no-referrer" 
             src={secondReview.image || 'https://via.placeholder.com/1920x1080'} 
             alt={secondReview.title} 
             className="w-full h-full object-cover opacity-90" 
             loading="lazy" 
             onError={(e) => {
               const target = e.target as HTMLImageElement;
+              target.onerror = null;
               target.src = 'https://via.placeholder.com/1920x1080';
             }}
           />
@@ -86,15 +88,16 @@ export function Home() {
             return (
               <div key={item.id} className="relative h-[500px] md:h-[600px] bg-black overflow-hidden flex flex-col items-center group">
                 <div className="absolute inset-0">
-                  <img 
+                  <img referrerPolicy="no-referrer" 
                     src={item.image || 'https://via.placeholder.com/800x600'} 
                     alt={item.title} 
                     className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 
                     loading="lazy" 
                     onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = 'https://via.placeholder.com/800x600';
-                    }}
+              const target = e.target as HTMLImageElement;
+              target.onerror = null;
+              target.src = 'https://via.placeholder.com/800x600';
+            }}
                   />
                 </div>
                 <div className="relative z-10 mt-12 px-8 text-center text-white w-full">

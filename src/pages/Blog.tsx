@@ -37,15 +37,16 @@ export function Blog() {
             {currentArticles.map(article => (
               <article key={article.id} className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
                 <Link to={`/blog/${article.slug}`} className="block overflow-hidden flex-shrink-0">
-                  <img 
+                  <img referrerPolicy="no-referrer" 
                     src={article.image || 'https://via.placeholder.com/400x300'} 
                     alt={article.title} 
                     className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" 
                     loading="lazy" 
                     onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = 'https://via.placeholder.com/400x300';
-                    }}
+              const target = e.target as HTMLImageElement;
+              target.onerror = null;
+              target.src = 'https://via.placeholder.com/400x300';
+            }}
                   />
                 </Link>
                 <div className="p-6 flex flex-col flex-grow">

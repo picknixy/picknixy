@@ -27,14 +27,15 @@ export function SearchPage() {
               const link = isReview ? `/review/${item.slug}` : `/blog/${item.slug}`;
               return (
                 <div key={item.id} className="flex flex-col border border-[#d2d2d7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
-                  <img 
+                  <img referrerPolicy="no-referrer" 
                     src={item.image || 'https://via.placeholder.com/400x300'} 
                     alt={item.title} 
                     className="w-full h-48 object-cover flex-shrink-0" 
                     onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = 'https://via.placeholder.com/400x300';
-                    }}
+              const target = e.target as HTMLImageElement;
+              target.onerror = null;
+              target.src = 'https://via.placeholder.com/400x300';
+            }}
                   />
                   <div className="p-6 flex flex-col flex-grow">
                     <h2 className="text-xl font-semibold text-[#1d1d1f] mb-2">
