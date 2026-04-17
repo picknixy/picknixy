@@ -19,13 +19,13 @@ export function RelatedArticles({ category, currentSlug }: { category: string, c
             <Link key={item.id} to={link} className="group block">
               <div className="aspect-video overflow-hidden rounded-xl mb-4">
                 <img referrerPolicy="no-referrer" 
-                  src={item.image || 'https://via.placeholder.com/400x225'} 
+                  src={item.image || 'https://placehold.co/400x225'} 
                   alt={item.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                   onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://via.placeholder.com/400x225';
+              target.src = 'https://placehold.co/400x225';
             }}
                 />
               </div>

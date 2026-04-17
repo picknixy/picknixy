@@ -39,13 +39,13 @@ export function About() {
           {Object.values(authors).map(author => (
             <div key={author.id} className="bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
               <img referrerPolicy="no-referrer" 
-                src={author.avatar || 'https://via.placeholder.com/150'} 
+                src={author.avatar || 'https://placehold.co/150'} 
                 alt={author.name} 
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" 
                 onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://via.placeholder.com/150';
+              target.src = 'https://placehold.co/150';
             }}
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{author.name}</h3>

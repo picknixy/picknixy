@@ -102,14 +102,14 @@ export function Category() {
                   <div key={review.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col sm:flex-row hover:shadow-md transition-shadow">
                     <div className="sm:w-1/3 flex-shrink-0">
                       <img referrerPolicy="no-referrer" 
-                        src={review.image || 'https://via.placeholder.com/400x300'} 
+                        src={review.image || 'https://placehold.co/400x300'} 
                         alt={review.title} 
                         className="w-full h-48 sm:h-full object-cover" 
                         loading="lazy" 
                         onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://via.placeholder.com/400x300';
+              target.src = 'https://placehold.co/400x300';
             }}
                       />
                     </div>
