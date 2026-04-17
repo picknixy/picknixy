@@ -72,7 +72,7 @@ export const reviews: any[] = [
   "date": "2026-04-15",
   "rating": 4.9,
   "excerpt": "Discover how Prime Biome's unique probiotic gummies aim to support the gut-skin axis. Read our comprehensive review covering ingredients, benefits, and what to expect from this cell turnover breakthrough.",
-  "image": "/PrimeBiome.png",
+  "image": "/images/PrimeBiome.png",
   "pros": [
     "Convenient and tasty probiotic gummy format",
     "Focuses on the innovative gut-skin connection",
@@ -101,7 +101,7 @@ export const reviews: any[] = [
     date: "2026-04-11",
     rating: 4.8,
     excerpt: "Struggling with mobility? Our comprehensive VitaMotion review explores how this daily system, formulated by exercise science expert Rick Kaselj, aims to support a healthy back and improve your daily movement.",
-    image: "/vitamotion-review.webp",
+    image: "/images/vitamotion-review.webp",
     pros: [
       "Formulated by a recognized kinesiology expert",
       "Focuses on the root causes of mobility issues",
@@ -224,7 +224,7 @@ export const reviews: any[] = [
     date: "2026-04-10",
     rating: 4.8,
     excerpt: "An in-depth review of the Quantum Wave audio program. Discover how Dr. Thomas Sterling's brainwave entrainment research might help you achieve deeper relaxation and mental clarity.",
-    image: "/quantum-wave-logo.webp",
+    image: "/images/quantum-wave-logo.webp",
     pros: [
       "Based on brainwave entrainment principles",
       "Easy to use—just listen with headphones",
@@ -339,7 +339,7 @@ export const reviews: any[] = [
   "date": "2026-04-08",
   "rating": 4.9,
   "excerpt": "Discover how the Water Smart Box guide can help you build your own DIY Atmospheric Water Generator. Read our comprehensive review on costs, blueprints, and real-world performance for true water independence.",
-  image: "/water-smart-box.webp",
+  image: "/images/water-smart-box.webp",
   "pros": [
     "Cost-effective alternative to retail AWG units",
     "Comprehensive, easy-to-follow video blueprints",
@@ -367,7 +367,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.8,
     excerpt: "Is Prostadine the ultimate solution for prostate health? Read our comprehensive 2026 review covering ingredients, side effects, and real user results before you buy.",
-    image: "/prostadine.webp",
+    image: "/images/prostadine.webp",
     pros: ["100% natural marine-based ingredients", "Easy-to-use liquid dropper formula", "Supports healthy prostate function", "Manufactured in FDA-approved facilities"],
     cons: ["Only available through the official website", "Results may vary from person to person"],
     content: `
@@ -478,7 +478,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Discover the truth about Red Boost in our detailed 2026 review. We analyze its ingredients, benefits, and potential side effects to help you make an informed decision.",
-    image: "/red-boost.webp",
+    image: "/images/red-boost.webp",
     pros: ["Targets the root cause of male performance issues", "Clinically backed natural ingredients", "Improves blood flow and energy levels", "180-day money-back guarantee"],
     cons: ["High demand often leads to stock shortages", "Requires consistent daily use for optimal results"],
     content: `
@@ -849,7 +849,7 @@ export const reviews: any[] = [
     date: "2026-04-07",
     rating: 4.7,
     excerpt: "Find out if the Past Life Reading quiz is accurate. Explore the spiritual journey of your soul, uncover karmic blocks, and see what users are saying about their results.",
-    image: "/past-life-reading.webp",
+    image: "/images/past-life-reading.webp",
     pros: ["Deeply insightful","Helps uncover karmic blocks","Easy to understand"],
     cons: ["Requires an open mind","Results may vary"],
     content: `
@@ -933,7 +933,7 @@ export const reviews: any[] = [
     date: "2026-04-14",
     rating: 4.8,
     excerpt: "Discover if Dr. Lee Baucom's Save The Marriage System can help rescue your relationship. Read our comprehensive, unbiased review covering the core principles, pros, cons, and realistic expectations.",
-    image: "/save-the-marriage-system.png",
+    image: "/images/save-the-marriage-system.png",
     pros: [
       "Focuses on paradigm shifts, not just communication",
       "Designed to work even if only one partner is trying",

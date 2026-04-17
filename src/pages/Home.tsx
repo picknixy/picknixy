@@ -24,14 +24,14 @@ export function Home() {
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-black overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0">
           <img referrerPolicy="no-referrer" 
-            src={featuredReview.image || 'https://placehold.co/1920x1080'} 
+            src={featuredReview.image || '/images/fallback.svg'} 
             alt={featuredReview.title} 
             className="w-full h-full object-cover opacity-70" 
             loading="eager" 
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/1920x1080';
+              target.src = '/images/fallback.svg';
             }}
           />
         </div>
@@ -53,14 +53,14 @@ export function Home() {
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-[#f5f5f7] overflow-hidden flex flex-col items-center mt-3">
         <div className="absolute inset-0">
           <img referrerPolicy="no-referrer" 
-            src={secondReview.image || 'https://placehold.co/1920x1080'} 
+            src={secondReview.image || '/images/fallback.svg'} 
             alt={secondReview.title} 
             className="w-full h-full object-cover opacity-90" 
             loading="lazy" 
             onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/1920x1080';
+              target.src = '/images/fallback.svg';
             }}
           />
         </div>
@@ -89,14 +89,14 @@ export function Home() {
               <div key={item.id} className="relative h-[500px] md:h-[600px] bg-black overflow-hidden flex flex-col items-center group">
                 <div className="absolute inset-0">
                   <img referrerPolicy="no-referrer" 
-                    src={item.image || 'https://placehold.co/800x600'} 
+                    src={item.image || '/images/fallback.svg'} 
                     alt={item.title} 
                     className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 
                     loading="lazy" 
                     onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/800x600';
+              target.src = '/images/fallback.svg';
             }}
                   />
                 </div>
