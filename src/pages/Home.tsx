@@ -89,14 +89,14 @@ export function Home() {
               <div key={item.id} className="relative h-[500px] md:h-[600px] bg-black overflow-hidden flex flex-col items-center group">
                 <div className="absolute inset-0">
                   <img referrerPolicy="no-referrer" 
-                    src={item.image || '/images/vitamotion.jpg'} 
-                    alt={item.title || 'Vitamotion review 2026'} 
+                    src={item.image || 'https://placehold.co/800x600'} 
+                    alt={item.title} 
                     className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 
                     loading="lazy" 
                     onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/vitamotion.jpg';
+              target.src = 'https://placehold.co/800x600';
             }}
                   />
                 </div>
