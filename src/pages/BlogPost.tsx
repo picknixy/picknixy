@@ -27,8 +27,10 @@ export function BlogPost() {
   return (
     <>
       <SEO 
-        title={article.title} 
-        description={article.excerpt}
+        title={article.seoTitle || article.title} 
+        description={article.seoDescription || article.excerpt}
+        keywords={article.seoKeywords}
+        canonicalUrl={article.canonicalUrl}
         type="article"
         image={article.image}
         author={author?.name}

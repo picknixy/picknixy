@@ -29,8 +29,10 @@ export function Review() {
   return (
     <>
       <SEO 
-        title={review.title} 
-        description={review.excerpt}
+        title={review.seoTitle || review.title} 
+        description={review.seoDescription || review.excerpt}
+        keywords={review.seoKeywords}
+        canonicalUrl={review.canonicalUrl}
         type="Review"
         image={review.image}
         author={author?.name}
