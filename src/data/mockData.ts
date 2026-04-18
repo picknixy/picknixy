@@ -1,4 +1,3 @@
-import img_savethemarriage from '../assets/images/save-the-marriage.png';
 import fallbackSvg from '../assets/images/fallback.svg';
 
 export const categories = [
@@ -934,7 +933,7 @@ export const reviews: any[] = [
     date: "2026-04-14",
     rating: 4.8,
     excerpt: "Discover if Dr. Lee Baucom's Save The Marriage System can help rescue your relationship. Read our comprehensive, unbiased review covering the core principles, pros, cons, and realistic expectations.",
-    image: img_savethemarriage,
+    image: fallbackSvg,
     pros: [
       "Focuses on paradigm shifts, not just communication",
       "Designed to work even if only one partner is trying",
