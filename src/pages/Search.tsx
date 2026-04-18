@@ -28,13 +28,13 @@ export function SearchPage() {
               return (
                 <div key={item.id} className="flex flex-col border border-[#d2d2d7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
                   <img  
-                    src={item.image || '/images/fallback.svg'} 
+                    src={item.image || '/images/fallback.svg?v=2'} 
                     alt={item.title} 
                     className="w-full h-48 object-cover flex-shrink-0" 
                     onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/fallback.svg';
+              target.src = '/images/fallback.svg?v=2';
             }}
                   />
                   <div className="p-6 flex flex-col flex-grow">
