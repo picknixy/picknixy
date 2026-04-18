@@ -101,7 +101,7 @@ export function Category() {
                 {currentReviews.map(review => (
                   <div key={review.id} className="bg-white rounded-xl shadow-sm border border-gray-200 overflow-hidden flex flex-col sm:flex-row hover:shadow-md transition-shadow">
                     <div className="sm:w-1/3 flex-shrink-0">
-                      <img referrerPolicy="no-referrer" 
+                      <img  
                         src={review.image || '/images/fallback.svg'} 
                         alt={review.title} 
                         className="w-full h-48 sm:h-full object-cover" 

@@ -121,7 +121,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "VitaMotion",
-          "image": "https://www.picknixy.com/images/vitamotion-review.webp",
+          "image": "/images/vitamotion-review.webp",
           "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort."
         },
         "reviewRating": {
@@ -140,7 +140,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "VitaMotion Review 2026: A Deep Dive Into Rick Kaselj's Mobility System",
-        "image": "https://www.picknixy.com/vitamotion-review.webp",
+        "image": "/images/vitamotion-review.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -243,7 +243,7 @@ export const reviews: any[] = [
           "itemReviewed": {
             "@type": "Product",
             "name": "Quantum Wave",
-            "image": "https://www.picknixy.com/images/quantum-wave-logo.webp",
+            "image": "/images/quantum-wave-logo.webp",
             "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus."
           },
           "reviewRating": {
@@ -262,7 +262,7 @@ export const reviews: any[] = [
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "Quantum Wave Review 2026: Exploring Brainwave Entrainment for Focus and Relaxation",
-          "image": "https://www.picknixy.com/quantum-wave-logo.webp",
+          "image": "/images/quantum-wave-logo.webp",
           "author": {
             "@type": "Person",
             "name": "Picknixy"
@@ -377,7 +377,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Prostadine",
-            "image": "https://www.picknixy.com/images/prostadine.webp",
+            "image": "/images/prostadine.webp",
           "description": "A natural dietary supplement designed to support prostate health and urinary system function."
         },
         "reviewRating": {
@@ -396,7 +396,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Prostadine Review 2026: Does This Prostate Health Supplement Really Work?",
-        "image": "https://www.picknixy.com/prostadine.webp",
+        "image": "/images/prostadine.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -488,7 +488,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Red Boost",
-            "image": "https://www.picknixy.com/images/red-boost.webp",
+            "image": "/images/red-boost.webp",
           "description": "A natural blood flow support supplement designed to enhance male performance and vitality."
         },
         "reviewRating": {
@@ -507,7 +507,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Red Boost Review 2026: The Ultimate Smooth Muscle Tonic for Men?",
-        "image": "https://www.picknixy.com/red-boost.webp",
+        "image": "/images/red-boost.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -952,7 +952,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Save The Marriage System",
-          "image": "https://www.picknixy.com/images/save-the-marriage-system.png",
+          "image": "/images/save-the-marriage-system.png",
           "description": "A comprehensive digital guide and audio program designed by Dr. Lee Baucom to help couples rescue their failing marriages through paradigm shifts rather than traditional communication exercises."
         },
         "reviewRating": {
@@ -971,7 +971,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Save The Marriage System Review 2026: Can It Rescue Your Relationship?",
-        "image": "https://www.picknixy.com/save-the-marriage-system.png",
+        "image": "/images/save-the-marriage-system.png",
         "author": {
           "@type": "Person",
           "name": "Picknixy"

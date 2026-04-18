@@ -73,7 +73,7 @@ export function Review() {
           
           <div className="flex flex-col sm:flex-row sm:items-center justify-between border-b border-gray-200 pb-6 gap-4">
             <div className="flex items-center space-x-4">
-              <img referrerPolicy="no-referrer" 
+              <img  
                 src={author?.avatar || '/images/avatar-fallback.svg'} 
                 alt={author?.name} 
                 className="w-12 h-12 rounded-full object-cover flex-shrink-0" 
@@ -108,7 +108,7 @@ export function Review() {
         </div>
 
         {/* Featured Image */}
-        <img referrerPolicy="no-referrer" 
+        <img  
           src={review.image || '/images/fallback.svg'} 
           alt={review.title} 
           className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 

@@ -18,7 +18,7 @@ export function RelatedArticles({ category, currentSlug }: { category: string, c
           return (
             <Link key={item.id} to={link} className="group block">
               <div className="aspect-video overflow-hidden rounded-xl mb-4">
-                <img referrerPolicy="no-referrer" 
+                <img  
                   src={item.image || '/images/fallback.svg'} 
                   alt={item.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 

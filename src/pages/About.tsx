@@ -38,7 +38,7 @@ export function About() {
         <div className="max-w-md mx-auto">
           {Object.values(authors).map(author => (
             <div key={author.id} className="bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
-              <img referrerPolicy="no-referrer" 
+              <img  
                 src={author.avatar || '/images/avatar-fallback.svg'} 
                 alt={author.name} 
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" 

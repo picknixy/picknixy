@@ -72,7 +72,7 @@ export function BlogPost() {
           
           <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
             <div className="flex items-center">
-              <img referrerPolicy="no-referrer" 
+              <img  
                 src={author?.avatar || '/images/avatar-fallback.svg'} 
                 alt={author?.name} 
                 className="w-8 h-8 rounded-full mr-2 object-cover flex-shrink-0" 
@@ -93,7 +93,7 @@ export function BlogPost() {
 
         <ShareButtons url={window.location.href} title={article.title} />
 
-        <img referrerPolicy="no-referrer" 
+        <img  
           src={article.image || '/images/fallback.svg'} 
           alt={article.title} 
           className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 

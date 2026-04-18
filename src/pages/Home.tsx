@@ -23,7 +23,7 @@ export function Home() {
       {/* Hero 1 (Dark) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-black overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0">
-          <img referrerPolicy="no-referrer" 
+          <img  
             src={featuredReview.image || '/images/fallback.svg'} 
             alt={featuredReview.title} 
             className="w-full h-full object-cover opacity-70" 
@@ -52,7 +52,7 @@ export function Home() {
       {/* Hero 2 (Light) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-[#f5f5f7] overflow-hidden flex flex-col items-center mt-3">
         <div className="absolute inset-0">
-          <img referrerPolicy="no-referrer" 
+          <img  
             src={secondReview.image || '/images/fallback.svg'} 
             alt={secondReview.title} 
             className="w-full h-full object-cover opacity-90" 
@@ -88,7 +88,7 @@ export function Home() {
             return (
               <div key={item.id} className="relative h-[500px] md:h-[600px] bg-black overflow-hidden flex flex-col items-center group">
                 <div className="absolute inset-0">
-                  <img referrerPolicy="no-referrer" 
+                  <img  
                     src={item.image || '/images/fallback.svg'} 
                     alt={item.title} 
                     className="w-full h-full object-cover opacity-60 group-hover:scale-105 transition-transform duration-700" 

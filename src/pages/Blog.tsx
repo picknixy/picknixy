@@ -37,7 +37,7 @@ export function Blog() {
             {currentArticles.map(article => (
               <article key={article.id} className="bg-white rounded-2xl shadow-sm border border-gray-200 overflow-hidden hover:shadow-md transition-shadow flex flex-col">
                 <Link to={`/blog/${article.slug}`} className="block overflow-hidden flex-shrink-0">
-                  <img referrerPolicy="no-referrer" 
+                  <img  
                     src={article.image || '/images/fallback.svg'} 
                     alt={article.title} 
                     className="w-full h-48 object-cover hover:scale-105 transition-transform duration-300" 
