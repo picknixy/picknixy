@@ -14,13 +14,13 @@ export function Sidebar() {
       {/* Author Widget */}
       <div className="bg-[#f5f5f7] rounded-2xl p-6 text-center">
         <img referrerPolicy="no-referrer" 
-          src={author.avatar || 'https://placehold.co/150'} 
+          src={author.avatar || '/images/avatar-fallback.svg'} 
           alt={author.name} 
           className="w-24 h-24 rounded-full mx-auto mb-4 object-cover flex-shrink-0" 
           onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/150';
+              target.src = '/images/avatar-fallback.svg';
             }}
         />
         <h3 className="text-lg font-bold text-[#1d1d1f] mb-1">{author.name}</h3>
@@ -39,13 +39,13 @@ export function Sidebar() {
             return (
               <Link key={post.id} to={link} className="flex gap-4 group items-start">
                 <img referrerPolicy="no-referrer" 
-                  src={post.image || 'https://placehold.co/100'} 
+                  src={post.image || '/images/fallback.svg'} 
                   alt={post.title} 
                   className="w-20 h-20 object-cover rounded-lg flex-shrink-0" 
                   onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/100';
+              target.src = '/images/fallback.svg';
             }}
                 />
                 <div className="flex-1">

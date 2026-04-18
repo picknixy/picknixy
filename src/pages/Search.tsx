@@ -28,13 +28,13 @@ export function SearchPage() {
               return (
                 <div key={item.id} className="flex flex-col border border-[#d2d2d7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
                   <img referrerPolicy="no-referrer" 
-                    src={item.image || 'https://placehold.co/400x300'} 
+                    src={item.image || '/images/fallback.svg'} 
                     alt={item.title} 
                     className="w-full h-48 object-cover flex-shrink-0" 
                     onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = 'https://placehold.co/400x300';
+              target.src = '/images/fallback.svg';
             }}
                   />
                   <div className="p-6 flex flex-col flex-grow">

@@ -112,8 +112,6 @@ export const reviews: any[] = [
       "Requires consistent daily use for optimal results",
       "Individual experiences with mobility programs can vary"
     ],
-    price: "9.00",
-  affiliateLink: "https://hop.clickbank.net/?affiliate=marwane94&vendor=primebiome&cbpage=tsl&affop=1",
   content: `
       <!-- Schema Markup -->
       <script type="application/ld+json">
@@ -123,7 +121,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "VitaMotion",
-          "image": "https://www.picknixy.com/vitamotion-review.webp",
+          "image": "https://www.picknixy.com/images/vitamotion-review.webp",
           "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort."
         },
         "reviewRating": {
@@ -208,7 +206,7 @@ export const reviews: any[] = [
       
       <p><em>For more tips on maintaining an active lifestyle, check out our guide in the <a href="/category/exercise-fitness" class="text-blue-600 hover:underline">Exercise & Fitness</a> section. You might also find our <a href="/review/red-boost-review-2026" class="text-blue-600 hover:underline">Red Boost Review</a> helpful for optimizing overall vitality.</em></p>
     `,
-    price: "Check Website",
+    price: "$39.00",
     affiliateLink: "https://273fcgbqz7wdb05lokp7spvjwy.hop.clickbank.net"
   },
   {
@@ -245,7 +243,7 @@ export const reviews: any[] = [
           "itemReviewed": {
             "@type": "Product",
             "name": "Quantum Wave",
-            "image": "https://www.picknixy.com/quantum-wave-logo.webp",
+            "image": "https://www.picknixy.com/images/quantum-wave-logo.webp",
             "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus."
           },
           "reviewRating": {
@@ -379,7 +377,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Prostadine",
-            "image": "https://www.picknixy.com/prostadine.webp",
+            "image": "https://www.picknixy.com/images/prostadine.webp",
           "description": "A natural dietary supplement designed to support prostate health and urinary system function."
         },
         "reviewRating": {
@@ -490,7 +488,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Red Boost",
-            "image": "https://www.picknixy.com/red-boost.webp",
+            "image": "https://www.picknixy.com/images/red-boost.webp",
           "description": "A natural blood flow support supplement designed to enhance male performance and vitality."
         },
         "reviewRating": {
@@ -591,7 +589,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.8,
     excerpt: "Discover if Owen Coleman's Pure Reiki Mastery is the real deal. Our comprehensive review explores this 3-step system for rapid Reiki certification and healing.",
-    image: "https://d1yei2z3i6k35z.cloudfront.net/15368427/695e72fc79f48_CompletePureReikiMasteryhomecertificationcoursefeaturingOwenColemans3-stephealingsysteminstructionalmanualsandReikiMastercertificate_1.43_1.png",
+    image: "/images/pure-reiki-mastery.png",
     pros: ["Comprehensive 3-step system", "Rapid certification process", "Easy to follow for beginners", "Cost-effective compared to in-person classes"],
     cons: ["Requires dedication and practice", "Digital format may not suit everyone"],
     content: `
@@ -690,7 +688,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.6,
     excerpt: "Is the Dubai Wealth Secret the key to financial abundance? Read our in-depth review to discover how this program combines manifestation techniques with practical wealth-building strategies.",
-    image: "https://d1yei2z3i6k35z.cloudfront.net/15368427/6954f7815f489_DigitalwealthbuildingcoursebundlefeaturingDubai-Wealth-SecretTheMillionaireHabitRockefellerMoneyPyramidandTheInfluenceCodemodules._1.43_1.png",
+    image: "/images/dubai-wealth-secret.png",
     pros: ["Combines mindset and practical strategies", "Easy to understand modules", "Includes valuable bonus materials", "Focuses on long-term wealth creation"],
     cons: ["Requires consistent effort and application", "Results may vary depending on individual commitment"],
     content: `
@@ -777,7 +775,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Curious about the Divine Wealth Path Reading? Our honest review explores how this personalized astrological and spiritual reading can help you uncover your true financial destiny.",
-    image: "https://d1yei2z3i6k35z.cloudfront.net/15368427/6954fdd87898b_divine-wealth-path-reading-review_1.43_1.png",
+    image: "/images/divine-wealth-path.png",
     pros: ["Highly personalized insights", "Combines astrology and spiritual guidance", "Helps identify karmic blocks to wealth", "Provides actionable steps for alignment"],
     cons: ["Requires an open mind to spiritual concepts", "Results depend on your willingness to take action"],
     content: `
@@ -954,7 +952,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Save The Marriage System",
-          "image": "https://www.picknixy.com/save-the-marriage-system.png",
+          "image": "https://www.picknixy.com/images/save-the-marriage-system.png",
           "description": "A comprehensive digital guide and audio program designed by Dr. Lee Baucom to help couples rescue their failing marriages through paradigm shifts rather than traditional communication exercises."
         },
         "reviewRating": {
