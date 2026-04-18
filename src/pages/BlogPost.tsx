@@ -6,6 +6,9 @@ import { TableOfContents } from '../components/TableOfContents';
 import { Comments } from '../components/Comments';
 import { Sidebar } from '../components/Sidebar';
 import { RelatedArticles } from '../components/RelatedArticles';
+import fallbackSvg from '../assets/images/fallback.svg';
+import avatarFallbackSvg from '../assets/images/avatar-fallback.svg';
+
 
 export function BlogPost() {
   const { slug } = useParams<{ slug: string }>();
@@ -73,13 +76,13 @@ export function BlogPost() {
           <div className="flex items-center justify-center space-x-4 text-sm text-gray-600">
             <div className="flex items-center">
               <img  
-                src={author?.avatar || '/images/avatar-fallback.svg?v=2'} 
+                src={author?.avatar || avatarFallbackSvg} 
                 alt={author?.name} 
                 className="w-8 h-8 rounded-full mr-2 object-cover flex-shrink-0" 
                 onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/avatar-fallback.svg?v=2';
+              target.src = avatarFallbackSvg;
             }}
               />
               <span className="font-medium text-gray-900">{author?.name}</span>
@@ -94,13 +97,13 @@ export function BlogPost() {
         <ShareButtons url={window.location.href} title={article.title} />
 
         <img  
-          src={article.image || '/images/fallback.svg?v=2'} 
+          src={article.image || fallbackSvg} 
           alt={article.title} 
           className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 
           onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/fallback.svg?v=2';
+              target.src = fallbackSvg;
             }}
         />
 

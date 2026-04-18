@@ -1,6 +1,8 @@
 import { useSearchParams, Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
 import { reviews, bestOfArticles } from '../data/mockData';
+import fallbackSvg from '../assets/images/fallback.svg';
+
 
 export function SearchPage() {
   const [searchParams] = useSearchParams();
@@ -28,13 +30,13 @@ export function SearchPage() {
               return (
                 <div key={item.id} className="flex flex-col border border-[#d2d2d7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
                   <img  
-                    src={item.image || '/images/fallback.svg?v=2'} 
+                    src={item.image || fallbackSvg} 
                     alt={item.title} 
                     className="w-full h-48 object-cover flex-shrink-0" 
                     onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/fallback.svg?v=2';
+              target.src = fallbackSvg;
             }}
                   />
                   <div className="p-6 flex flex-col flex-grow">

@@ -1,5 +1,7 @@
 import { SEO } from '../components/SEO';
 import { authors } from '../data/mockData';
+import avatarFallbackSvg from '../assets/images/avatar-fallback.svg';
+
 
 export function About() {
   return (
@@ -39,13 +41,13 @@ export function About() {
           {Object.values(authors).map(author => (
             <div key={author.id} className="bg-white border border-gray-200 rounded-2xl p-8 text-center shadow-sm">
               <img  
-                src={author.avatar || '/images/avatar-fallback.svg?v=2'} 
+                src={author.avatar || avatarFallbackSvg} 
                 alt={author.name} 
                 className="w-32 h-32 rounded-full mx-auto mb-6 object-cover" 
                 onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/avatar-fallback.svg?v=2';
+              target.src = avatarFallbackSvg;
             }}
               />
               <h3 className="text-2xl font-bold text-gray-900 mb-2">{author.name}</h3>

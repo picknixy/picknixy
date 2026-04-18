@@ -1,5 +1,7 @@
 import { Link } from 'react-router-dom';
 import { reviews, bestOfArticles } from '../data/mockData';
+import fallbackSvg from '../assets/images/fallback.svg';
+
 
 export function RelatedArticles({ category, currentSlug }: { category: string, currentSlug: string }) {
   const related = [...reviews, ...bestOfArticles]
@@ -19,13 +21,13 @@ export function RelatedArticles({ category, currentSlug }: { category: string, c
             <Link key={item.id} to={link} className="group block">
               <div className="aspect-video overflow-hidden rounded-xl mb-4">
                 <img  
-                  src={item.image || '/images/fallback.svg?v=2'} 
+                  src={item.image || fallbackSvg} 
                   alt={item.title} 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" 
                   onError={(e) => {
               const target = e.target as HTMLImageElement;
               target.onerror = null;
-              target.src = '/images/fallback.svg?v=2';
+              target.src = fallbackSvg;
             }}
                 />
               </div>
