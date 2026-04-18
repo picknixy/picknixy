@@ -74,7 +74,7 @@ export const reviews: any[] = [
   "date": "2026-04-15",
   "rating": 4.9,
   "excerpt": "Discover how Prime Biome's unique probiotic gummies aim to support the gut-skin axis. Read our comprehensive review covering ingredients, benefits, and what to expect from this cell turnover breakthrough.",
-  "image": fallbackSvg,
+  "image": "https://i.im.ge/e44YKM/PrimeBiome.png",
   "pros": [
     "Convenient and tasty probiotic gummy format",
     "Focuses on the innovative gut-skin connection",

@@ -1,28 +1,23 @@
 const fs = require('fs');
-const path = require('path');
 
-// 1. Remove ?v=2 from mockData.ts
-let mockData = fs.readFileSync('src/data/mockData.ts', 'utf8');
-mockData = mockData.replace(/\?v=2/g, '');
-fs.writeFileSync('src/data/mockData.ts', mockData);
+const path = 'src/data/mockData.ts';
+let code = fs.readFileSync(path, 'utf8');
 
-// 2. Fix onError in all files
-function fixOnError(dir) {
-  const files = fs.readdirSync(dir);
-  for (const file of files) {
-    const fullPath = path.join(dir, file);
-    if (fs.statSync(fullPath).isDirectory()) {
-      fixOnError(fullPath);
-    } else if (fullPath.endsWith('.tsx')) {
-      let content = fs.readFileSync(fullPath, 'utf8');
-      if (content.includes('onError={(e) => {')) {
-        content = content.replace(/onError=\{\(e\) => \{\s*const target = e\.target as HTMLImageElement;\s*(target\.src = '[^']+';)\s*\}\}/g, 
-          'onError={(e) => {\n              const target = e.target as HTMLImageElement;\n              target.onerror = null;\n              $1\n            }}');
-        fs.writeFileSync(fullPath, content);
-      }
-    }
-  }
+// I need to reset all "https://i.im.ge/e44YKM/PrimeBiome.png" to "fallbackSvg" where id is not prime-biome
+// Just change them all temporarily:
+code = code.replace(/"https:\/\/i\.im\.ge\/e44YKM\/PrimeBiome\.png"/g, 'fallbackSvg');
+
+// Then precisely replace for Prime Biome
+const startStr = '"id": "prime-biome-review-2026",';
+const indexStart = code.indexOf(startStr);
+const indexEnd = code.indexOf('id: "vitamotion-review-2026",', indexStart);
+
+if (indexStart !== -1 && indexEnd !== -1) {
+    let slice = code.substring(indexStart, indexEnd);
+    slice = slice.replace(/fallbackSvg/g, '"https://i.im.ge/e44YKM/PrimeBiome.png"');
+    code = code.substring(0, indexStart) + slice + code.substring(indexEnd);
+} else {
+    console.log("Could not find start or end!");
 }
 
-fixOnError('src');
-console.log('Done fixing');
+fs.writeFileSync(path, code);
