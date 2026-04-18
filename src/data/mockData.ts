@@ -1,14 +1,5 @@
-import img_PrimeBiomepng from '../assets/images/PrimeBiome.png';
-import img_vitamotionreviewwebp from '../assets/images/vitamotion-review.webp';
-import img_quantumwavelogowebp from '../assets/images/quantum-wave-logo.webp';
-import img_prostadinewebp from '../assets/images/prostadine.webp';
-import img_redboostwebp from '../assets/images/red-boost.webp';
-import img_savethemarriagesystempng from '../assets/images/save-the-marriage-system.png';
-import img_watersmartboxwebp from '../assets/images/water-smart-box.webp';
-import img_purereikimasterypng from '../assets/images/pure-reiki-mastery.png';
-import img_dubaiwealthsecretpng from '../assets/images/dubai-wealth-secret.png';
-import img_divinewealthpathpng from '../assets/images/divine-wealth-path.png';
-import img_pastlifereadingwebp from '../assets/images/past-life-reading.webp';
+import img_savethemarriage from '../assets/images/save-the-marriage.png';
+import fallbackSvg from '../assets/images/fallback.svg';
 
 export const categories = [
   { 
@@ -84,7 +75,7 @@ export const reviews: any[] = [
   "date": "2026-04-15",
   "rating": 4.9,
   "excerpt": "Discover how Prime Biome's unique probiotic gummies aim to support the gut-skin axis. Read our comprehensive review covering ingredients, benefits, and what to expect from this cell turnover breakthrough.",
-  "image": img_PrimeBiomepng,
+  "image": fallbackSvg,
   "pros": [
     "Convenient and tasty probiotic gummy format",
     "Focuses on the innovative gut-skin connection",
@@ -113,7 +104,7 @@ export const reviews: any[] = [
     date: "2026-04-11",
     rating: 4.8,
     excerpt: "Struggling with mobility? Our comprehensive VitaMotion review explores how this daily system, formulated by exercise science expert Rick Kaselj, aims to support a healthy back and improve your daily movement.",
-    image: img_vitamotionreviewwebp,
+    image: fallbackSvg,
     pros: [
       "Formulated by a recognized kinesiology expert",
       "Focuses on the root causes of mobility issues",
@@ -133,7 +124,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "VitaMotion",
-          "image": img_vitamotionreviewwebp,
+          "image": fallbackSvg,
           "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort."
         },
         "reviewRating": {
@@ -152,7 +143,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "VitaMotion Review 2026: A Deep Dive Into Rick Kaselj's Mobility System",
-        "image": img_vitamotionreviewwebp,
+        "image": fallbackSvg,
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -234,7 +225,7 @@ export const reviews: any[] = [
     date: "2026-04-10",
     rating: 4.8,
     excerpt: "An in-depth review of the Quantum Wave audio program. Discover how Dr. Thomas Sterling's brainwave entrainment research might help you achieve deeper relaxation and mental clarity.",
-    image: img_quantumwavelogowebp,
+    image: fallbackSvg,
     pros: [
       "Based on brainwave entrainment principles",
       "Easy to use—just listen with headphones",
@@ -255,7 +246,7 @@ export const reviews: any[] = [
           "itemReviewed": {
             "@type": "Product",
             "name": "Quantum Wave",
-            "image": img_quantumwavelogowebp,
+            "image": fallbackSvg,
             "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus."
           },
           "reviewRating": {
@@ -274,7 +265,7 @@ export const reviews: any[] = [
           "@context": "https://schema.org",
           "@type": "Article",
           "headline": "Quantum Wave Review 2026: Exploring Brainwave Entrainment for Focus and Relaxation",
-          "image": img_quantumwavelogowebp,
+          "image": fallbackSvg,
           "author": {
             "@type": "Person",
             "name": "Picknixy"
@@ -349,7 +340,7 @@ export const reviews: any[] = [
   "date": "2026-04-08",
   "rating": 4.9,
   "excerpt": "Discover how the Water Smart Box guide can help you build your own DIY Atmospheric Water Generator. Read our comprehensive review on costs, blueprints, and real-world performance for true water independence.",
-  image: img_watersmartboxwebp,
+  image: fallbackSvg,
   "pros": [
     "Cost-effective alternative to retail AWG units",
     "Comprehensive, easy-to-follow video blueprints",
@@ -377,7 +368,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.8,
     excerpt: "Is Prostadine the ultimate solution for prostate health? Read our comprehensive 2026 review covering ingredients, side effects, and real user results before you buy.",
-    image: img_prostadinewebp,
+    image: fallbackSvg,
     pros: ["100% natural marine-based ingredients", "Easy-to-use liquid dropper formula", "Supports healthy prostate function", "Manufactured in FDA-approved facilities"],
     cons: ["Only available through the official website", "Results may vary from person to person"],
     content: `
@@ -389,7 +380,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Prostadine",
-            "image": img_prostadinewebp,
+            "image": fallbackSvg,
           "description": "A natural dietary supplement designed to support prostate health and urinary system function."
         },
         "reviewRating": {
@@ -408,7 +399,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Prostadine Review 2026: Does This Prostate Health Supplement Really Work?",
-        "image": img_prostadinewebp,
+        "image": fallbackSvg,
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -488,7 +479,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Discover the truth about Red Boost in our detailed 2026 review. We analyze its ingredients, benefits, and potential side effects to help you make an informed decision.",
-    image: img_redboostwebp,
+    image: fallbackSvg,
     pros: ["Targets the root cause of male performance issues", "Clinically backed natural ingredients", "Improves blood flow and energy levels", "180-day money-back guarantee"],
     cons: ["High demand often leads to stock shortages", "Requires consistent daily use for optimal results"],
     content: `
@@ -500,7 +491,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Red Boost",
-            "image": img_redboostwebp,
+            "image": fallbackSvg,
           "description": "A natural blood flow support supplement designed to enhance male performance and vitality."
         },
         "reviewRating": {
@@ -519,7 +510,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Red Boost Review 2026: The Ultimate Smooth Muscle Tonic for Men?",
-        "image": img_redboostwebp,
+        "image": fallbackSvg,
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -601,7 +592,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.8,
     excerpt: "Discover if Owen Coleman's Pure Reiki Mastery is the real deal. Our comprehensive review explores this 3-step system for rapid Reiki certification and healing.",
-    image: img_purereikimasterypng,
+    image: fallbackSvg,
     pros: ["Comprehensive 3-step system", "Rapid certification process", "Easy to follow for beginners", "Cost-effective compared to in-person classes"],
     cons: ["Requires dedication and practice", "Digital format may not suit everyone"],
     content: `
@@ -700,7 +691,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.6,
     excerpt: "Is the Dubai Wealth Secret the key to financial abundance? Read our in-depth review to discover how this program combines manifestation techniques with practical wealth-building strategies.",
-    image: img_dubaiwealthsecretpng,
+    image: fallbackSvg,
     pros: ["Combines mindset and practical strategies", "Easy to understand modules", "Includes valuable bonus materials", "Focuses on long-term wealth creation"],
     cons: ["Requires consistent effort and application", "Results may vary depending on individual commitment"],
     content: `
@@ -787,7 +778,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Curious about the Divine Wealth Path Reading? Our honest review explores how this personalized astrological and spiritual reading can help you uncover your true financial destiny.",
-    image: img_divinewealthpathpng,
+    image: fallbackSvg,
     pros: ["Highly personalized insights", "Combines astrology and spiritual guidance", "Helps identify karmic blocks to wealth", "Provides actionable steps for alignment"],
     cons: ["Requires an open mind to spiritual concepts", "Results depend on your willingness to take action"],
     content: `
@@ -859,7 +850,7 @@ export const reviews: any[] = [
     date: "2026-04-07",
     rating: 4.7,
     excerpt: "Find out if the Past Life Reading quiz is accurate. Explore the spiritual journey of your soul, uncover karmic blocks, and see what users are saying about their results.",
-    image: img_pastlifereadingwebp,
+    image: fallbackSvg,
     pros: ["Deeply insightful","Helps uncover karmic blocks","Easy to understand"],
     cons: ["Requires an open mind","Results may vary"],
     content: `
@@ -943,7 +934,7 @@ export const reviews: any[] = [
     date: "2026-04-14",
     rating: 4.8,
     excerpt: "Discover if Dr. Lee Baucom's Save The Marriage System can help rescue your relationship. Read our comprehensive, unbiased review covering the core principles, pros, cons, and realistic expectations.",
-    image: img_savethemarriagesystempng,
+    image: img_savethemarriage,
     pros: [
       "Focuses on paradigm shifts, not just communication",
       "Designed to work even if only one partner is trying",
@@ -964,7 +955,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Save The Marriage System",
-          "image": img_savethemarriagesystempng,
+          "image": fallbackSvg,
           "description": "A comprehensive digital guide and audio program designed by Dr. Lee Baucom to help couples rescue their failing marriages through paradigm shifts rather than traditional communication exercises."
         },
         "reviewRating": {
@@ -983,7 +974,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Save The Marriage System Review 2026: Can It Rescue Your Relationship?",
-        "image": img_savethemarriagesystempng,
+        "image": fallbackSvg,
         "author": {
           "@type": "Person",
           "name": "Picknixy"
