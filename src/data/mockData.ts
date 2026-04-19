@@ -224,7 +224,7 @@ export const reviews: any[] = [
     date: "2026-04-10",
     rating: 4.8,
     excerpt: "An in-depth review of the Quantum Wave audio program. Discover how Dr. Thomas Sterling's brainwave entrainment research might help you achieve deeper relaxation and mental clarity.",
-    image: fallbackSvg,
+    image: "https://i.im.ge/eBMxE4/Quantum_Wave.webp",
     pros: [
       "Based on brainwave entrainment principles",
       "Easy to use—just listen with headphones",
@@ -690,7 +690,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.6,
     excerpt: "Is the Dubai Wealth Secret the key to financial abundance? Read our in-depth review to discover how this program combines manifestation techniques with practical wealth-building strategies.",
-    image: fallbackSvg,
+    image: "https://i.im.ge/eBM3JC/Digital_wealth_building_course_bundle_featuring_Dubai-Wealth-Secret_The_Millionaire_Habit_Rockefeller_Money_Pyramid_and_The_Influence_Code_modules..webp",
     pros: ["Combines mindset and practical strategies", "Easy to understand modules", "Includes valuable bonus materials", "Focuses on long-term wealth creation"],
     cons: ["Requires consistent effort and application", "Results may vary depending on individual commitment"],
     content: `
@@ -777,7 +777,7 @@ export const reviews: any[] = [
     date: "2026-04-08",
     rating: 4.7,
     excerpt: "Curious about the Divine Wealth Path Reading? Our honest review explores how this personalized astrological and spiritual reading can help you uncover your true financial destiny.",
-    image: fallbackSvg,
+    image: "https://i.im.ge/eBMbdq/divine-wealth-path-reading-review.webp",
     pros: ["Highly personalized insights", "Combines astrology and spiritual guidance", "Helps identify karmic blocks to wealth", "Provides actionable steps for alignment"],
     cons: ["Requires an open mind to spiritual concepts", "Results depend on your willingness to take action"],
     content: `
