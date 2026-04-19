@@ -38,7 +38,7 @@ export function Home() {
           />
         </div>
         <div className="relative z-10 mt-16 md:mt-24 px-4 text-center text-white">
-          <h2 className="text-5xl md:text-7xl font-semibold tracking-tight mb-2 drop-shadow-lg">{featuredReview.title}</h2>
+          <h1 className="text-5xl md:text-7xl font-semibold tracking-tight mb-2 drop-shadow-lg">{featuredReview.title}</h1>
           <p className="text-xl md:text-3xl font-normal tracking-tight mb-4 max-w-2xl mx-auto drop-shadow-md">{featuredReview.excerpt}</p>
           <div className="flex justify-center gap-6 text-lg md:text-xl font-medium mt-4">
             <Link to={`/review/${featuredReview.slug}`} className="text-[#2997ff] hover:underline flex items-center">
