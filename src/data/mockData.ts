@@ -214,7 +214,7 @@ export const reviews: any[] = [
   {
     id: "quantum-wave-review",
     title: "Quantum Wave Review 2026: Exploring Brainwave Entrainment for Focus and Relaxation",
-    seoTitle: "Quantum Wave Review (2026): Brainwave Entrainment & Focus Audio",
+    seoTitle: "Quantum Wave Review: Brainwave Audio for Focus",
     seoDescription: "Read our comprehensive Quantum Wave review. Discover how Dr. Thomas Sterling's brainwave entrainment audio program can improve focus, relaxation, and mental clarity.",
     seoKeywords: "Quantum Wave review, Quantum Wave audio program, brainwave entrainment, Dr. Thomas Sterling, audio brain training, mental clarity, relaxation audio, focus improvement",
     canonicalUrl: "https://www.picknixy.com/review/quantum-wave-review",
