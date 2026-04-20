@@ -70,6 +70,11 @@ export function SEO({
         ...baseSchema,
         "itemReviewed": {
           "@type": "Product",
+          "offers": {
+            "@type": "Offer",
+            "priceCurrency": "USD",
+            "price": "0"
+          },
           "name": itemName,
           "image": absoluteImageUrl,
           "aggregateRating": {
