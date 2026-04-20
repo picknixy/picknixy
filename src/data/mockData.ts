@@ -357,7 +357,7 @@ export const reviews: any[] = [
   {
     id: "prostadine-review-2026",
     title: "Prostadine Review 2026: Does This Prostate Health Supplement Really Work?",
-    seoTitle: "Prostadine Review 2026: Prostate Health Supplement Ingredients & Results",
+    seoTitle: "Prostadine Review: Prostate Supplement Results",
     seoDescription: "An honest 2026 review of the Prostadine prostate health supplement. We analyze its marine-based ingredients, benefits, side effects, and real user results.",
     seoKeywords: "Prostadine review, prostate health supplement, Prostadine ingredients, prostate support, urinary tract health, Prostadine drops, natural prostate supplement",
     canonicalUrl: "https://www.picknixy.com/review/prostadine-review-2026",
@@ -468,7 +468,7 @@ export const reviews: any[] = [
   {
     id: "red-boost-review-2026",
     title: "Red Boost Review 2026: The Ultimate Smooth Muscle Tonic for Men?",
-    seoTitle: "Red Boost Review 2026: Smooth Muscle Tonic & Male Vitality Evaluated",
+    seoTitle: "Red Boost Review: Smooth Muscle Tonic Evaluated",
     seoDescription: "Detailed review of Red Boost, the daily smooth muscle tonic for men. Explore its natural ingredients, blood flow benefits, energy boosting properties, and potential side effects.",
     seoKeywords: "Red Boost review, smooth muscle tonic, male vitality supplement, blood flow support, Red Boost ingredients, natural stamina booster, men's stamina supplement",
     canonicalUrl: "https://www.picknixy.com/review/red-boost-review-2026",
@@ -581,7 +581,7 @@ export const reviews: any[] = [
   {
     id: "pure-reiki-mastery",
     title: "Pure Reiki Mastery Review 2026: Is Owen Coleman's System Legit?",
-    seoTitle: "Pure Reiki Mastery Review 2026: Owen Coleman's Healing System",
+    seoTitle: "Pure Reiki Mastery Review: Owen Coleman's System",
     seoDescription: "Is Owen Coleman's Pure Reiki Mastery course legit? Read our in-depth review of this home certification program, covering its 3-step healing system and manuals.",
     seoKeywords: "Pure Reiki Mastery review, Owen Coleman, Reiki certification course, learn Reiki at home, energy healing system, Reiki master training, holistic healing",
     canonicalUrl: "https://www.picknixy.com/review/pure-reiki-mastery-review",
@@ -680,7 +680,7 @@ export const reviews: any[] = [
   {
     id: "dubai-wealth-secret",
     title: "Dubai Wealth Secret Review: Unlocking the Millionaire Mindset",
-    seoTitle: "Dubai Wealth Secret Review: Unlock Wealth Manifestation & the Millionaire Mindset",
+    seoTitle: "Dubai Wealth Secret Review: Manifest Wealth",
     seoDescription: "Unlock the millionaire mindset with our Dubai Wealth Secret review. Discover what's inside this digital wealth-building course bundle and if it truly works.",
     seoKeywords: "Dubai Wealth Secret review, millionaire mindset, wealth manifestation, The Influence Code, financial abundance course, law of attraction wealth",
     canonicalUrl: "https://www.picknixy.com/review/dubai-wealth-secret-review",
@@ -767,7 +767,7 @@ export const reviews: any[] = [
   {
     id: "divine-wealth-path",
     title: "Is Divine Wealth Path Reading Legit? An Honest Review",
-    seoTitle: "Divine Wealth Path Reading Review | Is This Astrological Wealth Guide Legit?",
+    seoTitle: "Divine Wealth Path Review: Is it Legit?",
     seoDescription: "Read our honest review of the Divine Wealth Path Reading. Discover if this astrology and spiritual path analysis can help you unlock your financial destiny and abundance.",
     seoKeywords: "Divine Wealth Path Reading review, astrological wealth guide, financial destiny reading, spiritual path to abundance, wealth astrology chart",
     canonicalUrl: "https://www.picknixy.com/review/divine-wealth-path-reading-review",
@@ -839,7 +839,7 @@ export const reviews: any[] = [
   {
     id: "past-life-reading",
     title: "Past Life Reading Review: Discover Who You Were in a Previous Life",
-    seoTitle: "Past Life Reading Review: Discover Your Previous Life & Karmic Soul Blocks",
+    seoTitle: "Past Life Reading Review: Unveil Past Lives",
     seoDescription: "Is the Past Life Reading accurate? Find out if discovering who you were in a previous life can help you uncover karmic blocks and advance your spiritual journey.",
     seoKeywords: "Past Life Reading review, previous life astrology, karmic blocks, reincarnation reading, spiritual soul journey, accurate past life quiz",
     canonicalUrl: "https://www.picknixy.com/review/past-life-reading-review",
@@ -923,7 +923,7 @@ export const reviews: any[] = [
   {
     id: "save-the-marriage-system-review",
     title: "Save The Marriage System Review 2026: Can It Rescue Your Relationship?",
-    seoTitle: "Save The Marriage System Review 2026: Dr. Lee Baucom's Guide",
+    seoTitle: "Save The Marriage System Review: Does It Work?",
     seoDescription: "Can Dr. Lee Baucom's Save The Marriage System rescue a failing relationship? Read our comprehensive review of its paradigm shift approach and core principles.",
     seoKeywords: "Save The Marriage System review, Dr. Lee Baucom, save a marriage, relationship rescue guide, marriage counseling alternative, marriage paradigm shift",
     canonicalUrl: "https://www.picknixy.com/review/save-the-marriage-system-review",
