@@ -93,8 +93,8 @@ export const reviews: any[] = [
   {
     id: "vitamotion-review-2026",
     title: "VitaMotion Review 2026: A Deep Dive Into Rick Kaselj's Mobility System",
-    seoTitle: "VitaMotion Review 2026: Does Rick Kaselj's Mobility System Work?",
-    seoDescription: "An in-depth review of Rick Kaselj's VitaMotion daily mobility system. Learn how this back support and movement program works to relieve pain and improve joint health.",
+    seoTitle: "VitaMotion Review: Does Rick Kaselj's System Work?",
+    seoDescription: "Read our 2026 VitaMotion review. Discover how Rick Kaselj's daily mobility system works to relieve back pain and improve joint health naturally.",
     seoKeywords: "VitaMotion review, Rick Kaselj, mobility system, back pain relief, joint health program, VitaMotion exercises, daily mobility routine",
     canonicalUrl: "https://www.picknixy.com/review/vitamotion-review-2026",
     slug: "vitamotion-review-2026",
