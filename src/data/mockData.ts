@@ -64,7 +64,7 @@ export const reviews: any[] = [
   {
   "id": "prime-biome-review-2026",
   "title": "Prime Biome Review 2026: The Ultimate Buyer's Guide to Gut-Skin Health",
-  "seoTitle": "Prime Biome Review 2026 | Ultimate Gut-Skin Axis Probiotic Guide",
+  "seoTitle": "Prime Biome Review: Gut-Skin Probiotic Guide",
   "seoDescription": "Discover how Prime Biome's unique probiotic gummies support the gut-skin axis. Read our comprehensive 2026 review on ingredients, skin benefits, and what to expect.",
   "seoKeywords": "Prime Biome review, gut-skin axis, probiotic gummies, skin health probiotics, microbiome health, Prime Biome ingredients, Prime Biome side effects",
   "canonicalUrl": "https://www.picknixy.com/review/prime-biome-review-2026",
@@ -329,7 +329,7 @@ export const reviews: any[] = [
   {
   "id": "water-smart-box-review-diy-atmospheric-water-generator",
   "title": "Water Smart Box Review 2026: The Ultimate DIY Atmospheric Water Generator Guide",
-  "seoTitle": "Water Smart Box Review 2026 | DIY Atmospheric Water Generator",
+  "seoTitle": "Water Smart Box Review | DIY Water Generator",
   "seoDescription": "Read our Water Smart Box review. Discover how to build a DIY atmospheric water generator (AWG), save money on retail units, and achieve true water independence.",
   "seoKeywords": "Water Smart Box review, DIY atmospheric water generator, water from air, AWG blueprints, off-grid water system, survival water generator, Water Smart Box guide",
   "canonicalUrl": "https://www.picknixy.com/review/water-smart-box-review-diy-atmospheric-water-generator",
