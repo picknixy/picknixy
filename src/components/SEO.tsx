@@ -70,10 +70,38 @@ export function SEO({
         ...baseSchema,
         "itemReviewed": {
           "@type": "Product",
+          "brand": {
+            "@type": "Brand",
+            "name": siteName
+          },
+          "description": description,
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": "0"
+            "price": "0",
+            "availability": "https://schema.org/InStock",
+            "hasMerchantReturnPolicy": {
+              "@type": "MerchantReturnPolicy",
+              "applicableCountry": "US",
+              "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+            },
+            "shippingDetails": {
+              "@type": "OfferShippingDetails",
+              "shippingRate": {
+                "@type": "MonetaryAmount",
+                "value": "0",
+                "currency": "USD"
+              },
+              "shippingDestination": {
+                "@type": "DefinedRegion",
+                "addressCountry": "US"
+              },
+              "deliveryTime": {
+                "@type": "ShippingDeliveryTime",
+                "handlingTime": { "@type": "QuantitativeValue", "minValue": "0", "maxValue": "1", "unitCode": "d" },
+                "transitTime": { "@type": "QuantitativeValue", "minValue": "1", "maxValue": "3", "unitCode": "d" }
+              }
+            }
           },
           "name": itemName,
           "image": absoluteImageUrl,

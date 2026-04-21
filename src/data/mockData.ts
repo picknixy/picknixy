@@ -116,28 +116,67 @@ export const reviews: any[] = [
     ],
   content: `
       <!-- Schema Markup -->
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "Product",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "0"},
-          "name": "VitaMotion",
-          "image": "https://i.im.ge/e4Ba68/VitaMotion_Review_2026.webp",
-          "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort."
+      <script type="application/ld+json">\n      {
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "0",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
         },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4.8",
-          "bestRating": "5"
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
         },
-        "author": {
-          "@type": "Person",
-          "name": "Picknixy"
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "0",
+            "maxValue": "1",
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "1",
+            "maxValue": "3",
+            "unitCode": "d"
+          }
         }
       }
-      </script>
+    },
+    "name": "VitaMotion",
+    "image": "https://i.im.ge/e4Ba68/VitaMotion_Review_2026.webp",
+    "description": "A daily mobility and back support system formulated by exercise science expert Rick Kaselj to help improve movement and comfort.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Picknixy Picks"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Picknixy"
+  }
+}\n      </script>
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -239,28 +278,67 @@ export const reviews: any[] = [
     ],
     content: `
         <!-- Schema Markup -->
-        <script type="application/ld+json">
-        {
-          "@context": "https://schema.org/",
-          "@type": "Review",
-          "itemReviewed": {
-          "@type": "Product",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "0"},
-            "name": "Quantum Wave",
-            "image": "https://i.im.ge/eBMxE4/Quantum_Wave.webp",
-            "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus."
+        <script type="application/ld+json">\n      {
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "0",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
+        },
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
+        },
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "0",
+            "maxValue": "1",
+            "unitCode": "d"
           },
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "4.8",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Picknixy"
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "1",
+            "maxValue": "3",
+            "unitCode": "d"
           }
         }
-        </script>
+      }
+    },
+    "name": "Quantum Wave",
+    "image": "https://i.im.ge/eBMxE4/Quantum_Wave.webp",
+    "description": "A brain training audio program based on brainwave entrainment research designed to promote relaxation and focus.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Picknixy Picks"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Picknixy"
+  }
+}\n      </script>
         <script type="application/ld+json">
         {
           "@context": "https://schema.org",
@@ -374,28 +452,67 @@ export const reviews: any[] = [
     cons: ["Only available through the official website", "Results may vary from person to person"],
     content: `
       <!-- Schema Markup -->
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "Product",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "0"},
-          "name": "Prostadine",
-            "image": "https://i.im.ge/e4BL0Y/Prostadine_Review_showing_prostate_support_supplement_bottle_with_natural_ingredients_and_60-day_money-back_guarantee.webp",
-          "description": "A natural dietary supplement designed to support prostate health and urinary system function."
+      <script type="application/ld+json">\n      {
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "0",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
         },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4.8",
-          "bestRating": "5"
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
         },
-        "author": {
-          "@type": "Person",
-          "name": "Picknixy"
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "0",
+            "maxValue": "1",
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "1",
+            "maxValue": "3",
+            "unitCode": "d"
+          }
         }
       }
-      </script>
+    },
+    "name": "Prostadine",
+    "image": "https://i.im.ge/e4BL0Y/Prostadine_Review_showing_prostate_support_supplement_bottle_with_natural_ingredients_and_60-day_money-back_guarantee.webp",
+    "description": "A natural dietary supplement designed to support prostate health and urinary system function.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Picknixy Picks"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Picknixy"
+  }
+}\n      </script>
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -486,28 +603,67 @@ export const reviews: any[] = [
     cons: ["High demand often leads to stock shortages", "Requires consistent daily use for optimal results"],
     content: `
       <!-- Schema Markup -->
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "Product",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "0"},
-          "name": "Red Boost",
-            "image": "https://i.im.ge/e4BUgD/Red_Boost_Review_image_showing_an_older_couple_relaxing_in_bed_alongside_the_Red_Boost_blood_flow_support_supplement_highlighting_intimacy_vitality_and_natural_performance_support.webp",
-          "description": "A natural blood flow support supplement designed to enhance male performance and vitality."
+      <script type="application/ld+json">\n      {
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "0",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
         },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4.7",
-          "bestRating": "5"
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
         },
-        "author": {
-          "@type": "Person",
-          "name": "Picknixy"
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "0",
+            "maxValue": "1",
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "1",
+            "maxValue": "3",
+            "unitCode": "d"
+          }
         }
       }
-      </script>
+    },
+    "name": "Red Boost",
+    "image": "https://i.im.ge/e4BUgD/Red_Boost_Review_image_showing_an_older_couple_relaxing_in_bed_alongside_the_Red_Boost_blood_flow_support_supplement_highlighting_intimacy_vitality_and_natural_performance_support.webp",
+    "description": "A natural blood flow support supplement designed to enhance male performance and vitality.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Picknixy Picks"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.7",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Picknixy"
+  }
+}\n      </script>
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
@@ -951,28 +1107,67 @@ export const reviews: any[] = [
     ],
     content: `
       <!-- Schema Markup -->
-      <script type="application/ld+json">
-      {
-        "@context": "https://schema.org/",
-        "@type": "Review",
-        "itemReviewed": {
-          "@type": "Product",
-          "offers": {"@type": "Offer", "priceCurrency": "USD", "price": "0"},
-          "name": "Save The Marriage System",
-          "image": "https://i.im.ge/e4B7Vh/Save_The_Marriage_System_Review_Unhappy_couple_on_couch_dealing_with_marriage_problems_stress_and_communication_issues_.png",
-          "description": "A comprehensive digital guide and audio program designed by Dr. Lee Baucom to help couples rescue their failing marriages through paradigm shifts rather than traditional communication exercises."
+      <script type="application/ld+json">\n      {
+  "@context": "https://schema.org/",
+  "@type": "Review",
+  "itemReviewed": {
+    "@type": "Product",
+    "offers": {
+      "@type": "Offer",
+      "priceCurrency": "USD",
+      "price": "0",
+      "availability": "https://schema.org/InStock",
+      "hasMerchantReturnPolicy": {
+        "@type": "MerchantReturnPolicy",
+        "applicableCountry": "US",
+        "returnPolicyCategory": "https://schema.org/MerchantReturnNotPermitted"
+      },
+      "shippingDetails": {
+        "@type": "OfferShippingDetails",
+        "shippingRate": {
+          "@type": "MonetaryAmount",
+          "value": "0",
+          "currency": "USD"
         },
-        "reviewRating": {
-          "@type": "Rating",
-          "ratingValue": "4.8",
-          "bestRating": "5"
+        "shippingDestination": {
+          "@type": "DefinedRegion",
+          "addressCountry": "US"
         },
-        "author": {
-          "@type": "Person",
-          "name": "Picknixy"
+        "deliveryTime": {
+          "@type": "ShippingDeliveryTime",
+          "handlingTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "0",
+            "maxValue": "1",
+            "unitCode": "d"
+          },
+          "transitTime": {
+            "@type": "QuantitativeValue",
+            "minValue": "1",
+            "maxValue": "3",
+            "unitCode": "d"
+          }
         }
       }
-      </script>
+    },
+    "name": "Save The Marriage System",
+    "image": "https://i.im.ge/e4B7Vh/Save_The_Marriage_System_Review_Unhappy_couple_on_couch_dealing_with_marriage_problems_stress_and_communication_issues_.png",
+    "description": "A comprehensive digital guide and audio program designed by Dr. Lee Baucom to help couples rescue their failing marriages through paradigm shifts rather than traditional communication exercises.",
+    "brand": {
+      "@type": "Brand",
+      "name": "Picknixy Picks"
+    }
+  },
+  "reviewRating": {
+    "@type": "Rating",
+    "ratingValue": "4.8",
+    "bestRating": "5"
+  },
+  "author": {
+    "@type": "Person",
+    "name": "Picknixy"
+  }
+}\n      </script>
       <script type="application/ld+json">
       {
         "@context": "https://schema.org",
