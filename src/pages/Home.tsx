@@ -44,9 +44,7 @@ export function Home() {
             <Link to={`/review/${featuredReview.slug}`} className="text-[#2997ff] hover:underline flex items-center">
               Read review <span className="ml-1 text-sm">›</span>
             </Link>
-            <a href={featuredReview.affiliateLink} className="text-[#2997ff] hover:underline flex items-center">
-              Check price <span className="ml-1 text-sm">›</span>
-            </a>
+            
           </div>
         </div>
       </section>
@@ -73,9 +71,7 @@ export function Home() {
             <Link to={`/review/${secondReview.slug}`} className="text-[#2997ff] hover:underline flex items-center">
               Read review <span className="ml-1 text-sm">›</span>
             </Link>
-            <a href={secondReview.affiliateLink} className="text-[#2997ff] hover:underline flex items-center">
-              Check price <span className="ml-1 text-sm">›</span>
-            </a>
+            
           </div>
         </div>
       </section>
