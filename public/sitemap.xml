@@ -1,188 +1,172 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://picknixy.com/</loc>
+    <loc>https://www.picknixy.com/</loc>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/about</loc>
+    <loc>https://www.picknixy.com/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/contact</loc>
+    <loc>https://www.picknixy.com/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/blog</loc>
+    <loc>https://www.picknixy.com/blog</loc>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/privacy-policy</loc>
+    <loc>https://www.picknixy.com/privacy-policy</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/terms</loc>
+    <loc>https://www.picknixy.com/terms</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/disclaimer</loc>
+    <loc>https://www.picknixy.com/disclaimer</loc>
     <changefreq>yearly</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/health-fitness</loc>
+    <loc>https://www.picknixy.com/search</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://www.picknixy.com/category/health-fitness</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/diets-weight-loss</loc>
+    <loc>https://www.picknixy.com/category/diets-weight-loss</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/dental-health</loc>
+    <loc>https://www.picknixy.com/category/dental-health</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/exercise-fitness</loc>
+    <loc>https://www.picknixy.com/category/exercise-fitness</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/mens-health</loc>
+    <loc>https://www.picknixy.com/category/mens-health</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/remedies</loc>
+    <loc>https://www.picknixy.com/category/remedies</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/womens-health</loc>
+    <loc>https://www.picknixy.com/category/womens-health</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/beauty</loc>
+    <loc>https://www.picknixy.com/category/beauty</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/mental-health</loc>
+    <loc>https://www.picknixy.com/category/mental-health</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/self-help</loc>
+    <loc>https://www.picknixy.com/category/self-help</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/survival</loc>
+    <loc>https://www.picknixy.com/category/survival</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/motivational-transformational</loc>
+    <loc>https://www.picknixy.com/category/motivational-transformational</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/spiritual</loc>
+    <loc>https://www.picknixy.com/category/spiritual</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/astrology</loc>
+    <loc>https://www.picknixy.com/category/astrology</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/psychics</loc>
+    <loc>https://www.picknixy.com/category/psychics</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/tarot</loc>
+    <loc>https://www.picknixy.com/category/tarot</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/relationships-dating</loc>
+    <loc>https://www.picknixy.com/category/relationships-dating</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/marriage-relationships</loc>
+    <loc>https://www.picknixy.com/category/mens-dating</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/category/female-dating-guides</loc>
+    <loc>https://www.picknixy.com/category/womens-dating</loc>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/review/vitamotion-review-2026</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.picknixy.com/category/finance-business</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.picknixy.com/category/online-business</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://www.picknixy.com/review/prime-biome-review-2026</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/review/quantum-wave-review</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.picknixy.com/review/water-smart-box-review-diy-atmospheric-water-generator</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/review/prostadine-review-2026</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.picknixy.com/review/his-secret-obsession-review</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://picknixy.com/review/red-boost-review-2026</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/pure-reiki-mastery-review</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/dubai-wealth-secret-review</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/divine-wealth-path-reading-review</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/past-life-reading-review</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/prime-biome-review-2026</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/water-smart-box-review-diy-atmospheric-water-generator</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.9</priority>
-  </url>
-  <url>
-    <loc>https://picknixy.com/review/save-the-marriage-system-review</loc>
-    <changefreq>monthly</changefreq>
+    <loc>https://www.picknixy.com/review/the-brain-song-review</loc>
+    <lastmod>2026-04-22</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
 </urlset>
