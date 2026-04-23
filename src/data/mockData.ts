@@ -1647,6 +1647,8 @@ export const reviews: any[] = [
     "id": "the-brain-song-review",
     "slug": "the-brain-song-review",
     "title": "The Brain Song Review 2026: Enhance Mental Clarity With Sound Frequency",
+    "seoTitle": "The Brain Song Audio Review",
+    "seoDescription": "Read our unbiased review of The Brain Song audio. Discover how sound frequency therapy supports focus, stress relief, and overall mental wellness.",
     "excerpt": "A comprehensive buyer's guide to The Brain Song audio program. Discover how sound frequency therapy and brainwave entrainment can support focus, stress relief, and overall mental health.",
     "category": "mental-health",
     "image": "https://forbrainsong.com/std/images/prd-img.png",
