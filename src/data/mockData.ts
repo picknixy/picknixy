@@ -224,7 +224,7 @@ export const reviews: any[] = [
     "id": "chronic-kidney-disease-solution-review",
     "title": "The Chronic Kidney Disease Solution Review 2026: A Comprehensive Buyer's Guide",
     "seoTitle": "The Chronic Kidney Disease Solution Review: Does It Work?",
-    "seoDescription": "Read our comprehensive review of The Chronic Kidney Disease Solution by Shelly Manning. Discover if this natural approach to kidney health, diet, and lifestyle is right for you.",
+    "seoDescription": "Read our review of The Chronic Kidney Disease Solution. Discover if this natural approach to kidney health is right for you.",
     "seoKeywords": "The Chronic Kidney Disease Solution review, Shelly Manning, Blue Heron Health News kidney, natural kidney health, CKD diet plan, chronic kidney disease natural remedies",
     "canonicalUrl": "https://www.picknixy.com/review/chronic-kidney-disease-solution-review",
     "slug": "chronic-kidney-disease-solution-review",
