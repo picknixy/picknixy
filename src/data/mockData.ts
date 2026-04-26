@@ -66,8 +66,8 @@ export const reviews: any[] = [
   {
     "id": "smoothie-diet-review",
     "title": "The Smoothie Diet: 21 Day Rapid Weight Loss Program Review 2026",
-    "seoTitle": "The Smoothie Diet: 21 Day Rapid Weight Loss Program (Honest Review)",
-    "seoDescription": "Discover the truth about The Smoothie Diet: 21 Day Rapid Weight Loss Program in our comprehensive 2026 buyer's guide. Can delicious smoothies really help you shed stubborn fat?",
+    "seoTitle": "Smoothie Diet: 21 Day Rapid Weight Loss Review",
+    "seoDescription": "Read our comprehensive 2026 Smoothie Diet review. Discover if this 21 Day Weight Loss Program and delicious smoothies can really help you shed stubborn fat.",
     "seoKeywords": "The Smoothie Diet: 21 Day Rapid Weight Loss Program, smoothie diet review, Drew Sgoutas smoothie diet, 21 day smoothie diet weight loss, healthiest smoothie recipes for weight loss",
     "canonicalUrl": "https://www.picknixy.com/review/smoothie-diet-review",
     "slug": "smoothie-diet-review",
