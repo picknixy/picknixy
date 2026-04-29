@@ -577,7 +577,7 @@ export const reviews: any[] = [
     "date": "2026-04-26",
     "rating": 4.8,
     "excerpt": "Struggling to lose stubborn fat despite trying every fad diet? Read our comprehensive buyer's guide on The Smoothie Diet: 21 Day Rapid Weight Loss Program to discover if this delicious, sustainable approach is right for you.",
-    "image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDbmxtjrTMfm0EWJR48226PCa-lzGR1WAPx1UlWu4r2bb73yMCfuuNhl9gfbXbdbQjqy10KVJtkeD24-ZP7QUSLv8mCMCUbxjQB_3LoKkaFk9Lnmn8H_8dpErX2EJayThkg2LhjFcPJ_-KcfEUXhNusvIV-BEe9vh3qgeQSSg4j8E_JKRELQIvJ_OY0KBw137_pM-iwDHfTpHLThTBPG9coWf9HHKHqQgZk=w1280",
+    "image": "https://i.im.ge/QMMfMKY/The_Smoothie_Diet_Review.png",
     "pros": [
       "Delicious, nutrient-dense recipes that reduce cravings",
       "Created by Drew Sgoutas, a certified health coach",
@@ -613,7 +613,7 @@ export const reviews: any[] = [
             "url": "https://5a4798nmy4o1lp9fwiqqw1nbyi.hop.clickbank.net"
           },
           "name": "The Smoothie Diet: 21 Day Rapid Weight Loss Program",
-          "image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDbmxtjrTMfm0EWJR48226PCa-lzGR1WAPx1UlWu4r2bb73yMCfuuNhl9gfbXbdbQjqy10KVJtkeD24-ZP7QUSLv8mCMCUbxjQB_3LoKkaFk9Lnmn8H_8dpErX2EJayThkg2LhjFcPJ_-KcfEUXhNusvIV-BEe9vh3qgeQSSg4j8E_JKRELQIvJ_OY0KBw137_pM-iwDHfTpHLThTBPG9coWf9HHKHqQgZk=w1280",
+          "image": "https://i.im.ge/QMMfMKY/The_Smoothie_Diet_Review.png",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.8",
@@ -636,7 +636,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "The Smoothie Diet: 21 Day Rapid Weight Loss Program (Honest Review)",
-        "image": "https://lh3.googleusercontent.com/sitesv/AA5AbUDbmxtjrTMfm0EWJR48226PCa-lzGR1WAPx1UlWu4r2bb73yMCfuuNhl9gfbXbdbQjqy10KVJtkeD24-ZP7QUSLv8mCMCUbxjQB_3LoKkaFk9Lnmn8H_8dpErX2EJayThkg2LhjFcPJ_-KcfEUXhNusvIV-BEe9vh3qgeQSSg4j8E_JKRELQIvJ_OY0KBw137_pM-iwDHfTpHLThTBPG9coWf9HHKHqQgZk=w1280",
+        "image": "https://i.im.ge/QMMfMKY/The_Smoothie_Diet_Review.png",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
