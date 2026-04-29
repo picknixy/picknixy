@@ -66,7 +66,7 @@ export const reviews: any[] = [
   {
     "id": "28-day-perimenopause-miracle-review",
     "title": "The 28-Day Perimenopause Miracle Review 2026: A Better Transition?",
-    "seoTitle": "The 28-Day Perimenopause Miracle Review: A Better Transition?",
+    "seoTitle": "28-Day Perimenopause Miracle Review",
     "seoDescription": "Discover our completely honest review of The 28-Day Perimenopause Miracle. We break down the hormone-balancing strategies, diet tips, and results.",
     "seoKeywords": "The 28-Day Perimenopause Miracle review, perimenopause diet, hormone balance, perimenopause weight loss, relieve hot flashes, female health plan",
     "canonicalUrl": "https://www.picknixy.com/review/28-day-perimenopause-miracle-review",
