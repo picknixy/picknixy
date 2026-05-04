@@ -26,7 +26,7 @@ export function SearchPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
             {searchResults.map(item => {
               const isReview = 'rating' in item;
-              const link = isReview ? `/review/${item.slug}` : `/blog/${item.slug}`;
+              const link = isReview ? `/${item.slug}` : `/blog/${item.slug}`;
               return (
                 <div key={item.id} className="flex flex-col border border-[#d2d2d7] rounded-2xl overflow-hidden hover:shadow-lg transition-shadow">
                   <img  
