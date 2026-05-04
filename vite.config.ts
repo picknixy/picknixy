@@ -1,16 +1,14 @@
 import tailwindcss from '@tailwindcss/vite';
 import react from '@vitejs/plugin-react';
 import path from 'path';
+import fs from 'fs';
 import {defineConfig, loadEnv} from 'vite';
-
 
 const sitemapPlugin = () => {
   return {
     name: 'generate-sitemap',
     buildStart() {
       try {
-        const fs = require('fs');
-        const path = require('path');
         const srcPath = path.resolve(__dirname, 'src/data/mockData.ts');
         if (fs.existsSync(srcPath)) {
           const content = fs.readFileSync(srcPath, 'utf8');
@@ -49,7 +47,7 @@ const sitemapPlugin = () => {
           });
           const today = new Date().toISOString().split('T')[0];
           reviews.forEach(slug => {
-              xml += '  <url>\n    <loc>' + BASE_URL + '/review/' + slug + '</loc>\n    <lastmod>' + today + '</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n';
+              xml += '  <url>\n    <loc>' + BASE_URL + '/' + slug + '</loc>\n    <lastmod>' + today + '</lastmod>\n    <changefreq>weekly</changefreq>\n    <priority>0.9</priority>\n  </url>\n';
           });
           xml += '</urlset>';
           fs.writeFileSync(path.resolve(__dirname, 'public/sitemap.xml'), xml);
