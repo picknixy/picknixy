@@ -9,6 +9,7 @@ export function About() {
       <SEO 
         title="About Us" 
         description="Learn about Picknixy, our mission, and our team of expert reviewers."
+        canonicalUrl="https://www.picknixy.com/about"
       />
       
       <div className="bg-gray-900 text-white py-16">

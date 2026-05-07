@@ -3,7 +3,7 @@ import { SEO } from '../components/SEO';
 export function Disclaimer() {
   return (
     <>
-      <SEO title="Affiliate Disclaimer" description="Affiliate Disclaimer for Picknixy." />
+      <SEO title="Affiliate Disclaimer" description="Affiliate Disclaimer for Picknixy." canonicalUrl="https://www.picknixy.com/disclaimer" />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-8">Affiliate Disclaimer</h1>
         <div className="prose prose-blue max-w-none">

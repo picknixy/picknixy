@@ -72,6 +72,7 @@ export function Category() {
       <SEO
         title={`${category.name} Reviews & Guides`}
         description={category.description}
+        canonicalUrl={`https://www.picknixy.com/category/${category.slug}`}
       />
 
       <div className="bg-[#f5f5f7] text-[#1d1d1f] py-16 border-b border-[#d2d2d7]">

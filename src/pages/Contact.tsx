@@ -7,6 +7,7 @@ export function Contact() {
       <SEO 
         title="Contact Us" 
         description="Get in touch with the Picknixy team for inquiries, feedback, or partnership opportunities."
+        canonicalUrl="https://www.picknixy.com/contact"
       />
       
       <div className="bg-gray-900 text-white py-16">

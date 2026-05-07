@@ -16,7 +16,7 @@ export function Home() {
         title="Expert Product Reviews & Buying Guides"
         description="Discover the best products across health, software, self-help, and more. Read our expert, unbiased reviews, buying guides, and comparisons before you buy."
         keywords="product reviews, buying guides, expert reviews, software reviews, health product reviews, self-help guides, unbiased reviews, Picknixy"
-        canonicalUrl="https://picknixy.com"
+        canonicalUrl="https://www.picknixy.com/"
         type="website"
         image={featuredReview.image}
       />

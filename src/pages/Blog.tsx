@@ -24,6 +24,7 @@ export function Blog() {
       <SEO 
         title="Blog & Buying Guides" 
         description="Read our latest articles, buying guides, and 'best of' lists to help you make informed decisions."
+        canonicalUrl="https://www.picknixy.com/blog"
       />
       
       <div className="bg-gray-900 text-white py-16">

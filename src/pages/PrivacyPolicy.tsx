@@ -3,7 +3,7 @@ import { SEO } from '../components/SEO';
 export function PrivacyPolicy() {
   return (
     <>
-      <SEO title="Privacy Policy" description="Privacy Policy for Picknixy." />
+      <SEO title="Privacy Policy" description="Privacy Policy for Picknixy." canonicalUrl="https://www.picknixy.com/privacy-policy" />
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
         <h1 className="text-4xl font-extrabold text-gray-900 mb-8">Privacy Policy</h1>
         <div className="prose prose-blue max-w-none">
