@@ -21,6 +21,23 @@ export function Home() {
         image={featuredReview.image}
       />
 
+      {/* Introduction / SEO Content */}
+      <section className="bg-gradient-to-b from-[#ffffff] to-[#f5f5f7] border-b border-[#d2d2d7] py-16 px-4 md:px-8">
+        <div className="max-w-4xl mx-auto text-center">
+          <h2 className="text-3xl md:text-5xl font-semibold tracking-tight text-[#1d1d1f] mb-6">
+            Picknixy: Expert Reviews & Buying Guides
+          </h2>
+          <div className="text-lg md:text-xl text-[#86868b] space-y-6 leading-relaxed max-w-3xl mx-auto font-medium">
+            <p>
+              At Picknixy, we sift through the hype to deliver honest, deeply researched reviews you can trust. Our expert team evaluates products across health, beauty, mental wellness, and survival niches—analyzing scientific backing, long-term value, and real-world results.
+            </p>
+            <p>
+              We believe every buyer deserves total transparency. Start exploring our comprehensive guides today to discover the right solutions tailored perfectly to your unique lifestyle, and make confident, informed purchasing decisions.
+            </p>
+          </div>
+        </div>
+      </section>
+
       {/* Hero 1 (Dark) */}
       <section className="relative h-[75vh] md:h-[85vh] w-full bg-black overflow-hidden flex flex-col items-center">
         <div className="absolute inset-0">
