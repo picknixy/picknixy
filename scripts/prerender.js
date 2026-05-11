@@ -40,7 +40,7 @@ function extractInfoFromMockData(slug) {
   // Look for our reviews
   const reviewSlugIndex = mockDataContent.indexOf('slug: "' + slug + '"');
   if (reviewSlugIndex !== -1) {
-    const block = mockDataContent.substring(reviewSlugIndex - 100, reviewSlugIndex + 800);
+    const block = mockDataContent.substring(Math.max(0, reviewSlugIndex - 800), reviewSlugIndex + 800);
     const titleMatch = block.match(/seoTitle:\s*"([^"]+)"/);
     const h1Match = block.match(/title:\s*"([^"]+)"/);
     const descMatch = block.match(/seoDescription:\s*"([^"]+)"/);

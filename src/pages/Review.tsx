@@ -125,6 +125,7 @@ export function Review() {
         <UserRating expertRating={review.rating} />
 
         {/* Quick Summary Box */}
+        {(review.pros?.length > 0 || review.cons?.length > 0) && (
         <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-12 shadow-sm">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">Quick Summary</h2>
           <div className="grid md:grid-cols-2 gap-8">
@@ -133,7 +134,7 @@ export function Review() {
                 <Check className="w-5 h-5 mr-2" /> Pros
               </h3>
               <ul className="space-y-2">
-                {review.pros.map((pro, idx) => (
+                {(review.pros || []).map((pro, idx) => (
                   <li key={idx} className="flex items-start">
                     <span className="text-green-500 mr-2">•</span>
                     <span className="text-gray-700">{pro}</span>
@@ -146,7 +147,7 @@ export function Review() {
                 <X className="w-5 h-5 mr-2" /> Cons
               </h3>
               <ul className="space-y-2">
-                {review.cons.map((con, idx) => (
+                {(review.cons || []).map((con, idx) => (
                   <li key={idx} className="flex items-start">
                     <span className="text-red-500 mr-2">•</span>
                     <span className="text-gray-700">{con}</span>
@@ -157,6 +158,7 @@ export function Review() {
           </div>
           
         </div>
+        )}
 
         <TableOfContents />
 
