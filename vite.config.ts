@@ -13,7 +13,7 @@ const sitemapPlugin = () => {
         if (fs.existsSync(srcPath)) {
           const content = fs.readFileSync(srcPath, 'utf8');
           const reviews = [];
-          const slugRegex = /"slug":\s*"([^"]+)"/g;
+          const slugRegex = /slug:\s*"([^"]+)"/g;
           let match;
           while ((match = slugRegex.exec(content)) !== null) {
               if (match[1] && !reviews.includes(match[1])) {
