@@ -94,8 +94,6 @@ export function BlogPost() {
           </div>
         </header>
 
-        <ShareButtons url={window.location.href} title={article.title} />
-
         <img  
           src={article.image || fallbackSvg} 
           alt={article.title} 
@@ -121,6 +119,8 @@ export function BlogPost() {
             The information provided in this article is for educational and informational purposes only and is not intended as medical advice, diagnosis, or treatment. Always consult with a qualified healthcare professional before starting any new diet, exercise program, or dietary supplement. Individual results may vary.
           </p>
         </div>
+
+        <ShareButtons url={window.location.href} title={article.title} />
 
         <Comments />
             </article>

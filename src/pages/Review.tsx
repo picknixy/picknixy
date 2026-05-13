@@ -103,7 +103,6 @@ export function Review() {
           </div>
         </header>
 
-        <ShareButtons url={window.location.href} title={review.title} />
 
         {/* Affiliate Disclosure */}
         <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 mb-8 text-sm text-blue-800">
@@ -189,6 +188,8 @@ export function Review() {
             View on Official Site <ArrowRight className="w-4 h-4 ml-2" />
           </a>
         </div>
+
+        <ShareButtons url={window.location.href} title={review.title} />
 
         <Comments />
             </article>
