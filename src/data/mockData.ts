@@ -90,8 +90,8 @@ export const reviews: any[] = [
   {
     id: "ketowater-review",
     title: "KetoWater Review 2026: The Ultimate Drinkable Keto Formula?",
-    seoTitle: "KetoWater Review: Does This Green Drinkable Keto Formula Work?",
-    seoDescription: "Read our comprehensive KetoWater review to discover if this drinkable keto formula actually accelerates fat burning and energy without the pills. Ingredients & results inside.",
+    seoTitle: "KetoWater Review: Does This Drinkable Keto Work?",
+    seoDescription: "Read our KetoWater review. Discover if this drinkable keto formula accelerates fat burning and boosts energy without pills. Ingredients and results inside.",
     image: "https://ketowater.trustednutraproduct.com/affiliates/images/trusted-reviewers.webp",
     canonicalUrl: "https://www.picknixy.com/ketowater-review",
     affiliateLink: "https://9e1849qq1zy1o30chlslommmat.hop.clickbank.net",

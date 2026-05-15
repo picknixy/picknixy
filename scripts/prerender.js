@@ -108,14 +108,14 @@ urls.forEach(urlObj => {
 
   // Replace Title
   pageHtml = pageHtml.replace(
-    /<title>.*?<\/title>/,
-    '<title>' + (slug ? searchTitle + ' | Picknixy' : 'Picknixy - ' + searchTitle) + '</title>'
+    /<title data-rh="true">.*?<\/title>/,
+    '<title data-rh="true">' + (slug ? searchTitle + ' | Picknixy' : 'Picknixy - ' + searchTitle) + '</title>'
   );
 
   // Replace Description
   pageHtml = pageHtml.replace(
-    /<meta name="description" content=".*?"\s*\/>/,
-    '<meta name="description" content="' + searchDesc + '" />\n    <link rel="canonical" href="' + urlObj + '" />'
+    /<meta data-rh="true" name="description" content=".*?"\s*\/>/,
+    '<meta data-rh="true" name="description" content="' + searchDesc + '" />\n    <link data-rh="true" rel="canonical" href="' + urlObj + '" />'
   );
 
   // Inject H1 into <div id="root">
