@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, Navigate, useParams } from "react-router-dom";
 import { Layout } from "./components/Layout";
 import { Home } from "./pages/Home";
 import { Category } from "./pages/Category";
@@ -17,6 +17,11 @@ import { Terms } from "./pages/Terms";
 import { Disclaimer } from "./pages/Disclaimer";
 import { SearchPage } from "./pages/Search";
 import { NotFound } from "./pages/NotFound";
+
+function ReviewRedirect() {
+  const { slug } = useParams<{ slug: string }>();
+  return <Navigate to={`/${slug}`} replace />;
+}
 
 export default function App() {
   return (
@@ -32,6 +37,7 @@ export default function App() {
         <Route path="/terms" element={<Terms />} />
         <Route path="/disclaimer" element={<Disclaimer />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="/review/:slug" element={<ReviewRedirect />} />
         <Route path="/:slug" element={<Review />} />
         <Route path="*" element={<NotFound />} />
       </Routes>

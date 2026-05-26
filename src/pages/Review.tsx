@@ -164,7 +164,7 @@ export function Review() {
         {/* Content */}
         <div 
           className="prose prose-lg max-w-[65ch] mx-auto prose-p:leading-relaxed prose-headings:font-semibold prose-headings:tracking-tight prose-h2:text-3xl prose-h2:mt-12 prose-h2:mb-6 prose-h3:text-2xl prose-h3:mt-8 prose-h3:mb-4 prose-a:text-[#2997ff] hover:prose-a:text-[#0071e3] mb-12 text-[#1d1d1f]"
-          dangerouslySetInnerHTML={{ __html: review.content }}
+          dangerouslySetInnerHTML={{ __html: review.content.replace(/<table/gi, '<div class="overflow-x-auto"><table').replace(/<\/table>/gi, '</table></div>') }}
         />
 
         {/* Medical / General Disclaimer for AdSense Compliance */}

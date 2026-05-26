@@ -3717,6 +3717,8 @@ export const reviews: any[] = [
   {
     id: "the-brain-song-review",
     slug: "the-brain-song-review",
+    canonicalUrl: "https://www.picknixy.com/the-brain-song-review",
+
     title:
       "The Brain Song Review 2026: Enhance Mental Clarity With Sound Frequency",
     seoTitle: "The Brain Song Audio Review",
