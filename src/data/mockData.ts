@@ -104,7 +104,7 @@ export const reviews: any[] = [
     excerpt:
       "Struggling with focus or brain fog? Read our in-depth Phytomem One review to discover if its Stranglehold Defense Matrix effectively improves mental clarity.",
     image:
-      "/Phytomem-One-review.png",
+      "https://i.im.ge/QMjkayX/getphytomemone_review.png",
     affiliateLink: "https://734a6dio2301l1bkvw0gx8po3t.hop.clickbank.net",
     pros: [
       "Targeted formula with the Stranglehold Defense Matrix",
@@ -127,7 +127,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Phytomem One",
-          "image": "/Phytomem-One-review.png",
+          "image": "https://i.im.ge/QMjkayX/getphytomemone_review.png",
           "description": "A precision brain support supplement designed to combat mental fog and improve cognitive function.",
           "offers": {
             "@type": "Offer",
@@ -158,7 +158,7 @@ export const reviews: any[] = [
         "@type": "Article",
         "headline": "Phytomem One Review 2026: Does This Precision Brain Support Work?",
         "description": "Read our comprehensive Phytomem One review for 2026. Discover how this mental health supplement uses a Stranglehold Defense Matrix to combat brain fog.",
-        "image": "/Phytomem-One-review.png",
+        "image": "https://i.im.ge/QMjkayX/getphytomemone_review.png",
         "author": {
           "@type": "Organization",
           "name": "Picknixy"
@@ -184,7 +184,7 @@ export const reviews: any[] = [
           If you've been searching for a reliable way to clear the fog, you may have encountered a new supplement making waves in the cognitive health space. In this comprehensive <strong>Phytomem One review</strong>, we meticulously break down the science, ingredients, and real-world efficacy of this precision brain support formula for 2026.
         </p>
 
-        <img src="/Phytomem-One-review.png" alt="Phytomem One review" class="w-full rounded-xl shadow-lg my-8 object-cover" />
+        <img src="https://i.im.ge/QMjkayX/getphytomemone_review.png" alt="Phytomem One review" class="w-full rounded-xl shadow-lg my-8 object-cover" />
 
         <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">What Is Phytomem One?</h2>
         <p class="mb-4">
