@@ -24,9 +24,10 @@ export function Footer() {
           <div>
             <h3 className="font-semibold text-[#1d1d1f] mb-3">Categories</h3>
             <ul className="space-y-2">
-              <li><Link to="/category/health-fitness" className="hover:text-[#1d1d1f] transition-colors">Health & Fitness</Link></li>
-              <li><Link to="/category/self-help" className="hover:text-[#1d1d1f] transition-colors">Self-Help</Link></li>
-              <li><Link to="/category/spiritual" className="hover:text-[#1d1d1f] transition-colors">Spiritual</Link></li>
+              <li><Link to="/category/health" className="hover:text-[#1d1d1f] transition-colors">Health Reviews</Link></li>
+              <li><Link to="/category/relationships" className="hover:text-[#1d1d1f] transition-colors">Relationship Reviews</Link></li>
+              <li><Link to="/category/self-help" className="hover:text-[#1d1d1f] transition-colors">Self-Help Reviews</Link></li>
+              <li><Link to="/category/spiritual" className="hover:text-[#1d1d1f] transition-colors">Spiritual Reviews</Link></li>
             </ul>
           </div>
 
@@ -35,7 +36,7 @@ export function Footer() {
             <ul className="space-y-2">
               <li><Link to="/about" className="hover:text-[#1d1d1f] transition-colors">About Us</Link></li>
               <li><Link to="/contact" className="hover:text-[#1d1d1f] transition-colors">Contact</Link></li>
-              <li><Link to="/blog" className="hover:text-[#1d1d1f] transition-colors">Blog</Link></li>
+              <li><Link to="/comparisons" className="hover:text-[#1d1d1f] transition-colors">Comparisons</Link></li>
             </ul>
           </div>
 

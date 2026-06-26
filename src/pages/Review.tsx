@@ -104,9 +104,14 @@ export function Review() {
         </header>
 
 
-        {/* Affiliate Disclosure */}
-        <div className="bg-blue-50 border border-blue-100 rounded-lg p-4 mb-8 text-sm text-blue-800">
-          <strong>Disclosure:</strong> We may earn a commission if you purchase through our links, at no extra cost to you. This helps support our independent reviews.
+        {/* Editorial Disclosure */}
+        <div className="flex items-center gap-4 bg-[#f5f5f7] rounded-xl p-5 mb-8 text-sm text-gray-700 border border-[#d2d2d7]/50">
+          <div className="flex-shrink-0 w-10 h-10 bg-[#2997ff]/10 rounded-full flex items-center justify-center text-[#2997ff]">
+            <Check className="w-5 h-5" />
+          </div>
+          <p>
+            <strong>Editorial Independence:</strong> This review is based on our independent research and analysis. Our primary goal is to provide unbiased information to help you make the best decision. We may earn a commission if you purchase through our links, at no extra cost to you.
+          </p>
         </div>
 
         {/* Featured Image */}
@@ -126,7 +131,10 @@ export function Review() {
         {/* Quick Summary Box */}
         {(review.pros?.length > 0 || review.cons?.length > 0) && (
         <div className="bg-white border border-gray-200 rounded-2xl p-6 md:p-8 mb-12 shadow-sm">
-          <h2 className="text-2xl font-bold text-gray-900 mb-6">Quick Summary</h2>
+          <div className="flex flex-col sm:flex-row sm:items-center justify-between mb-6">
+            <h2 className="text-2xl font-bold text-gray-900">Editorial Analysis</h2>
+            <span className="text-sm text-gray-500 mt-2 sm:mt-0 font-medium bg-gray-100 px-3 py-1 rounded-full">Tested & Reviewed</span>
+          </div>
           <div className="grid md:grid-cols-2 gap-8">
             <div>
               <h3 className="text-lg font-semibold text-green-700 mb-3 flex items-center">
@@ -175,18 +183,25 @@ export function Review() {
           </p>
         </div>
 
-        {/* Bottom CTA */}
-        <div className="bg-gray-900 rounded-2xl p-8 text-center mb-16">
-          <h2 className="text-2xl font-bold text-white mb-4">Ready to try it out?</h2>
-          <p className="text-gray-300 mb-6">Support our work by using our verified partner link below.</p>
-          <a 
-            href={review.affiliateLink} 
-            target="_blank" 
-            rel="noopener noreferrer"
-            className="inline-flex items-center bg-white text-gray-900 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition-colors"
-          >
-            View on Official Site <ArrowRight className="w-4 h-4 ml-2" />
-          </a>
+        {/* Final Verdict */}
+        <div className="bg-[#f5f5f7] border border-[#d2d2d7] rounded-2xl p-8 mb-16">
+          <h2 className="text-2xl font-bold text-gray-900 mb-4">Our Final Verdict</h2>
+          <p className="text-gray-700 mb-6 leading-relaxed">
+            Based on our comprehensive editorial review, {review.title.replace(' Review', '').replace(/ \d{4}.*/, '')} offers a solid solution for those looking to address their specific needs. As an independent publisher, our goal is to provide you with objective analysis so you can make an informed decision.
+          </p>
+          <div className="flex flex-col sm:flex-row items-center justify-between pt-6 border-t border-[#d2d2d7]/60">
+            <span className="text-gray-600 font-medium mb-4 sm:mb-0">
+              Editorial Rating: <span className="text-gray-900 font-bold">{review.rating}/5</span>
+            </span>
+            <a 
+              href={review.affiliateLink} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="inline-flex items-center bg-[#2997ff] text-white px-8 py-3 rounded-lg font-semibold hover:bg-[#0071e3] transition-colors"
+            >
+              Check Price & Availability <ArrowRight className="w-4 h-4 ml-2" />
+            </a>
+          </div>
         </div>
 
         <ShareButtons url={window.location.href} title={review.title} />

@@ -39,34 +39,47 @@ export function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8 text-xs font-medium tracking-wide h-full">
-            {categories.slice(0, 4).map((category) => (
-              <div key={category.id} className="relative group h-full flex items-center">
-                <Link
-                  to={`/category/${category.slug}`}
-                  className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4"
-                >
-                  {category.name}
-                </Link>
-                {category.subcategories && category.subcategories.length > 0 && (
-                  <div className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-48 rounded-xl shadow-2xl bg-[#1d1d1f]/95 backdrop-blur-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 overflow-hidden">
-                    <div className="py-2" role="menu" aria-orientation="vertical">
-                      {category.subcategories.map((sub) => (
-                        <Link
-                          key={sub.id}
-                          to={`/category/${sub.slug}`}
-                          className="block px-4 py-2 text-xs text-[#f5f5f7]/80 hover:text-white hover:bg-white/10 transition-colors"
-                          role="menuitem"
-                        >
-                          {sub.name}
-                        </Link>
-                      ))}
+            <Link to="/" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
+              Home
+            </Link>
+            {['Health Reviews', 'Relationship Reviews', 'Self-Help Reviews', 'Spiritual Reviews'].map((catName) => {
+              const category = categories.find(c => c.name === catName);
+              if (!category) return null;
+              return (
+                <div key={category.id} className="relative group h-full flex items-center">
+                  <Link
+                    to={`/category/${category.slug}`}
+                    className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4"
+                  >
+                    {category.name}
+                  </Link>
+                  {category.subcategories && category.subcategories.length > 0 && (
+                    <div className="absolute left-1/2 -translate-x-1/2 top-full mt-0 w-48 rounded-xl shadow-2xl bg-[#1d1d1f]/95 backdrop-blur-xl border border-white/10 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-200 overflow-hidden">
+                      <div className="py-2" role="menu" aria-orientation="vertical">
+                        {category.subcategories.map((sub) => (
+                          <Link
+                            key={sub.id}
+                            to={`/category/${sub.slug}`}
+                            className="block px-4 py-2 text-xs text-[#f5f5f7]/80 hover:text-white hover:bg-white/10 transition-colors"
+                            role="menuitem"
+                          >
+                            {sub.name}
+                          </Link>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                )}
-              </div>
-            ))}
-            <Link to="/blog" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
-              Blog
+                  )}
+                </div>
+              );
+            })}
+            <Link to="/comparisons" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
+              Comparisons
+            </Link>
+            <Link to="/about" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
+              About
+            </Link>
+            <Link to="/contact" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
+              Contact
             </Link>
           </nav>
 
@@ -114,7 +127,19 @@ export function Header() {
       {isMenuOpen && (
         <div className="md:hidden bg-[#1d1d1f] absolute top-12 left-0 right-0 h-screen overflow-y-auto px-6 py-4 pb-24">
           <div className="space-y-1">
-            {categories.map((category) => (
+            <div className="border-b border-white/10 py-3">
+              <Link
+                to="/"
+                className="block text-lg font-semibold text-[#f5f5f7]"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Home
+              </Link>
+            </div>
+            {['Health Reviews', 'Relationship Reviews', 'Self-Help Reviews', 'Spiritual Reviews'].map((catName) => {
+              const category = categories.find(c => c.name === catName);
+              if (!category) return null;
+              return (
               <div key={category.id} className="border-b border-white/10 py-3">
                 <Link
                   to={`/category/${category.slug}`}
@@ -138,14 +163,15 @@ export function Header() {
                   </div>
                 )}
               </div>
-            ))}
+              );
+            })}
             <div className="border-b border-white/10 py-3">
               <Link
-                to="/blog"
+                to="/comparisons"
                 className="block text-lg font-semibold text-[#f5f5f7]"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Blog
+                Comparisons
               </Link>
             </div>
             <div className="border-b border-white/10 py-3">
@@ -154,7 +180,16 @@ export function Header() {
                 className="block text-lg font-semibold text-[#f5f5f7]"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About Us
+                About
+              </Link>
+            </div>
+            <div className="border-b border-white/10 py-3">
+              <Link
+                to="/contact"
+                className="block text-lg font-semibold text-[#f5f5f7]"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Contact
               </Link>
             </div>
           </div>

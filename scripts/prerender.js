@@ -67,6 +67,7 @@ function extractInfoFromMockData(slug) {
   if (slug === 'about') { searchTitle = "About Us"; searchDesc = "Learn about Picknixy."; searchH1 = "About Us"; }
   else if (slug === 'contact') { searchTitle = "Contact Us"; searchDesc = "Get in touch with us."; searchH1 = "Contact Us"; }
   else if (slug === 'blog') { searchTitle = "Blog & Buying Guides"; searchDesc = "Read our latest articles."; searchH1 = "Blog"; }
+  else if (slug === 'reviews') { searchTitle = "All Product Reviews"; searchDesc = "Browse our complete collection of expert product reviews."; searchH1 = "All Reviews"; }
 
   return { title: searchTitle, desc: searchDesc, h1: searchH1 };
 }

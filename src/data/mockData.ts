@@ -2,75 +2,59 @@ import fallbackSvg from "../assets/images/fallback.svg";
 
 export const categories = [
   {
-    id: "health-fitness",
-    name: "Health & Fitness",
-    slug: "health-fitness",
-    description:
-      "Top reviews on supplements, fitness gear, and wellness programs.",
+    id: "health",
+    name: "Health Reviews",
+    slug: "health",
+    description: "Top reviews on supplements, fitness gear, and wellness programs.",
     subcategories: [
-      {
-        id: "diets-weight-loss",
-        name: "Diets & Weight Loss",
-        slug: "diets-weight-loss",
-      },
-      { id: "dental-health", name: "Dental Health", slug: "dental-health" },
-      {
-        id: "exercise-fitness",
-        name: "Exercise & Fitness",
-        slug: "exercise-fitness",
-      },
-      { id: "mens-health", name: "Men's Health", slug: "mens-health" },
-      { id: "remedies", name: "Remedies", slug: "remedies" },
-      { id: "womens-health", name: "Women's Health", slug: "womens-health" },
-      { id: "beauty", name: "Beauty", slug: "beauty" },
-      { id: "mental-health", name: "Mental Health", slug: "mental-health" },
+      { id: "weight-loss", name: "Weight Loss Reviews", slug: "weight-loss" },
+      { id: "dental-health", name: "Dental Health Reviews", slug: "dental-health" },
+      { id: "fitness", name: "Fitness Reviews", slug: "fitness" },
+      { id: "mens-health", name: "Men's Health Reviews", slug: "mens-health" },
+      { id: "remedies", name: "Remedies Reviews", slug: "remedies" },
+      { id: "womens-health", name: "Women's Health Reviews", slug: "womens-health" },
+      { id: "beauty", name: "Beauty Reviews", slug: "beauty" },
+      { id: "mental-health", name: "Mental Health Reviews", slug: "mental-health" },
     ],
   },
   {
     id: "self-help",
-    name: "Self-Help",
+    name: "Self-Help Reviews",
     slug: "self-help",
-    description:
-      "Discover the best books, courses, and tools for personal growth.",
+    description: "Discover the best books, courses, and tools for personal growth.",
     subcategories: [
-      { id: "survival", name: "Survival", slug: "survival" },
-      {
-        id: "motivational-transformational",
-        name: "Motivational / Transformational",
-        slug: "motivational-transformational",
-      },
-      { id: "wealth", name: "Wealth", slug: "wealth" },
+      { id: "mindset", name: "Mindset Reviews", slug: "mindset" },
+      { id: "productivity", name: "Productivity Reviews", slug: "productivity" },
+      { id: "personal-growth", name: "Personal Growth Reviews", slug: "personal-growth" },
+      { id: "manifestation", name: "Manifestation Reviews", slug: "manifestation" },
+      { id: "habits", name: "Habits Reviews", slug: "habits" },
+      { id: "wealth", name: "Wealth Reviews", slug: "wealth" },
+      { id: "survival", name: "Survival Reviews", slug: "survival" },
     ],
   },
   {
     id: "spiritual",
-    name: "Spiritual",
+    name: "Spiritual Reviews",
     slug: "spiritual",
-    description:
-      "Reviews on meditation tools, spiritual guides, and holistic practices.",
+    description: "Reviews on meditation tools, spiritual guides, and holistic practices.",
     subcategories: [
-      { id: "astrology", name: "Astrology", slug: "astrology" },
-      { id: "psychics", name: "Psychics", slug: "psychics" },
-      { id: "tarot", name: "Tarot", slug: "tarot" },
+      { id: "astrology", name: "Astrology Reviews", slug: "astrology" },
+      { id: "energy", name: "Energy Reviews", slug: "energy" },
+      { id: "spiritual-programs", name: "Spiritual Program Reviews", slug: "programs" },
+      { id: "readings", name: "Reading Reviews", slug: "readings" },
     ],
   },
   {
-    id: "relationships-dating",
-    name: "Relationships & Dating",
-    slug: "relationships-dating",
-    description:
-      "Expert reviews on dating apps, relationship courses, and guides.",
+    id: "relationships",
+    name: "Relationship Reviews",
+    slug: "relationships",
+    description: "Expert reviews on dating apps, relationship courses, and guides.",
     subcategories: [
-      {
-        id: "marriage-relationships",
-        name: "Marriage & Relationships",
-        slug: "marriage-relationships",
-      },
-      {
-        id: "female-dating-guides",
-        name: "Female Dating Guides",
-        slug: "female-dating-guides",
-      },
+      { id: "dating", name: "Dating Reviews", slug: "dating" },
+      { id: "marriage", name: "Marriage Reviews", slug: "marriage" },
+      { id: "attraction", name: "Attraction Reviews", slug: "attraction" },
+      { id: "breakup-recovery", name: "Breakup Recovery Reviews", slug: "breakup-recovery" },
+      { id: "communication", name: "Communication Reviews", slug: "communication" },
     ],
   },
 ];
@@ -978,7 +962,7 @@ export const reviews: any[] = [
     canonicalUrl: "https://www.picknixy.com/ketowater-review",
     affiliateLink: "https://9e1849qq1zy1o30chlslommmat.hop.clickbank.net",
     slug: "ketowater-review",
-    category: "diets-weight-loss",
+    category: "weight-loss",
     author: "picknixy",
     date: new Date().toISOString().split("T")[0],
     rating: 4.8,
@@ -2020,7 +2004,7 @@ export const reviews: any[] = [
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Reclaim Your Hormonal Balance?</h3>
         <p class="text-gray-700 mb-6 font-medium">Stop letting perimenopause dictate your life. Start the 28-day protocol and give your body the exact nutrition it needs to transition smoothly.</p>
         <a href="https://f54d2god3w03iseahmq0papbuw.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="inline-block bg-[#1d1d1f] text-white font-bold text-lg py-4 px-8 rounded-full shadow-lg hover:bg-gray-800 transition duration-300 transform hover:-translate-y-1">
-          Click Here to Get The 28-Day Perimenopause Miracle Now
+          Check current pricing and availability
         </a>
       </div>
     `,
@@ -2352,7 +2336,7 @@ export const reviews: any[] = [
         <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Reignite Your Morning?</h3>
         <p class="text-gray-700 mb-6 font-medium">Take control of your stamina and vitality. Experience the circulatory support of this innovative morning drink today.</p>
         <a href="https://124456gg-8v4mtdzzgumnblifs.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="inline-block bg-[#1d1d1f] text-white font-bold text-lg py-4 px-8 rounded-full shadow-lg hover:bg-gray-800 transition duration-300 transform hover:-translate-y-1">
-          Click Here to Get Booster Brew at the Best Price
+          Check current pricing and availability
         </a>
       </div>
     `,
@@ -2367,7 +2351,7 @@ export const reviews: any[] = [
       "The Smoothie Diet: 21 Day Rapid Weight Loss Program, smoothie diet review, Drew Sgoutas smoothie diet, 21 day smoothie diet weight loss, healthiest smoothie recipes for weight loss",
     canonicalUrl: "https://www.picknixy.com/smoothie-diet-review",
     slug: "smoothie-diet-review",
-    category: "diets-weight-loss",
+    category: "weight-loss",
     author: "picknixy",
     date: "2026-04-26",
     rating: 4.8,
@@ -2678,7 +2662,7 @@ export const reviews: any[] = [
       <h2 id="conclusion">Final Verdict: Should You Try It?</h2>
       <p>In summary, the <strong>Astro Lover Review</strong> highlights a fascinating blend of ancient astrological tradition and modern digital convenience. Will it instantly teleport the love of your life into your living room? No. But does it offer a highly entertaining, emotionally uplifting, and beautifully crafted personalized experience? Absolutely.</p>
       <p>If you are tired of the cynical nature of modern dating and are looking to inject a bit of magic, hope, and spiritual curiosity back into your romantic life, the Astro Lover Sketch is well worth the modest investment. It serves as a gentle reminder that the universe might just have a plan for you, acting as a powerful tool for self-reflection and manifestation.</p>
-      <p>Ready to see the face of the one waiting for you? <a href="https://07c429dc84x4owd8uj6mtinkki.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="text-blue-600 font-bold hover:underline">Click here to secure your personalized Astro Lover Sketch and personality profile today!</a></p>
+      <p>Ready to see the face of the one waiting for you? <a href="https://07c429dc84x4owd8uj6mtinkki.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="text-blue-600 font-bold hover:underline">Check pricing and availability for Astro Lover Sketch.</a></p>
     `,
   },
   {
@@ -2692,7 +2676,7 @@ export const reviews: any[] = [
       "The Deep Reset review, Dr Whitfield sleep audio, 8 minute sleep window, brainwave entrainment sleep, subconscious overwrite audio, The Deep Reset legit",
     canonicalUrl: "https://www.picknixy.com/the-deep-reset-review",
     slug: "the-deep-reset-review",
-    category: "psychics",
+    category: "mental-health",
     author: "picknixy",
     date: "2026-04-25",
     rating: 4.8,
@@ -2761,7 +2745,7 @@ export const reviews: any[] = [
       <p>After a comprehensive evaluation, <strong>The Deep Reset</strong> stands out as a highly compelling tool in the personal development and wellness space. Dr. Whitfield has taken complex neurological concepts—namely, the hypnagogic state and brainwave entrainment—and packaged them into an incredibly accessible, passive, and deeply relaxing nightly routine.</p>
       <p>If you are exhausted by the relentless demands of conscious self-improvement and are looking for a way to leverage your body's natural 8-minute transition window to clear daily stress and overwrite limiting beliefs, this program is absolutely worth exploring. The low cost and robust 90-day guarantee make it a stress-free investment in your own mental clarity. By committing to just a few minutes of listening each night, you may finally unlock the door to the peace and flow you've been working so hard to achieve.</p>
       
-      <p>Ready to experience the 8-minute overwrite for yourself? <a href="https://9d015alfyzz5jyf3ra4ftinkbj.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="text-blue-600 font-bold hover:underline">Click here to learn more and secure your copy of The Deep Reset today!</a></p>
+      <p>Ready to experience the 8-minute overwrite for yourself? <a href="https://9d015alfyzz5jyf3ra4ftinkbj.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="text-blue-600 font-bold hover:underline">Check pricing and availability for The Deep Reset.</a></p>
     `,
   },
 
@@ -2914,7 +2898,7 @@ export const reviews: any[] = [
         <h3 class="text-2xl font-bold text-blue-900 mb-4">Ready to Reprogram Your Abundance Blueprint?</h3>
         <p class="mb-6 text-gray-700 text-lg">If you are tired of swimming against the current of your own limiting beliefs, it's time to try a different approach. Allow these specialized frequencies to reset your subconscious mind toward prosperity.</p>
         <a href="https://2538abceyzp2h25bs9p93c2pc0.hop.clickbank.net" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-bold py-4 px-8 rounded-lg hover:bg-blue-700 transition-colors shadow-lg text-lg">
-          Click Here to Download the China Wealth Script from the Official Website
+          Check current pricing and availability
         </a>
       </div>
 
@@ -3092,7 +3076,7 @@ export const reviews: any[] = [
         <h3 class="text-xl font-bold text-blue-900 mb-4">Ready to Take Control of Your Kidney Health?</h3>
         <p class="mb-4">If you are prepared to make meaningful lifestyle changes and want to explore Shelly Manning’s comprehensive, phased approach to renal wellness, you can download the complete interactive guide today.</p>
         <a href="https://a0a69gmqa-qajxcsp7r9np1k5f.hop.clickbank.net" target="_blank" rel="noopener noreferrer" class="inline-block bg-blue-600 text-white font-bold py-3 px-6 rounded-lg hover:bg-blue-700 transition-colors shadow-md">
-          Click Here to Visit the Official Website and Secure Your Copy
+          Check current pricing and availability
         </a>
       </div>
 
@@ -3114,7 +3098,7 @@ export const reviews: any[] = [
       "Prime Biome review, gut-skin axis, probiotic gummies, skin health probiotics, microbiome health, Prime Biome ingredients, Prime Biome side effects",
     canonicalUrl: "https://www.picknixy.com/prime-biome-review-2026",
     slug: "prime-biome-review-2026",
-    category: "womens-health",
+    category: "beauty",
     author: "picknixy",
     date: "2026-04-15",
     rating: 4.9,
@@ -3149,7 +3133,7 @@ export const reviews: any[] = [
       "VitaMotion review, Rick Kaselj, mobility system, back pain relief, joint health program, VitaMotion exercises, daily mobility routine",
     canonicalUrl: "https://www.picknixy.com/vitamotion-review-2026",
     slug: "vitamotion-review-2026",
-    category: "exercise-fitness",
+    category: "fitness",
     author: "picknixy",
     date: "2026-04-11",
     rating: 4.8,
@@ -3836,7 +3820,7 @@ export const reviews: any[] = [
       "Pure Reiki Mastery review, Owen Coleman, Reiki certification course, learn Reiki at home, energy healing system, Reiki master training, holistic healing",
     canonicalUrl: "https://www.picknixy.com/pure-reiki-mastery-review",
     slug: "pure-reiki-mastery-review",
-    category: "spiritual",
+    category: "programs",
     author: "picknixy",
     date: "2026-04-08",
     rating: 4.8,
@@ -4221,7 +4205,7 @@ export const reviews: any[] = [
       "Save The Marriage System review, Dr. Lee Baucom, save a marriage, relationship rescue guide, marriage counseling alternative, marriage paradigm shift",
     canonicalUrl: "https://www.picknixy.com/save-the-marriage-system-review",
     slug: "save-the-marriage-system-review",
-    category: "marriage-relationships",
+    category: "marriage",
     author: "picknixy",
     date: "2026-04-14",
     rating: 4.8,
@@ -4430,7 +4414,7 @@ export const reviews: any[] = [
       "His Secret Obsession review, Hero Instinct, James Bauer, relationship advice for women, male psychology in relationships, dating guide",
     canonicalUrl: "https://www.picknixy.com/his-secret-obsession-review",
     slug: "his-secret-obsession-review",
-    category: "marriage-relationships",
+    category: "dating",
     author: "picknixy",
     date: "2026-04-21",
     rating: 4.9,

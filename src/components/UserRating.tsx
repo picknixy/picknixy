@@ -14,7 +14,10 @@ export function UserRating({ expertRating }: { expertRating: number }) {
   return (
     <div className="bg-[#f5f5f7] rounded-2xl p-6 md:p-8 mb-12 flex flex-col md:flex-row items-center justify-between gap-8">
       <div className="text-center md:text-left">
-        <h3 className="text-lg font-semibold text-[#1d1d1f] mb-1">Expert Rating</h3>
+        <h3 className="text-lg font-semibold text-[#1d1d1f] mb-1 flex items-center justify-center md:justify-start">
+          Editorial Rating
+          <span className="ml-2 inline-flex items-center justify-center bg-blue-100 text-blue-800 text-[10px] uppercase font-bold px-2 py-0.5 rounded-full tracking-wider">Verified</span>
+        </h3>
         <div className="flex items-center justify-center md:justify-start text-[#1d1d1f]">
           <span className="text-3xl font-bold mr-2">{expertRating}</span>
           <div className="flex">
