@@ -68,7 +68,7 @@ export function Newsletter({ variant = 'full' }: { variant?: 'full' | 'sidebar' 
     return (
       <div className="bg-[#f5f5f7] p-6 rounded-2xl">
         <h3 className="text-lg font-semibold text-[#1d1d1f] mb-2">Subscribe</h3>
-        <p className="text-sm text-[#6e6e73] mb-4">Get the latest reviews and guides in your inbox.</p>
+        <p className="text-sm text-[#6e6e73] mb-4">Get the latest reviews in your inbox.</p>
         {subscribed ? (
           <p className="text-sm text-green-600 font-medium">Thanks for subscribing!</p>
         ) : (
@@ -99,7 +99,7 @@ export function Newsletter({ variant = 'full' }: { variant?: 'full' | 'sidebar' 
     <section className="bg-[#1d1d1f] py-20 px-4 text-center">
       <div className="max-w-2xl mx-auto">
         <h2 className="text-3xl md:text-4xl font-semibold text-white mb-4">Stay in the loop.</h2>
-        <p className="text-[#a1a1a6] text-lg mb-8">Subscribe to our newsletter for the latest product reviews, exclusive deals, and expert guides.</p>
+        <p className="text-[#a1a1a6] text-lg mb-8">Subscribe to our newsletter for the latest product reviews and exclusive deals.</p>
         {subscribed ? (
           <p className="text-xl text-green-400 font-medium">Thank you for subscribing!</p>
         ) : (

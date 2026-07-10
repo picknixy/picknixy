@@ -9,8 +9,6 @@ import { Home } from "./pages/Home";
 import { Category } from "./pages/Category";
 import { Review } from "./pages/Review";
 import { AllReviews } from "./pages/AllReviews";
-import { Blog } from "./pages/Blog";
-import { BlogPost } from "./pages/BlogPost";
 import { About } from "./pages/About";
 import { Contact } from "./pages/Contact";
 import { PrivacyPolicy } from "./pages/PrivacyPolicy";
@@ -31,8 +29,6 @@ export default function App() {
         <Route path="/" element={<Home />} />
         <Route path="/category/:slug" element={<Category />} />
         <Route path="/reviews" element={<AllReviews />} />
-        <Route path="/blog" element={<Blog />} />
-        <Route path="/blog/:slug" element={<BlogPost />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/privacy-policy" element={<PrivacyPolicy />} />

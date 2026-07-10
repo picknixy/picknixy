@@ -111,7 +111,7 @@ export function Header() {
             <input 
               type="text" 
               autoFocus
-              placeholder="Search reviews, guides, and more..." 
+              placeholder="Search reviews and more..." 
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="w-full bg-[#2d2d2f] text-white rounded-full py-3 pl-10 pr-10 outline-none focus:ring-2 focus:ring-[#2997ff] transition-all"

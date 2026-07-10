@@ -53,7 +53,7 @@ export function Footer() {
             <div className="flex items-center gap-2 text-[#1d1d1f] font-semibold mb-3">
               <PicknixyLogo /> Picknixy
             </div>
-            <p className="mb-2">Your trusted source for expert product reviews and buying guides.</p>
+            <p className="mb-2">Your trusted source for expert product reviews and comparisons.</p>
             <a href="mailto:contact@picknixy.com" className="text-[#2997ff] hover:underline">contact@picknixy.com</a>
             <div className="mt-4 flex gap-3">
               <a href="https://www.pinterest.com/picknixy00/" target="_blank" rel="noopener noreferrer" className="hover:text-[#1d1d1f] transition-colors" aria-label="Pinterest">

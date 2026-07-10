@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import { reviews, bestOfArticles, authors } from "../data/mockData";
+import { reviews, authors } from "../data/mockData";
 import { Newsletter } from "./Newsletter";
 import fallbackSvg from "../assets/images/fallback.svg";
 import avatarFallbackSvg from "../assets/images/avatar-fallback.svg";
 
 export function Sidebar() {
-  const latestPosts = [...reviews, ...bestOfArticles]
+  const latestPosts = [...reviews]
     .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime())
     .slice(0, 5);
 

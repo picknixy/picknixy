@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { SEO } from "../components/SEO";
-import { categories, reviews, bestOfArticles } from "../data/mockData";
+import { categories, reviews } from "../data/mockData";
 import { Star, ChevronLeft, ChevronRight } from "lucide-react";
 import fallbackSvg from "../assets/images/fallback.svg";
 
@@ -53,9 +53,6 @@ export function Category() {
   }
 
   const categoryReviews = reviews.filter((r) => r.category === category.id);
-  const categoryArticles = bestOfArticles.filter(
-    (a) => a.category === category.id,
-  );
 
   const indexOfLastReview = currentPage * reviewsPerPage;
   const indexOfFirstReview = indexOfLastReview - reviewsPerPage;
@@ -116,9 +113,9 @@ export function Category() {
         </div>
       </div>
 
-      <div className="max-w-5xl mx-auto px-4 py-16">
-        <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
-          <div className="lg:col-span-2">
+      <div className="max-w-4xl mx-auto px-4 py-16">
+        <div>
+          <div>
             <h2 className="text-2xl font-bold text-gray-900 mb-8">
               In-Depth Reviews
             </h2>
@@ -204,35 +201,6 @@ export function Category() {
             ) : (
               <p className="text-gray-500">
                 No reviews found in this category yet.
-              </p>
-            )}
-          </div>
-
-          <div>
-            <h2 className="text-2xl font-bold text-gray-900 mb-8">
-              Guides & Best Of
-            </h2>
-            {categoryArticles.length > 0 ? (
-              <div className="space-y-6">
-                {categoryArticles.map((article) => (
-                  <div key={article.id} className="group">
-                    <h3 className="text-lg font-bold text-gray-900 mb-1">
-                      <Link
-                        to={`/blog/${article.slug}`}
-                        className="hover:text-blue-600 transition-colors"
-                      >
-                        {article.title}
-                      </Link>
-                    </h3>
-                    <p className="text-sm text-gray-600 line-clamp-2">
-                      {article.excerpt}
-                    </p>
-                  </div>
-                ))}
-              </div>
-            ) : (
-              <p className="text-gray-500">
-                No guides found in this category yet.
               </p>
             )}
           </div>

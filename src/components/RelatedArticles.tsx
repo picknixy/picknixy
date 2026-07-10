@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { reviews, bestOfArticles } from "../data/mockData";
+import { reviews } from "../data/mockData";
 import fallbackSvg from "../assets/images/fallback.svg";
 
 export function RelatedArticles({
@@ -9,7 +9,7 @@ export function RelatedArticles({
   category: string;
   currentSlug: string;
 }) {
-  const related = [...reviews, ...bestOfArticles]
+  const related = [...reviews]
     .filter((item) => item.category === category && item.slug !== currentSlug)
     .slice(0, 3);
 

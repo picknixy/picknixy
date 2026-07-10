@@ -1,6 +1,6 @@
 import { useSearchParams, Link } from 'react-router-dom';
 import { SEO } from '../components/SEO';
-import { reviews, bestOfArticles } from '../data/mockData';
+import { reviews } from '../data/mockData';
 import fallbackSvg from '../assets/images/fallback.svg';
 
 
@@ -8,7 +8,7 @@ export function SearchPage() {
   const [searchParams] = useSearchParams();
   const query = searchParams.get('q') || '';
 
-  const searchResults = [...reviews, ...bestOfArticles].filter(item => 
+  const searchResults = [...reviews].filter(item => 
     item.title.toLowerCase().includes(query.toLowerCase()) || 
     item.excerpt.toLowerCase().includes(query.toLowerCase())
   );

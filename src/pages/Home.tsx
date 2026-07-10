@@ -11,9 +11,9 @@ export function Home() {
   return (
     <>
       <SEO
-        title="Honest Product Reviews, Comparisons & Buying Guides | Picknixy"
-        description="Picknixy publishes independent reviews, comparisons, and buying guides across multiple categories to help you make informed purchasing decisions."
-        keywords="product reviews, buying guides, expert reviews, comparisons, unbiased reviews, Picknixy"
+        title="Honest Product Reviews & Comparisons | Picknixy"
+        description="Picknixy publishes independent reviews and comparisons across multiple categories to help you make informed purchasing decisions."
+        keywords="product reviews, expert reviews, comparisons, unbiased reviews, Picknixy"
         canonicalUrl="https://www.picknixy.com/"
         type="website"
       />
@@ -22,10 +22,10 @@ export function Home() {
       <section className="bg-gradient-to-b from-[#1d1d1f] to-[#000000] text-white pt-32 pb-24 px-4 md:px-8 text-center border-b border-white/10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl md:text-6xl font-bold tracking-tight mb-6 drop-shadow-sm">
-            Honest Product Reviews, Comparisons & Buying Guides
+            Honest Product Reviews & Comparisons
           </h1>
           <p className="text-lg md:text-2xl text-[#a1a1a6] mb-10 max-w-3xl mx-auto leading-relaxed">
-            Picknixy publishes independent reviews, comprehensive comparisons, and expert buying guides across health, relationships, and self-help categories to help you make informed, confident decisions.
+            Picknixy publishes independent reviews and comprehensive comparisons across health, relationships, and self-help categories to help you make informed, confident decisions.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
             <a href="#featured-reviews" className="bg-[#2997ff] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#0071e3] transition-colors flex items-center justify-center">
@@ -43,7 +43,7 @@ export function Home() {
         <div className="max-w-7xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-[#1d1d1f] mb-4">Browse by Category</h2>
-            <p className="text-[#86868b] text-lg max-w-2xl mx-auto">Explore our deeply researched guides categorized to help you find exactly what you're looking for.</p>
+            <p className="text-[#86868b] text-lg max-w-2xl mx-auto">Explore our deeply researched reviews categorized to help you find exactly what you're looking for.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
             {categories.slice(0, 4).map((cat) => (
@@ -110,7 +110,7 @@ export function Home() {
       <section className="py-20 px-4 md:px-8 bg-white border-y border-[#d2d2d7]/50">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-[#1d1d1f] mb-6">Looking for More?</h2>
-          <p className="text-[#86868b] text-lg mb-10">Browse our complete collection of deeply researched product reviews, buying guides, and comparisons.</p>
+          <p className="text-[#86868b] text-lg mb-10">Browse our complete collection of deeply researched product reviews and comparisons.</p>
           <Link to="/reviews" className="inline-flex items-center justify-center bg-[#2997ff] text-white px-8 py-4 rounded-full font-semibold text-lg hover:bg-[#0071e3] transition-colors">
             View All Reviews <ArrowRight className="ml-2 w-5 h-5" />
           </Link>
@@ -187,7 +187,7 @@ export function Home() {
             </div>
             <div className="bg-[#f5f5f7] p-6 rounded-2xl">
               <h3 className="text-lg font-bold text-[#1d1d1f] mb-2">How often do you update content?</h3>
-              <p className="text-[#515154]">We regularly review and update our buying guides and product reviews to ensure pricing, features, and availability are current for 2026 and beyond.</p>
+              <p className="text-[#515154]">We regularly review and update our product reviews to ensure pricing, features, and availability are current for 2026 and beyond.</p>
             </div>
           </div>
         </div>
