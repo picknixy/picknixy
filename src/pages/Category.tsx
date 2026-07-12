@@ -52,7 +52,13 @@ export function Category() {
     );
   }
 
-  const categoryReviews = reviews.filter((r) => r.category === category.id);
+  const categoryReviews = reviews.filter((r) => {
+    if (r.category === category.id) return true;
+    if (category.subcategories) {
+      return category.subcategories.some((sub) => sub.id === r.category);
+    }
+    return false;
+  });
 
   const indexOfLastReview = currentPage * reviewsPerPage;
   const indexOfFirstReview = indexOfLastReview - reviewsPerPage;
