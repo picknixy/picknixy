@@ -4837,7 +4837,7 @@ export const reviews: any[] = [
     date: new Date().toISOString().split("T")[0],
     rating: 4.7,
     excerpt: "Curious if the Soulmate Story reading can actually reveal your true love? Discover the honest truth in our comprehensive 2026 buyer's guide and review.",
-    image: "https://www.soulmatestory.com/img/couple-hero3.jpg",
+    image: "https://i.im.ge/QMEtT3p/soulmate_story_review.jpg",
     affiliateLink: "https://abe25fkl-3u8h-4gvfugwsvl9w.hop.clickbank.net",
     pros: [
       "Highly personalized and incredibly detailed relationship insights",
@@ -4860,7 +4860,7 @@ export const reviews: any[] = [
         "itemReviewed": {
           "@type": "Product",
           "name": "Soulmate Story",
-          "image": "https://www.soulmatestory.com/img/couple-hero3.jpg",
+          "image": "https://i.im.ge/QMEtT3p/soulmate_story_review.jpg",
           "description": "A personalized digital psychic reading and story designed to help you discover the characteristics of your potential soulmate.",
           "offers": {
             "@type": "Offer",
@@ -4891,7 +4891,7 @@ export const reviews: any[] = [
         "@type": "Article",
         "headline": "Soulmate Story Review (2026)",
         "description": "Read our 2026 Soulmate Story review. Discover if this popular psychic reading really works, including features, pros, and real customer results.",
-        "image": "https://www.soulmatestory.com/img/couple-hero3.jpg",
+        "image": "https://i.im.ge/QMEtT3p/soulmate_story_review.jpg",
         "author": {
           "@type": "Organization",
           "name": "Picknixy"
