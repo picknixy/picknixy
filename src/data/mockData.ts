@@ -4666,7 +4666,7 @@ export const reviews: any[] = [
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": "Check Official Site",
+            "price": "0.00",
             "availability": "https://schema.org/InStock",
             "url": "https://37d266km3vqzb-0f-qnpxy4p19.hop.clickbank.net"
           }
@@ -4865,7 +4865,7 @@ export const reviews: any[] = [
           "offers": {
             "@type": "Offer",
             "priceCurrency": "USD",
-            "price": "Check Official Site",
+            "price": "0.00",
             "availability": "https://schema.org/InStock",
             "url": "https://abe25fkl-3u8h-4gvfugwsvl9w.hop.clickbank.net"
           }
