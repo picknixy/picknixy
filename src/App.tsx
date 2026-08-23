@@ -16,10 +16,24 @@ import { Terms } from "./pages/Terms";
 import { Disclaimer } from "./pages/Disclaimer";
 import { SearchPage } from "./pages/Search";
 import { NotFound } from "./pages/NotFound";
+import { SEO } from "./components/SEO";
 
 function ReviewRedirect() {
   const { slug } = useParams<{ slug: string }>();
-  return <Navigate to={`/${slug}`} replace />;
+  
+  // Use React Router for client-side, but also inject meta tags for bots
+  return (
+    <>
+      <SEO 
+        title="Redirecting..." 
+        description="Redirecting to the latest review."
+        canonicalUrl={`https://www.picknixy.com/${slug}`}
+        noindex={true}
+      />
+      <meta httpEquiv="refresh" content={`0; url=/${slug}`} />
+      <Navigate to={`/${slug}`} replace />
+    </>
+  );
 }
 
 export default function App() {
