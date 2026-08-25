@@ -117,7 +117,7 @@ export function Review() {
         {/* Featured Image */}
         <img  
           src={review.image || fallbackSvg} 
-          alt={review.title} 
+          alt={review.imageAlt || review.title} 
           className="w-full h-auto rounded-2xl mb-10 shadow-sm object-cover" 
           onError={(e) => {
               const target = e.target as HTMLImageElement;

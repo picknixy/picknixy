@@ -135,7 +135,7 @@ export function Category() {
                     <div className="sm:w-1/3 flex-shrink-0">
                       <img
                         src={review.image || fallbackSvg}
-                        alt={review.title}
+                        alt={review.imageAlt || review.title}
                         className="w-full h-48 sm:h-full object-cover"
                         loading="lazy"
                         onError={(e) => {

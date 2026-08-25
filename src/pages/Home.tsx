@@ -70,7 +70,7 @@ export function Home() {
             {featuredReviews.map((review) => (
               <Link key={review.id} to={`/${review.slug}`} className="group flex flex-col h-full">
                 <div className="aspect-[4/3] rounded-2xl overflow-hidden mb-6 bg-[#f5f5f7]">
-                  <img src={review.image || fallbackSvg} alt={review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
+                  <img src={review.image || fallbackSvg} alt={review.imageAlt || review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500" loading="lazy" />
                 </div>
                 <div className="flex flex-col flex-grow">
                   <span className="text-xs font-bold text-[#2997ff] uppercase tracking-wider mb-2">{review.category}</span>
@@ -94,7 +94,7 @@ export function Home() {
             {latestReviews.map((review) => (
               <Link key={review.id} to={`/${review.slug}`} className="bg-white rounded-2xl p-5 flex gap-5 hover:shadow-md transition-shadow border border-[#d2d2d7]/50 group">
                 <div className="w-24 h-24 flex-shrink-0 rounded-xl overflow-hidden bg-[#f5f5f7]">
-                  <img src={review.image || fallbackSvg} alt={review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                  <img src={review.image || fallbackSvg} alt={review.imageAlt || review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </div>
                 <div className="flex flex-col justify-center">
                   <h3 className="font-bold text-[#1d1d1f] mb-2 line-clamp-2 group-hover:text-[#2997ff] transition-colors">{review.title}</h3>

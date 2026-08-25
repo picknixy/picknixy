@@ -31,7 +31,7 @@ export function AllReviews() {
             {reviews.map((review) => (
               <Link key={review.id} to={`/${review.slug}`} className="bg-white rounded-2xl p-5 flex flex-col hover:shadow-md transition-shadow border border-[#d2d2d7]/50 group">
                 <div className="w-full aspect-[4/3] rounded-xl overflow-hidden bg-[#e8e8ed] mb-4">
-                  <img src={review.image || fallbackSvg} alt={review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
+                  <img src={review.image || fallbackSvg} alt={review.imageAlt || review.title} className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300" loading="lazy" />
                 </div>
                 <h3 className="font-bold text-[#1d1d1f] mb-2 line-clamp-2 group-hover:text-[#2997ff] transition-colors">{review.title}</h3>
                 <span className="text-xs text-[#86868b] mt-auto pt-2">{new Date(review.date).toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' })}</span>
