@@ -87,7 +87,7 @@ export const reviews: any[] = [
     rating: 4.9,
     excerpt:
       "Struggling with relentless brain fog, poor sleep, or a lack of spiritual connection? Read our in-depth Pineal 10X review to uncover how this powerful decalcification formula claims to awaken your third eye and restore cognitive brilliance.",
-    image: "/pineal-10x-supplement-review-third-eye-decalcification.png",
+    image: "/pineal-10x-supplement-bottle-hero.png",
     imageAlt: "Pineal 10X Supplement Review - Third Eye Decalcification",
     affiliateLink: "https://4e8e0eqc19p0a05ivbs9utei7v.hop.clickbank.net",
     pros: [
@@ -123,7 +123,7 @@ export const reviews: any[] = [
             "url": "https://4e8e0eqc19p0a05ivbs9utei7v.hop.clickbank.net"
           },
           "name": "Pineal 10X",
-          "image": "https://www.picknixy.com/pineal-10x-supplement-review-third-eye-decalcification.png",
+          "image": "https://www.picknixy.com/pineal-10x-supplement-bottle-hero.png",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -146,7 +146,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Pineal 10X Review 2026: Does This Pineal Gland Supplement Really Work?",
-        "image": "https://www.picknixy.com/pineal-10x-supplement-review-third-eye-decalcification.png",
+        "image": "https://www.picknixy.com/pineal-10x-supplement-bottle-hero.png",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -252,7 +252,7 @@ export const reviews: any[] = [
   {
     id: "4-foot-farm-review",
     title: "4 Foot Farm Review 2026: Can You Really Grow Food in 4 Sq Ft?",
-    seoTitle: "4 Foot Farm Review (2026): Does This Crisis Garden Blueprint Work?",
+    seoTitle: "4 Foot Farm Review 2026: The Ultimate Crisis Garden",
     seoDescription:
       "Read our comprehensive 4 Foot Farm Blueprint review. Discover if you can really grow a massive amount of survival food in just 4 square feet of space.",
     seoKeywords:
@@ -265,7 +265,7 @@ export const reviews: any[] = [
     rating: 4.8,
     excerpt:
       "Worried about rising grocery prices and fragile supply chains? Read our comprehensive review of The 4 Foot Farm Blueprint to discover how you can grow abundant survival food in just 4 square feet.",
-    image: "/4-foot-farm-review.png",
+    image: "/4-foot-farm-review-crisis-garden.webp",
     imageAlt: "4 Foot Farm Blueprint Review - Vertical Crisis Gardening",
     affiliateLink: "https://51129cqc34ocjtbxnku45l8pew.hop.clickbank.net",
     pros: [
@@ -301,7 +301,7 @@ export const reviews: any[] = [
             "url": "https://51129cqc34ocjtbxnku45l8pew.hop.clickbank.net"
           },
           "name": "4 Foot Farm Blueprint",
-          "image": "https://www.picknixy.com/4-foot-farm-review.png",
+          "image": "https://www.picknixy.com/4-foot-farm-review-crisis-garden.webp",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.8",
@@ -324,7 +324,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "4 Foot Farm Review (2026): Does This Crisis Garden Blueprint Work?",
-        "image": "https://www.picknixy.com/4-foot-farm-review.png",
+        "image": "https://www.picknixy.com/4-foot-farm-review-crisis-garden.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
