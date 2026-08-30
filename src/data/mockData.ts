@@ -87,7 +87,7 @@ export const reviews: any[] = [
     rating: 4.9,
     excerpt:
       "Struggling with relentless brain fog, poor sleep, or a lack of spiritual connection? Read our in-depth Pineal 10X review to uncover how this powerful decalcification formula claims to awaken your third eye and restore cognitive brilliance.",
-    image: "/pineal-10x-supplement-bottle-hero.png",
+    image: "https://i.im.ge/QQMOgUx/Pineal_10X_review.webp",
     imageAlt: "Pineal 10X Supplement Review - Third Eye Decalcification",
     affiliateLink: "https://4e8e0eqc19p0a05ivbs9utei7v.hop.clickbank.net",
     pros: [
@@ -123,7 +123,7 @@ export const reviews: any[] = [
             "url": "https://4e8e0eqc19p0a05ivbs9utei7v.hop.clickbank.net"
           },
           "name": "Pineal 10X",
-          "image": "https://www.picknixy.com/pineal-10x-supplement-bottle-hero.png",
+          "image": "https://i.im.ge/QQMOgUx/Pineal_10X_review.webp",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.9",
@@ -146,7 +146,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "Pineal 10X Review 2026: Does This Pineal Gland Supplement Really Work?",
-        "image": "https://www.picknixy.com/pineal-10x-supplement-bottle-hero.png",
+        "image": "https://i.im.ge/QQMOgUx/Pineal_10X_review.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -265,7 +265,7 @@ export const reviews: any[] = [
     rating: 4.8,
     excerpt:
       "Worried about rising grocery prices and fragile supply chains? Read our comprehensive review of The 4 Foot Farm Blueprint to discover how you can grow abundant survival food in just 4 square feet.",
-    image: "/4-foot-farm-review-crisis-garden.webp",
+    image: "https://i.im.ge/QQMOcTG/4_Foot_Farm_review.webp",
     imageAlt: "4 Foot Farm Blueprint Review - Vertical Crisis Gardening",
     affiliateLink: "https://51129cqc34ocjtbxnku45l8pew.hop.clickbank.net",
     pros: [
@@ -301,7 +301,7 @@ export const reviews: any[] = [
             "url": "https://51129cqc34ocjtbxnku45l8pew.hop.clickbank.net"
           },
           "name": "4 Foot Farm Blueprint",
-          "image": "https://www.picknixy.com/4-foot-farm-review-crisis-garden.webp",
+          "image": "https://i.im.ge/QQMOcTG/4_Foot_Farm_review.webp",
           "aggregateRating": {
             "@type": "AggregateRating",
             "ratingValue": "4.8",
@@ -324,7 +324,7 @@ export const reviews: any[] = [
         "@context": "https://schema.org",
         "@type": "Article",
         "headline": "4 Foot Farm Review (2026): Does This Crisis Garden Blueprint Work?",
-        "image": "https://www.picknixy.com/4-foot-farm-review-crisis-garden.webp",
+        "image": "https://i.im.ge/QQMOcTG/4_Foot_Farm_review.webp",
         "author": {
           "@type": "Person",
           "name": "Picknixy"
@@ -5314,114 +5314,15 @@ export const reviews: any[] = [
 
       <div class="prose lg:prose-xl max-w-none text-gray-800">
         <p class="lead text-xl text-gray-600 font-medium mb-8">
-          Finding true love can sometimes feel like searching for a needle in a haystack. With modern dating apps creating a sense of burnout, many people are turning to spiritual and alternative methods to find a meaningful connection. Enter <strong>Soulmate Story</strong>, a highly popular digital service that promises to reveal the identity, personality, and energetic signature of your future life partner. But is this just another internet novelty, or does it hold genuine psychological and spiritual value? In this comprehensive <strong>Soulmate Story review</strong>, we dive deep into the program to find out if it's truly worth your time and emotional investment.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">Introduction: The Search for Meaningful Connection</h2>
-        <p class="mb-4">
-          In 2026, the intersection of spirituality and relationships has never been more prominent. As people become increasingly frustrated with the superficiality of modern dating, there is a profound collective shift toward deeper, more intentional ways of finding love. The idea that someone out there is energetically aligned with youâ€”a "soulmate"â€”is a comforting and empowering concept.
-        </p>
-        <p class="mb-4">
-          The <em>Soulmate Story</em> is designed to tap into this exact desire. Itâ€™s not a dating app, nor is it a traditional relationship coaching seminar. Instead, it positions itself as a personalized reading that provides a detailed narrative about the person you are meant to be with. By offering a detailed glimpse into your romantic future, it aims to clarify your desires, raise your energetic vibration, and ultimately attract the right person into your life.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">What Exactly is Soulmate Story?</h2>
-        <p class="mb-4">
-          At its core, the <strong>Soulmate Story</strong> is a personalized, digital psychic reading and narrative profile. When you sign up, you provide some basic details about yourselfâ€”such as your birth date, name, and specific questions or focal points regarding your love life. Using this information, a master intuitive and astrologer crafts a detailed "story" describing the person who is energetically destined to be your soulmate.
-        </p>
-        <p class="mb-4">
-          The product goes far beyond a generic horoscope. It describes your potential partner's physical attributes, their personality traits, their career path, and even the unique circumstances under which you might cross paths. Many users report that having this vivid description helps them identify potential matches more easily and prevents them from wasting time on partners who are clearly out of alignment with their true needs. If you've ever explored <a href="/category/astrology" class="text-blue-600 underline hover:text-blue-800">astrology readings</a> or birth chart compatibility, this service will feel like a natural, highly focused extension of those practices.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">How Does the Process Work?</h2>
-        <p class="mb-4">
-          The process of obtaining your personalized Soulmate Story is designed to be simple, fast, and entirely digital. Here is a step-by-step breakdown of how the service operates:
-        </p>
-        
-        <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">Step 1: Information Gathering</h3>
-        <p class="mb-4">
-          You begin by filling out a secure online form. This typically requires your first name, your date of birth, and an email address where the final product will be delivered. The date of birth is crucial as it allows the creator to incorporate basic astrological principles into the reading.
-        </p>
-
-        <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">Step 2: The Reading and Creation</h3>
-        <p class="mb-4">
-          Once your order is placed, the intuitive reader begins crafting your unique profile. This isn't an instant, AI-generated blurb. It takes time for the reader to tune into your specific energetic signature and write out the narrative. This thoughtful process ensures that the story you receive feels personal, authentic, and deeply resonant.
-        </p>
-
-        <h3 class="text-2xl font-semibold text-gray-800 mt-8 mb-4">Step 3: Digital Delivery</h3>
-        <p class="mb-4">
-          Within 24 to 48 hours, you will receive an email containing your complete Soulmate Story. Because it is delivered digitally, you can read it in complete privacy on your phone, tablet, or computer. Many users like to print out their stories and keep them on a vision board or use them as a meditation tool to aid in their <a href="/category/manifestation" class="text-blue-600 underline hover:text-blue-800">manifestation practices</a>.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">The Psychological and Spiritual Benefits</h2>
-        <p class="mb-4">
-          While skeptics might dismiss psychic readings as mere entertainment, there is a profound psychological benefit to engaging with tools like the Soulmate Story. In cognitive psychology, there is a concept known as the Reticular Activating System (RAS). The RAS acts as a filter for your brain, determining what information you notice and what you ignore. 
-        </p>
-        <p class="mb-4">
-          When you read a highly detailed description of your ideal partner, you are essentially programming your RAS to look for those specific positive traits in the real world. Instead of focusing on your past dating failures or the anxiety of being alone, your brain begins actively scanning your environment for the positive, fulfilling connection described in your story. 
-        </p>
-        <p class="mb-4">
-          From a spiritual perspective, this process is known as the Law of Attraction. By holding a clear, positive vision of your future partner in your mind, you align your energetic frequency with that reality, making it much more likely to manifest. In this way, the Soulmate Story acts as a powerful catalyst for shifting your mindset from scarcity to abundance.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">What's Included in Your Purchase?</h2>
-        <p class="mb-4">
-          When you invest in the Soulmate Story, you aren't just getting a single paragraph. The standard package typically includes:
-        </p>
-        <ul class="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li><strong>The Core Narrative:</strong> A comprehensive, multi-page story detailing your soulmate's physical appearance, personality quirks, values, and emotional disposition.</li>
-          <li><strong>The Meeting Scenario:</strong> Insights into how, where, or under what circumstances you are likely to cross paths.</li>
-          <li><strong>Compatibility Analysis:</strong> An explanation of why this specific person is energetically and emotionally suited for you.</li>
-          <li><strong>Bonus Materials:</strong> The creators frequently include bonus guides on relationship manifestation, self-love, and overcoming past emotional blocks.</li>
-        </ul>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">Pros and Cons: An Honest Evaluation</h2>
-        <p class="mb-4">
-          To ensure this <strong>Soulmate Story review</strong> is entirely balanced, we must look at both the strengths and the limitations of the service.
-        </p>
-        
-        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">The Advantages (Pros)</h3>
-        <ul class="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li><strong>Exceptional Detail:</strong> Users consistently report being surprised by the depth and specificity of the narratives they receive.</li>
-          <li><strong>Mental Reframing:</strong> It serves as an excellent tool for breaking out of negative dating cycles and refocusing your mind on positive relationship goals.</li>
-          <li><strong>Fast and Private Delivery:</strong> The 24-48 hour turnaround time is impressive, and digital delivery ensures complete discretion.</li>
-          <li><strong>Risk-Free Trial:</strong> The program is backed by a 60-day money-back guarantee, allowing you to try the service without financial stress.</li>
-        </ul>
-
-        <h3 class="text-xl font-semibold text-gray-800 mt-6 mb-3">The Limitations (Cons)</h3>
-        <ul class="list-disc pl-6 mb-6 text-gray-700 space-y-2">
-          <li><strong>It Requires Personal Action:</strong> The story will not magically make someone appear in your living room; you still have to go out and engage with the world.</li>
-          <li><strong>Digital Only:</strong> There is no physical book or printed portrait mailed to your home. Everything is delivered via email.</li>
-          <li><strong>Subjective Interpretation:</strong> Because it deals with spiritual and intuitive insights, the value of the reading depends heavily on your personal openness and belief system.</li>
-        </ul>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">Is Soulmate Story Legit or a Scam?</h2>
-        <p class="mb-4">
-          When dealing with spiritual services online, it is natural to ask if the product is a scam. Based on our comprehensive review and the thousands of positive testimonials, Soulmate Story is a legitimate service that delivers exactly what it promises: a highly personalized, intuitively crafted narrative about your potential romantic future. 
-        </p>
-        <p class="mb-4">
-          It is crucial to set proper expectations. This is not a scientific guarantee; it is a spiritual and psychological tool designed to provide clarity, hope, and direction. If you approach it as a fun, insightful exercise to help you clarify what you truly want in a relationship, you will likely find it immensely valuable. Furthermore, because it is sold through the ClickBank platform, your purchase is protected by a strict, no-questions-asked 60-day refund policy. This robust consumer protection completely mitigates any financial risk.
-        </p>
-
-        <h2 class="text-3xl font-bold text-gray-900 mt-10 mb-6">Final Conclusion: Should You Buy It?</h2>
-        <p class="mb-4">
-          If you are feeling stuck in your love life, recovering from a difficult breakup, or simply curious about what the universe might have in store for you, the <strong>Soulmate Story</strong> is a beautifully crafted, highly engaging resource. It bridges the gap between spiritual intuition and psychological manifestation, giving you a tangible vision of the love you deserve.
-        </p>
-        <p class="mb-4">
-          By providing a clear, detailed picture of a loving, aligned partner, it helps you raise your standards and refuse to settle for less. It acts as a compass, pointing you toward healthier relationship dynamics and a more hopeful outlook on romance. For the modest price point, the clarity, entertainment, and psychological boost it provides make it an excellent investment in your personal journey toward love.
-        </p>
-        <p class="mb-6">
-          If you are ready to stop guessing and start manifesting your ideal partner, we highly recommend giving this unique service a try. 
-        </p>
-
-        <div class="bg-gray-50 border border-gray-200 p-8 rounded-2xl text-center shadow-sm mt-8">
-          <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Discover Your Soulmate's Story?</h3>
-          <p class="text-gray-700 mb-6 font-medium">Uncover the detailed narrative of your future partner and start attracting the love you deserve today. Protected by a 60-day money-back guarantee.</p>
-          <a href="https://abe25fkl-3u8h-4gvfugwsvl9w.hop.clickbank.net" rel="nofollow noopener" target="_blank" class="inline-block bg-[#1d1d1f] text-white font-bold text-lg py-4 px-8 rounded-full shadow-lg hover:bg-gray-800 transition duration-300 transform hover:-translate-y-1">
-            Click Here to Get Your Personalized Soulmate Story
-          </a>
-        </div>
-      </div>
-    `,
-  },
-];
+          Finding true love can sometimes feel like searching for a needle in a haystack. With modern dating apps creating a sense of burnout, many people are turning to spiritual and alternative methods to find a meaningful connection. Enter <strong>Soulmate Story</strong>, a highly popular digital service that promises to reveal the identity, personality, and energetic signature of your future life partner. But is this just another internet novelty, or does it hold genuine psyxœ´Zk·•ıî_AÌ~°tÏÈ#E«ÈczXñ öFlÁ"ØeU±»è©*VŠ¬nu€ò#ò%/¿dÏ¹$«ºZlÙ,õ‹uyçŞsÈ²vÛÚR7Jw•ò½lñj§›ÑüQ]w*ÔÖ«Òµı`jÓy»3êÊ‡ÁuÛG¯ÜØ´:õ*¸á ³³fu‘>]©½Q¿_Ó+Û‡ÅŒê·t«ğrcñP7e7Ê†Ï½
+ÃØÔŞ¡V7*ØÖˆi¦uÁº¦Ùng|hMÎ?Sé¿«‹şÑgó«úR•öşë³`Ş„õİ7Ú¸.¬×TJŞ‚‡õîÜQmX‰ÿëûg®;X^%ôPı [_=”5~<¨ïîl·İŒzêºÎÈ·®.êËGósûüX¬wïlş@Ñ‘—w.ï¯Äp…|\A¹Íìv²ÙÁ4šúÚö^ÕÚ«ÎìÌ 
+c:ÕºAœØÚ>P½êëƒ'._F{_n†ñ@*µ·ğ*ŸïÇŞ[ÚøDXĞºÊªğÔn+Fâˆ»æƒ6n„M¥kšŒxÂ¬M@üöz¨$¸fXE³¸³.Åi¯k3ÈXU5ngÎÅ«¶2ÏĞAyØë:#90=ÔtfØšÀ¬Ä`ã¶ËÖ#'şıjuæSêá¥Ø‰#J4?¥KïöfàËÒu¥éO“å1£©W¦=Ió«¼E3+ã£eÌk=%87ğF—A>°ãëğïütfF+İ÷+¼3pË÷¢Ê&ÇGÖë²æO¼AÀõ€õ:Œ®Vüaï¼üŠ«xÓl”–˜!»¸’ı»a.iq¿øÑÜÁûüRe‚¶¾€E‘Œ«.RÒ
+t·ÒJ‹ÜgÀ‘a‡sõ„i³‰>ZkÛØ¶÷&úB
+yŠßÚRmÆ0F¬Ö¶õ\ìæ¿İåWjĞ+È{S&¨-qÊJÂ;6 „„ùà»2š=Øm²ñ³İ˜O¯éÎohØ€(.“ä·†Ç¡C˜éîáİà:¡jªÊ£¯ ²[8½? WÊ)äôÔ]V2‚t®^Ç%´Ì_5"ù"¥†”¤* e
+«OyAW2ÇPq~("ÕÄ»…%Z#±±N·f•Z‰)-0FımZKŠ"İ7­¦wˆ‡™[ Q>ÄP©}ÌXVG‡²nsèU«‘üc;Ú˜³x–¦oĞÇğA9èMX¤÷™§ÿÎ˜_å`‹¸ğ”áûÚ½9-N•]¤TÌ€óË`¤}Emjo£‰äGËÕ–†›j78_º^ #k’‹{'°J×é!àh•}}ğ±q£ l1Övf‡9; î(äWş¤D5ÃK½uÚJ'ş;‹H©ÒåØú ™o¢-ÀG¶èU­ÔW	K½¬áÏÕ÷º;¨Ñã‰ˆg@SëİÂEb¥-õÒójÓ ¯á±-{v˜÷7—5.…¬‰]¬é‡ zŒ<•1'÷x‰+‘«lĞÁñ{&0z‘4S3„S0t4XSa;×nôs$–4\ó¦o`E¥®´ª³ùúì¢Dl‘Q9ë[Ç R`pZßZˆóäb‹µÎŸ>¸sçìÑôó\®şêB?b‘Ä‚*kìE/$aÌUô'œ½³%‘¸VÓ jnP	¨>@¬nVªFœØû]‰È Èo'·8l„Úy&$‹øO‹ßº½zÆ,gR½áÕk7ÜÜSÁÈ/a°+PÉİ‹æv2teÔ®G?j I¸;e<’l`ãH¨y®¾†`K¿.kş­
+Äå¦r{ñZmÉè”|BåPå¾ÜxwáÆËìF¶óW>ˆ®| ¢G^Ñˆ/¢ßO¨ş¤9%Ápæİ[9ó/(ÛÂlm§
+$2†d5`·¦DGFÙH’ò!Ïàˆpèæo#»rtıÆ>$Œ=›®‡w$c£{u‡ÙÈ«tUŒà^Æ:úƒ ,A¡doArĞ ÇQcq6\,É¨”ÃÈA•í†£CÓ¸}L.¹ˆ:‰× ş6¶®\]‚=<VZäŸYH*º÷§ÿ¯‹Ûeä/:ñSÚ9ÃíB÷g`pô³ˆÃpFßè’?±ˆÔ¹a³-p*—„ëSó— [ß}*|PÊx|½–N$D 5Ò‡‚¾a)]É²ãŒx=Œİñ¤7uüyjc)“b›ŞƒäL£ş<˜ä¤«İˆîB~•‹ 5%:şFZ¹t¢Á”†['üù	‚#¾Çy3f#É‰¤1?şaüuÑ¾ûP=K3Ø³˜Î‡[Gù5ªóò]zïcVÉ¤DòN§ÂŸY "[Dcˆ0ÄŒnJ=rSeàkñ)%VfPå{İ¼ªf§ËƒŠ< À[ƒ©!õtWlTü*æa1H/ÂVXt!G]–±³dËéâX\c@æT8òI¬K£åSa3­3Šğœk¸¶Æ<a»´ğ;Z3(æHõËÚób‰¹]²Gê–I xÁÑ}¡Å¼š´˜'(¨†¸[7Ğ×5J]ù°^[ú4µUÖ·–sÛ’$x:¹%DªÌ,ÎGïÖ ú…•E´‹1İVo™‘q¬B˜r"Ôoçå5“lÛEìš–<,™H»ºéØ€uDü—•¤Q=¦©ô«ºu«¾xùøÕïbÁ¿Âåcú öÈ_‘®` • ?0CËhO|9"Ràëlô\üœïÎ)ıGs€‰rI¡é< M$åx8v›h(U’ià_M\Àçdü>Iií„Ü:ÂÑ8w“ ›ÃŞ„ÌQ.€×#+H5D£ŠnM5©"Üp|”q!# ºjV060\À9µİ½±&ŠI…‘–×\Ì>ÏıI‹ˆë=g†1Óí,®ç¹×d{1¿M^ÊI}›h’ AlB1Å>:@ÏÉ&ô‘ Ê–ÒG½+İ¹+áŸ‹¬üNï¹ëÇQ‡€Y¢ §cçd5û>¡]sÔErœ§ ¦U
+:9Ë©²ádf:Às"2ÈP†QXB«oøh”fK¢.<ŠÕŸ#92²Oêî^Çâ;§ç"1­«Tœ„HtÀ)€´Ø›‰b;”Â?Ö°ƒ„ò·Ğ`À„¯»²«˜¡%/ÆìÉ›ÛS©>£¸œcé©9<ı4âkˆE”ó”¨­ESû:"‡«ŠM­×åŞš£ÉÚF£ßG ®èëhlc}X½Q¾Íú¾lıÈ'ÿ	Ÿx,oÖ‡õåbOW}”Å$ó”iğ_yêz8+J—ò>ò‡òÚº§ÁqâŠ85E:k!¢ï‘æŒòj¡??Ü`‘¿:Ñò±­,a_]ÀàØÿ½1ğKƒÙÑº£ ´ØãÒx®¶Š´C¦”,b B–êFFÔ¹4•™óô˜•«ÇKÂúc—v"èNgHß×‡ÄŞ'0N2å[‚÷±‡“˜ò‘Ü©}Ğ®'®=†1´64ˆcƒ~˜	“Ïàæ4ÄìÅ_nG‡]·Ô ³ĞJQ\S­‹ÑäôT:éAÒ æè+oN=yu16Ÿ ö_ T‘VÁÈ‡tø·è7xü7Ì4ıQ‡3?¸D5b„nw¼—´„B7Ì©JÎ¼ZBƒ´`¤\áò¡K pl‘Yb5ßil›[…™I^xÈø^¾òótEpãnœ5W;p!T·W_Ğ¿;á*Ÿz¾yÃA.&Ä3Á‘£´üQ(::Ê'ÄŒL*b"ğjXÅATa­z!0§¬¥”Æ|ÈÔéƒ%ó=
+Ë^š)<òU‚ÄÃÄÈŠ.MÓ9	q¤hDYQÙF±=MIå¡lçEÉóÔÔ.E²ÌsÁ¢ä¶õûAÃŸ³Ö¸ğò4dif'UyoX%û É$/”J ßGØÂœhlb‹‡‰ƒO´é0˜ŸEì—Öß¬ŸÆ¨ˆE'Få3`XP 5ÆøjuÿÎºÒ,9¬ù‰M%šGé'¹Oä‡á°ä81”™:‘ŒXrşgñç×”ÒwG%ü‘è·­%däË¬È½HMV¸ëNû¶<xlõ6uÌ†f:vM{š9rúwp®ı*.Pë0ú­‹Â¡ˆ¨[NÓ‰r$Ê‡¬ü¹kN24R¾ÎÍ³DAìDu‰„€Ü  °¨6²¥¬8ÕØÆ9 yäŒt!sì¬ŠÉíz5?¥cík`”Cè‘‘GB
+9™û¹=2«q6#q¤–¹'T>˜ŠËª6zÇÓ‰`å˜:|Ş‘lpé[2å…èş6İôúô S}²K·9JÓM“0;*•ªOšó*ISéÜB¸‚¿áeptf•yØ ^¥Ù
+8P%İk¾“»óÔ[	^ÓÇpıL{y°táp´zÇáV·-GË®·Ji•ÎöyGE4ƒ/bxÌñ3«_ÎN‰ODš}Ç‘ûÉ!ßÉ™ù/ ³×áX:‡_IÌ`jÏ´ğ´&=8]Oğ¥•ã8<{BŞ¯R”ôIÆ/Å i‰Ç‡/ù<YùÉJk<=7™Á$¦ÏÛD/:ˆÄ/ªÍØ­r%‘wš72y/€ó½iú¨\¦û“>“®ñ²‚¥°xÜR$Õ4ğËí#î­m‘D|GFÇ‚2ùóq ÕÊ±|±R½”R=P®–\{ÚØòæ‰în(ÏªHIöèUQ=Øtît€[ŞYOäk$?>OMó‚Hn«RœWp¶ä¼4¶<Ç‹’bäşLˆGºmy8¥¨ÊÎíƒÔÍ§¦àÏåL4ÂËµ©W¨<ü„çNOÆ2ñöĞ‘“aˆº¾€aÄ05¨|E`ÅÙÄC¤¨¨İTv³¡<âTÆ{Ô(x ˆÊÁÇ|•aŸÆNªÚ$T:Æîi2ãúˆk…Ñ#ªglæZŸc'‰”‡HŒxĞ_¶Ú¦ÓÒ­î±BØó’×\j	?(”¿Ut'Älû·øPän-rùHoÒAò¨U·ŸáÉ!ÕöBŞš¤Ìy-ÇŠÂ©ÛÉ…²|‰kR3QJñ€ˆ¢óŸ¬˜L3ókøš’†3}7ËSrJîı*Ş,™gD¹ †&Û`<@¹,&ìêĞaà/ãƒtÉQDäˆğ7ab1ƒõ<i’¼*ç	¦ìò¼˜ ÎèèoGãÏ½#ŞÆ’¡Ì†%É˜ï9Nù?Í?áfä¼E¹Zw‹@Ş_¹q0™ò1’¤cKDdS¦MôåDíMyÎÂ$ V9…S§cÈÜSyáí-™v~UÙ]¶ºØFàùıøMAã_ñİKÀQ¿~ „Ô˜Jî¬J‰‚òµ®Ü~í[9²[ÎÕï;ó{âI¼ÌNz†)àÕÆW³6İıº»xR¿xĞ4ïGòˆklÏıØÅu#Ó}ë~Ş{$ã9Jé.\¾ãtZë°åœ×2{ÑX×ù"—Ô|ÖV‡Ğû‡º0—¿ßÜ4ë»ãƒz}o»ÛŒÛ½ß5ØŸ£˜ÎK¶Æ­ñ¼3áŒøõYç6T½c®Î€UÔ¿¾>ûŸ¢Áw§;+SâZd$…Døïÿø²ÂŸÍ_cxö5Ï“ObÖlUXßSı›£´ "ç\Àâ_Î,Ò:¸­‹2¤ªÆxÑp}7¿Ï~³–7€"äi_.òIÅ9 Ş&A’ü	WT£ßaåØ³úxªGä—G/şw…¿şoõÙ_¿úìÿ  ÿÿ é«Šã
