@@ -5224,5 +5224,5 @@ export const reviews: any[] = [
         </p>
       </div>
     `,
-  }
-];
+  },
+  {

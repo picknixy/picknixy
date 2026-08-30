@@ -12,7 +12,7 @@ content = content.replace(
 // 4 Foot Farm replacements
 content = content.replace(
   /\/4-foot-farm-review\.png/g,
-  "https://i.im.ge/QQMOcTG/4_Foot_Farm_review.webp"
+  "/4-foot-farm-review-crisis-garden.webp"
 );
 
 fs.writeFileSync(file, content);
