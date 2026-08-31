@@ -44,5 +44,6 @@
     "esbuild": true,
     "protobufjs": true,
     "puppeteer": false
-  }
+  },
+  "description": "Updated at 1788175127593"
 }
