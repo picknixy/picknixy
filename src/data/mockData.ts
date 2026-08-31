@@ -87,7 +87,7 @@ export const reviews: any[] = [
     rating: 4.9,
     excerpt:
       "Struggling with relentless brain fog, poor sleep, or a lack of spiritual connection? Read our in-depth Pineal 10X review to uncover how this powerful decalcification formula claims to awaken your third eye and restore cognitive brilliance.",
-    image: "/pineal-10x-supplement-bottle-hero.png",
+    image: "https://i.im.ge/QQMOgUx/Pineal_10X_review.webp",
     imageAlt: "Pineal 10X Supplement Review - Third Eye Decalcification",
     affiliateLink: "https://4e8e0eqc19p0a05ivbs9utei7v.hop.clickbank.net",
     pros: [
