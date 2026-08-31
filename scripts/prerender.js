@@ -29,30 +29,30 @@ while ((match = regex.exec(sitemap)) !== null) {
 }
 
 // Very basic scraper of mockData to get title/desc
-const mockDataPath = path.join(rootDir, 'src', 'data', 'mockData.ts');
-const mockDataContent = fs.readFileSync(mockDataPath, 'utf-8');
 
 function extractInfoFromMockData(slug) {
   let searchTitle = '';
   let searchDesc = '';
   let searchH1 = '';
-
-  // Look for our reviews
-  const reviewSlugIndex = mockDataContent.indexOf('slug: "' + slug + '"');
-  if (reviewSlugIndex !== -1) {
-    const block = mockDataContent.substring(Math.max(0, reviewSlugIndex - 800), reviewSlugIndex + 800);
-    const titleMatch = block.match(/seoTitle:\s*"([^"]+)"/);
-    const h1Match = block.match(/title:\s*"([^"]+)"/);
-    const descMatch = block.match(/seoDescription:\s*"([^"]+)"/);
+  
+  const postsDir = path.join(rootDir, 'src', 'data', 'posts');
+  const catPath = path.join(rootDir, 'src', 'data', 'categories.ts');
+  
+  const postFile = path.join(postsDir, slug + '.ts');
+  if (fs.existsSync(postFile)) {
+    const pContent = fs.readFileSync(postFile, 'utf8');
+    const titleMatch = pContent.match(/seoTitle:\s*"([^"]+)"/);
+    const h1Match = pContent.match(/title:\s*"([^"]+)"/);
+    const descMatch = pContent.match(/seoDescription:\s*"([^"]+)"/);
     
     if (titleMatch) searchTitle = titleMatch[1];
     if (descMatch) searchDesc = descMatch[1];
     if (h1Match) searchH1 = h1Match[1];
-  } else {
-    // maybe it's a category
-    const catSlugIndex = mockDataContent.indexOf('slug: "' + slug + '"');
+  } else if (fs.existsSync(catPath)) {
+    const catContent = fs.readFileSync(catPath, 'utf8');
+    const catSlugIndex = catContent.indexOf('slug: "' + slug + '"');
     if (catSlugIndex !== -1) {
-      const block = mockDataContent.substring(catSlugIndex - 50, catSlugIndex + 200);
+      const block = catContent.substring(catSlugIndex - 50, catSlugIndex + 200);
       const nameMatch = block.match(/name:\s*"([^"]+)"/);
       const descMatch = block.match(/description:\s*"([^"]+)"/);
       if (nameMatch) {
@@ -71,6 +71,7 @@ function extractInfoFromMockData(slug) {
 
   return { title: searchTitle, desc: searchDesc, h1: searchH1 };
 }
+
 
 urls.forEach(urlObj => {
   console.log("Processing url:", urlObj);
