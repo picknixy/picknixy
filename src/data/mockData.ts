@@ -265,7 +265,7 @@ export const reviews: any[] = [
     rating: 4.8,
     excerpt:
       "Worried about rising grocery prices and fragile supply chains? Read our comprehensive review of The 4 Foot Farm Blueprint to discover how you can grow abundant survival food in just 4 square feet.",
-    image: "/4-foot-farm-review-crisis-garden.webp",
+    image: "https://i.im.ge/QQMOcTG/4_Foot_Farm_review.webp",
     imageAlt: "4 Foot Farm Blueprint Review - Vertical Crisis Gardening",
     affiliateLink: "https://51129cqc34ocjtbxnku45l8pew.hop.clickbank.net",
     pros: [
