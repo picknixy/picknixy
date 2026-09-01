@@ -1,7 +1,7 @@
 export const dark_reset_review = {
   id: "dark-reset-review",
   title: "Dark Reset Review 2026: Survive the Blackout Without Panic",
-  seoTitle: "Dark Reset Review 2026: The Ultimate Grid-Down Survival Guide?",
+  seoTitle: "Dark Reset Review 2026: Grid-Down Survival Guide",
   seoDescription: "Read our comprehensive Dark Reset review. Discover how this step-by-step survival system prepares your family for prolonged power grid failures and emergencies.",
   seoKeywords: "Dark Reset review, Dark Reset survival guide, buy Dark Reset, grid down survival, EMP preparedness, Dark Reset clickbank, blackout survival plan",
   canonicalUrl: "https://www.picknixy.com/dark-reset-review",
