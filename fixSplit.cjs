@@ -5,7 +5,7 @@ const postsDir = path.join(__dirname, 'src', 'data', 'posts');
 const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.ts') && f !== 'index.ts');
 
 let indexCode = '';
-let arrayCode = 'export const reviews = [\n';
+let arrayCode = 'export const reviews: any[] = [\n';
 
 files.forEach(file => {
   let name = file.replace('.ts', '').replace(/-/g, '_');
@@ -13,11 +13,11 @@ files.forEach(file => {
   
   // also fix the file itself
   let content = fs.readFileSync(path.join(postsDir, file), 'utf8');
-  content = content.replace(/export const \d[\w_]+ = {/, `export const ${name} = {`);
+  content = content.replace(/export const \d[\w_]+ = {/, \`export const \${name} = {\`);
   fs.writeFileSync(path.join(postsDir, file), content);
   
-  indexCode += `import { ${name} } from './${file.replace('.ts', '')}';\n`;
-  arrayCode += `  ${name},\n`;
+  indexCode += \`import { \${name} } from './\${file.replace('.ts', '')}';\n\`;
+  arrayCode += \`  \${name},\n\`;
 });
 
 arrayCode += '];\n';

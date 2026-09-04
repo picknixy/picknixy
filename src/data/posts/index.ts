@@ -28,6 +28,7 @@ import { quantum_wave_review } from './quantum-wave-review';
 import { red_boost_review_2026 } from './red-boost-review-2026';
 import { save_the_marriage_system_review } from './save-the-marriage-system-review';
 import { smoothie_diet_review } from './smoothie-diet-review';
+import { the_33rd_frequency_review } from './the-33rd-frequency-review';
 import { the_brain_song_review } from './the-brain-song-review';
 import { the_deep_reset_review } from './the-deep-reset-review';
 import { the_rewire_protocol_small_penis_anxiety_guide_review } from './the-rewire-protocol-small-penis-anxiety-guide-review';
@@ -65,6 +66,7 @@ export const reviews: any[] = [
   red_boost_review_2026,
   save_the_marriage_system_review,
   smoothie_diet_review,
+  the_33rd_frequency_review,
   the_brain_song_review,
   the_deep_reset_review,
   the_rewire_protocol_small_penis_anxiety_guide_review,
