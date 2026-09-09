@@ -27,7 +27,7 @@ export function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-[#1d1d1f]/80 backdrop-blur-md border-b border-white/10 transition-all duration-300">
-      <div className="max-w-5xl mx-auto px-4">
+      <div className="max-w-7xl mx-auto px-4">
         <div className="flex justify-between items-center h-12">
           {/* Logo */}
           <div className="flex-shrink-0 flex items-center">
@@ -38,13 +38,12 @@ export function Header() {
           </div>
 
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-8 text-xs font-medium tracking-wide h-full">
+          <nav className="hidden md:flex items-center space-x-6 text-xs font-medium tracking-wide h-full">
             <Link to="/" className="text-[#f5f5f7]/80 hover:text-white transition-colors py-4">
               Home
             </Link>
-            {['Health Reviews', 'Relationship Reviews', 'Self-Help Reviews', 'Spiritual Reviews'].map((catName) => {
-              const category = categories.find(c => c.name === catName);
-              if (!category) return null;
+            {categories.map((category) => {
+              
               return (
                 <div key={category.id} className="relative group h-full flex items-center">
                   <Link
@@ -136,9 +135,8 @@ export function Header() {
                 Home
               </Link>
             </div>
-            {['Health Reviews', 'Relationship Reviews', 'Self-Help Reviews', 'Spiritual Reviews'].map((catName) => {
-              const category = categories.find(c => c.name === catName);
-              if (!category) return null;
+            {categories.map((category) => {
+              
               return (
               <div key={category.id} className="border-b border-white/10 py-3">
                 <Link

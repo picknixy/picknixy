@@ -46,7 +46,7 @@ export function Home() {
             <p className="text-[#86868b] text-lg max-w-2xl mx-auto">Explore our deeply researched reviews categorized to help you find exactly what you're looking for.</p>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {categories.slice(0, 4).map((cat) => (
+            {categories.map((cat) => (
               <Link key={cat.id} to={`/category/${cat.slug}`} className="bg-white rounded-2xl p-8 text-center shadow-sm hover:shadow-md transition-shadow border border-[#d2d2d7]/50 group">
                 <h3 className="text-xl font-bold text-[#1d1d1f] mb-3 group-hover:text-[#2997ff] transition-colors">{cat.name}</h3>
                 <p className="text-[#86868b] text-sm mb-4 line-clamp-2">{cat.description}</p>

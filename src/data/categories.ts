@@ -151,4 +151,18 @@ export const categories = [
       }
     ]
   }
+,
+  {
+    "id": "animal-care",
+    "name": "Animal Care Reviews",
+    "slug": "animal-care",
+    "description": "Expert reviews on pet care, dog training programs, and animal wellness.",
+    "subcategories": [
+      {
+        "id": "dog-training",
+        "name": "Dog Training Reviews",
+        "slug": "dog-training"
+      }
+    ]
+  }
 ];

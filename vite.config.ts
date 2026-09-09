@@ -27,7 +27,7 @@ const sitemapPlugin = () => {
             "mens-health", "remedies", "womens-health", "beauty", "mental-health",
             "self-help", "survival", "motivational-transformational", "spiritual",
             "astrology", "psychics", "tarot", "relationships-dating", "mens-dating",
-            "womens-dating", "finance-business", "online-business"
+            "womens-dating", "finance-business", "online-business", "animal-care", "dog-training"
         ];
         const BASE_URL = 'https://www.picknixy.com';
         let xml = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n';

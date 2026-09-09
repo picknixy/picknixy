@@ -4,6 +4,7 @@ import { alpha_honey_review } from './alpha-honey-review';
 import { astro_lover_sketch_review } from './astro-lover-sketch-review';
 import { axavive_review_buyers_guide } from './axavive-review-buyers-guide';
 import { booster_brew_review } from './booster-brew-review';
+import { brain_training_for_dogs_review } from './brain-training-for-dogs-review';
 import { breathizen_review_buyer_guide } from './breathizen-review-buyer-guide';
 import { china_wealth_script_review } from './china-wealth-script-review';
 import { chronic_kidney_disease_solution_review } from './chronic-kidney-disease-solution-review';
@@ -42,6 +43,7 @@ export const reviews: any[] = [
   astro_lover_sketch_review,
   axavive_review_buyers_guide,
   booster_brew_review,
+  brain_training_for_dogs_review,
   breathizen_review_buyer_guide,
   china_wealth_script_review,
   chronic_kidney_disease_solution_review,
