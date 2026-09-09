@@ -59,21 +59,6 @@ export const categories = [
         "slug": "mindset"
       },
       {
-        "id": "productivity",
-        "name": "Productivity Reviews",
-        "slug": "productivity"
-      },
-      {
-        "id": "personal-growth",
-        "name": "Personal Growth Reviews",
-        "slug": "personal-growth"
-      },
-      {
-        "id": "manifestation",
-        "name": "Manifestation Reviews",
-        "slug": "manifestation"
-      },
-      {
         "id": "habits",
         "name": "Habits Reviews",
         "slug": "habits"
@@ -102,19 +87,9 @@ export const categories = [
         "slug": "astrology"
       },
       {
-        "id": "energy",
-        "name": "Energy Reviews",
-        "slug": "energy"
-      },
-      {
         "id": "spiritual-programs",
         "name": "Spiritual Program Reviews",
         "slug": "programs"
-      },
-      {
-        "id": "readings",
-        "name": "Reading Reviews",
-        "slug": "readings"
       }
     ]
   },
@@ -133,25 +108,9 @@ export const categories = [
         "id": "marriage",
         "name": "Marriage Reviews",
         "slug": "marriage"
-      },
-      {
-        "id": "attraction",
-        "name": "Attraction Reviews",
-        "slug": "attraction"
-      },
-      {
-        "id": "breakup-recovery",
-        "name": "Breakup Recovery Reviews",
-        "slug": "breakup-recovery"
-      },
-      {
-        "id": "communication",
-        "name": "Communication Reviews",
-        "slug": "communication"
       }
     ]
-  }
-,
+  },
   {
     "id": "animal-care",
     "name": "Animal Care Reviews",
