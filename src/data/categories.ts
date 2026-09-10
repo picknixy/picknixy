@@ -123,5 +123,12 @@ export const categories = [
         "slug": "dog-training"
       }
     ]
+  },
+  {
+    "id": "technology",
+    "name": "Technology",
+    "slug": "technology",
+    "description": "In-depth reviews on the latest gadgets, software, and tech tools.",
+    "subcategories": []
   }
 ];
