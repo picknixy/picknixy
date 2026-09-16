@@ -35,6 +35,7 @@ export const appleAirpods5Review = {
           <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <meta itemprop="priceCurrency" content="USD" />
             <meta itemprop="price" content="179.00" />
+            <link itemprop="availability" href="https://schema.org/PreOrder" />
           </div>
         </div>
         <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
