@@ -27,7 +27,7 @@ export function Review() {
   }
 
   const author = authors[review.author as keyof typeof authors];
-  let category = categories.find(c => c.id === review.category);
+  let category: any = categories.find(c => c.id === review.category);
   if (!category) {
     for (const cat of categories) {
       const sub = cat.subcategories?.find(s => s.id === review.category);

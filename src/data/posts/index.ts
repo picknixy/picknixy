@@ -1,3 +1,4 @@
+import { memovoltReview } from './memovolt-review';
 import { appleAirpods5Review } from './apple-airpods-5-review';
 import { review_28_day_perimenopause_miracle_review } from './28-day-perimenopause-miracle-review';
 import { review_4_foot_farm_review } from './4-foot-farm-review';
@@ -38,6 +39,7 @@ import { vitamotion_review_2026 } from './vitamotion-review-2026';
 import { water_smart_box_review_diy_atmospheric_water_generator } from './water-smart-box-review-diy-atmospheric-water-generator';
 
 export const reviews: any[] = [
+  memovoltReview,
   appleAirpods5Review,
   review_28_day_perimenopause_miracle_review,
   review_4_foot_farm_review,
