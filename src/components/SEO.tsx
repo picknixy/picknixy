@@ -28,7 +28,25 @@ export function SEO({
   noindex = false
 }: SEOProps) {
   const siteName = "Picknixy";
-  const fullTitle = `${title} | ${siteName}`;
+  
+  // Clean up title: strip any existing duplicate brand suffix
+  let cleanTitle = (title || "").trim();
+  const brandSuffixRegex = new RegExp(`\\s*\\|\\s*${siteName}$`, 'i');
+  cleanTitle = cleanTitle.replace(brandSuffixRegex, '').trim();
+
+  // Search engines (Bing Webmaster Tools & Google) require title tags under 70 characters (ideally 50-65 chars).
+  // Strictly enforce a maximum title length <= 65 characters so it is never truncated or flagged.
+  let fullTitle = cleanTitle;
+  if (`${cleanTitle} | ${siteName}`.length <= 65) {
+    fullTitle = `${cleanTitle} | ${siteName}`;
+  } else if (cleanTitle.length <= 65) {
+    fullTitle = cleanTitle;
+  } else {
+    // Gracefully truncate at word boundary to stay well under 65 chars
+    const truncated = cleanTitle.slice(0, 62);
+    const lastSpace = truncated.lastIndexOf(' ');
+    fullTitle = lastSpace > 30 ? truncated.slice(0, lastSpace) : truncated;
+  }
   const currentUrl = canonicalUrl || (typeof window !== 'undefined' ? window.location.origin + window.location.pathname : '');
   
   // Ensure image is an absolute URL for Open Graph and Twitter

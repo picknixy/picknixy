@@ -1,7 +1,7 @@
 export const appleAirpods5Review = {
   id: "apple-airpods-5-review",
   title: "Apple AirPods 5 Review (2026): The Ultimate Buyer's Guide",
-  seoTitle: "Apple AirPods 5 Review 2026: Features, Specs, and Buyer's Guide",
+  seoTitle: "Apple AirPods 5 Review 2026: Specs & Buyer's Guide",
   seoDescription: "In this comprehensive Apple AirPods 5 review, discover the new open-ear ANC, battery life, and the differences between the AirPods 5, AirPods 4, and AirPods Pro 3.",
   seoKeywords: "apple airpods 5, apple airpods 5 review, Differences Between the AirPods 5 AirPods 4 and AirPods Pro 3, best wireless earbuds 2026, airpods 5 specs, buy apple airpods 5",
   canonicalUrl: "https://www.picknixy.com/apple-airpods-5-review",

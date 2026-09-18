@@ -1,7 +1,7 @@
 export const pineal_10x_review = {
   id: "pineal-10x-review",
   title: "Pineal 10X Review 2026: Does This Pineal Gland Supplement Really Work?",
-  seoTitle: "Pineal 10X Review (2026): Legit Decalcification Supplement?",
+  seoTitle: "Pineal 10X Review 2026: Buyer's Guide & Results",
   seoDescription: "Read our comprehensive Pineal 10X review. Discover how this cognitive and mental health supplement targets pineal gland decalcification to boost focus and clarity.",
   seoKeywords: "Pineal 10X review, Pineal 10X supplement, pineal gland decalcification, decalcify third eye, brain fog supplement, mental clarity, Pineal 10X scam",
   canonicalUrl: "https://www.picknixy.com/pineal-10x-review",

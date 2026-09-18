@@ -1,7 +1,7 @@
 export const alpha_honey_review = {
   id: "alpha-honey-review",
   title: "Alpha Honey Review 2026: A Comprehensive Buyer's Guide to Men's Vitality",
-  seoTitle: "Alpha Honey Review 2026: Does This Men's Vitality Supplement Work?",
+  seoTitle: "Alpha Honey Review 2026: Men's Vitality Buyer's Guide",
   seoDescription: "In this comprehensive Alpha Honey review, we analyze its ingredients, benefits, and side effects. Discover if this men's health supplement can truly boost your vitality.",
   image: "https://myalphahoney.com/wp-content/uploads/2026/01/6-potes-11-1024x1024.webp",
   canonicalUrl: "https://www.picknixy.com/alpha-honey-review",

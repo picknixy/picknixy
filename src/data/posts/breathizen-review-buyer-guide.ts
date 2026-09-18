@@ -2,7 +2,7 @@ export const breathizen_review_buyer_guide = {
   id: "breathizen-reviews-buyer-guide",
   slug: "breathizen-review-buyer-guide",
   title: "Breathizen Review 2026: Real Results",
-  seoTitle: "Breathizen Reviews: Does This Lung Support Supplement Work?",
+  seoTitle: "Breathizen Review 2026: Lung Health Buyer's Guide",
   seoDescription: "Read our comprehensive Breathizen reviews before you buy. Discover how this natural respiratory support supplement works for lung health, side effects, and more.",
   seoKeywords: "breathizen reviews, breathizen supplement, lung support, respiratory health, buy breathizen",
   canonicalUrl: "https://www.picknixy.com/breathizen-review-buyer-guide",

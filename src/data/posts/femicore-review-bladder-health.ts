@@ -1,7 +1,7 @@
 export const femicore_review_bladder_health = {
   id: "femicore-review-bladder-health",
   title: "FemiCore Review 2026: Does This Bladder Support Formula Truly Work?",
-  seoTitle: "FemiCore Review 2026: Real Results for Women's Bladder Health",
+  seoTitle: "FemiCore Review 2026: Women's Bladder Health Guide",
   seoDescription: "Read our comprehensive FemiCore review. Discover if this natural bladder support formula can help you regain control, reduce urgency, and improve your daily confidence.",
   image: "https://getfemicore.com//statics/img/tsl-prod.png",
   canonicalUrl: "https://www.picknixy.com/femicore-review-bladder-health",

@@ -1,7 +1,7 @@
 export const memovoltReview = {
   id: "memovolt-review",
   title: "MemoVolt Review (2026): Does This Dual-Defense Memory Formula Really Work?",
-  seoTitle: "MemoVolt Review 2026: Dual-Defense Memory & Focus Supplement Buyer's Guide",
+  seoTitle: "MemoVolt Review 2026: Dual-Defense Memory Formula",
   seoDescription: "An in-depth MemoVolt review examining its 10-ingredient dual-defense formula, neuron starvation research, pricing, pros, cons, and clinical evidence.",
   seoKeywords: "MemoVolt, MemoVolt review, MemoVolt buyer's guide, buy MemoVolt, MemoVolt ingredients, MemoVolt discount, MemoVolt side effects, memory supplement 2026, dual defense brain formula",
   canonicalUrl: "https://www.picknixy.com/memovolt-review",
