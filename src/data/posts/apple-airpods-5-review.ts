@@ -35,7 +35,7 @@ export const appleAirpods5Review = {
           <div itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <meta itemprop="priceCurrency" content="USD" />
             <meta itemprop="price" content="179.00" />
-            <link itemprop="availability" href="https://schema.org/PreOrder" />
+            <link itemprop="availability" href="https://schema.org/InStock" />
           </div>
         </div>
         <div itemprop="reviewRating" itemscope itemtype="https://schema.org/Rating">
@@ -134,10 +134,10 @@ export const appleAirpods5Review = {
         <div class="bg-gray-50 border border-gray-200 rounded-2xl p-8 mt-10 text-center">
           <h3 class="text-2xl font-bold text-gray-900 mb-4">Ready to Experience the AirPods 5?</h3>
           <p class="text-gray-600 mb-6 max-w-2xl mx-auto">
-            Due to incredibly high demand, initial stock for the new Apple AirPods 5 is expected to sell out quickly. Secure your pair today and be among the first to experience the revolutionary H3 chip and open-ear ANC.
+            The Apple AirPods 5 are officially available now. Check the latest deals, stock status, and prime shipping options directly on Amazon to get your pair today.
           </p>
           <a href="https://amzn.to/46V8gsQ" target="_blank" rel="noopener noreferrer" class="inline-flex items-center justify-center bg-blue-600 text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl transform hover:-translate-y-0.5 duration-200">
-            Pre-Order Now on Amazon
+            Check Price & Availability on Amazon
           </a>
           <p class="text-xs text-gray-400 mt-4">
             *As an affiliate, we may earn a small commission from qualifying purchases at no extra cost to you.
